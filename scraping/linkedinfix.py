@@ -1,8 +1,5 @@
 #Install
-pip install selenium
-pip install pandas
-pip install webdriver-manager
-pip install openpyxl
+
 
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
@@ -24,12 +21,11 @@ LINKEDIN_EMAIL    = "firmanadik09@gmail.com"   # ← ganti
 LINKEDIN_PASSWORD = "Fak_1809"          # ← ganti
 
 TARGET_JOB_ROLES = [
-    "Data Scientist",
-    "Machine Learning Engineer",
+    "Data Scientist"
 ]
 
 LOCATION       = "Indonesia"
-JOBS_PER_ROLE  = 25   # target per role
+JOBS_PER_ROLE  = 50  # target per role
 OUTPUT_DIR     = r"C:\Users\asus3\Documents\YUBE"
 os.makedirs(f"{OUTPUT_DIR}/raw",       exist_ok=True)
 os.makedirs(f"{OUTPUT_DIR}/processed", exist_ok=True)
@@ -122,13 +118,8 @@ def scrape_jobs_for_role(role, location, target_count):
     print(f"\n🔍 Scraping: {role} | {location}")
 
     all_jobs_data = []
-    page_start    = 0   # LinkedIn pagination: &start=0, 25, 50 ...
-
+    
     while len(all_jobs_data) < target_count:
-        # Buka halaman berikutnya jika perlu
-        paginated_url = url + f"&start={page_start}"
-        driver.get(paginated_url)
-        time.sleep(4)
 
         # ── Temukan container list job (panel kiri) ──────────────────────
         container = None
@@ -179,7 +170,7 @@ def scrape_jobs_for_role(role, location, target_count):
                 # Klik card → panel detail muncul di kanan
                 try:
                     clickable = card.find_element(By.CSS_SELECTOR,
-                        "a.job-card-list__title, a.job-card-container__link, a[data-control-name='jobcard_title']"
+                        "a.job-card-list__title--link"
                     )
                     driver.execute_script("arguments[0].click();", clickable)
                 except:
@@ -188,20 +179,20 @@ def scrape_jobs_for_role(role, location, target_count):
                 time.sleep(3)   # tunggu detail panel load
 
                 # ── Ekstrak data dari card (panel kiri) ──────────────────
-                job_title    = safe_text(card, "a.job-card-list__title strong, a.job-card-list__title, h3")
+                job_title    = safe_text(card, "a.job-card-list__title--link strong")
                 company_name = safe_text(card, "span.job-card-container__primary-description, h4, .artdeco-entity-lockup__subtitle")
-                location_val = safe_text(card, "li.job-card-container__metadata-item, .job-card-container__metadata-wrapper li")
-                job_url      = safe_attr(card, "a.job-card-list__title, a.job-card-container__link", "href")
+                location_val = safe_text(card, "ul.job-card-container__metadata-wrapper li span")
+                job_url      = safe_attr(card, "a.job-card-list__title--link", "href")
                 posted_date  = safe_attr(card, "time", "datetime")
-                job_id       = card.get_attribute("data-job-id") or card.get_attribute("data-entity-urn") or ""
-
+                job_id       =""
+                try:
+                    job_id  = card.find_element(By.CSS_SELECTOR, "divp[data-job-id]").get_attribute("data-job-id")
+                except:
+                    import re
+                    match = re.search(r'/jobs/view/(\d+)', job_url or "")
+                    job_id = match.group(1) if match else ""
                 # ── Ekstrak data dari panel detail (kanan) ────────────────
                 jd_text      = ""
-                applicants   = ""
-                seniority    = ""
-                emp_type     = ""
-                job_func     = ""
-                industries   = ""
 
                 try:
                     # Tunggu panel detail muncul
@@ -219,35 +210,6 @@ def scrape_jobs_for_role(role, location, target_count):
                     except:
                         pass
 
-                    # Applicant count
-                    try:
-                        applicants = detail_panel.find_element(By.CSS_SELECTOR,
-                            "span.jobs-unified-top-card__applicant-count, "
-                            "figcaption.jobs-unified-top-card__subtitle-secondary-grouping span, "
-                            "span[class*='applicant']"
-                        ).get_attribute("innerText").strip()
-                    except:
-                        pass
-
-                    # Criteria: seniority, emp type, function, industry
-                    criteria_items = detail_panel.find_elements(By.CSS_SELECTOR,
-                        "li.description__job-criteria-item"
-                    )
-                    for item in criteria_items:
-                        try:
-                            label = item.find_element(By.CSS_SELECTOR,
-                                "h3.description__job-criteria-subheader"
-                            ).text.strip().lower()
-                            value = item.find_element(By.CSS_SELECTOR,
-                                "span.description__job-criteria-text"
-                            ).text.strip()
-                            if "seniority"   in label: seniority  = value
-                            elif "employment" in label: emp_type   = value
-                            elif "function"   in label: job_func   = value
-                            elif "industri"   in label or "industry" in label: industries = value
-                        except:
-                            continue
-
                 except Exception as e:
                     print(f"    ⚠️ Detail panel error job {idx+1}: {e}")
 
@@ -258,13 +220,7 @@ def scrape_jobs_for_role(role, location, target_count):
                     "title"            : job_title,
                     "company"          : company_name,
                     "location"         : location_val,
-                    "posted_date"      : posted_date,
-                    "applicant_count"  : applicants,
                     "job_description"  : jd_text,
-                    "seniority"        : seniority,
-                    "employment_type"  : emp_type,
-                    "job_function"     : job_func,
-                    "industries"       : industries,
                     "job_url"          : job_url,
                     "search_role"      : role,
                     "search_location"  : location,
@@ -282,10 +238,19 @@ def scrape_jobs_for_role(role, location, target_count):
             time.sleep(1)
 
         # Pindah ke halaman berikutnya
-        page_start += 25
-        if page_start > 975:   # LinkedIn max ~1000 result
+        try:
+            next_btn = wait.until(EC.element_to_be_clickable((
+                By.CSS_SELECTOR,
+                "button[aria-label='View next page'], "
+                "button[aria-label='Halaman berikutnya']"
+             )))
+            driver.execute_script("arguments[0].scrollIntoView();", next_btn)
+            driver.execute_script("arguments[0].click();", next_btn)
+            print(f"  ➡️ Pindah halaman berikutnya...")
+            time.sleep(4)
+        except:
+            print(f"  ⚠️ Tidak ada tombol Next, scraping selesai.")
             break
-
     return all_jobs_data
 
 # ─────────────────────────────────────────────
