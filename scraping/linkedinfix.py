@@ -25,8 +25,8 @@ TARGET_JOB_ROLES = [
 ]
 
 LOCATION       = "Indonesia"
-JOBS_PER_ROLE  = 50  # target per role
-OUTPUT_DIR     = r"C:\Users\asus3\Documents\YUBE"
+JOBS_PER_ROLE  = 2000 # target per role
+OUTPUT_DIR     = r"C:\Users\asus3\Documents\CPSTNPROJECT\capstone-ds\Data"
 os.makedirs(f"{OUTPUT_DIR}/raw",       exist_ok=True)
 os.makedirs(f"{OUTPUT_DIR}/processed", exist_ok=True)
 
