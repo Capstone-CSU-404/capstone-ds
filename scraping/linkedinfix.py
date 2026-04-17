@@ -120,7 +120,6 @@ def scrape_jobs_for_role(role, location, target_count):
     all_jobs_data = []
     
     while len(all_jobs_data) < target_count:
-
         # ── Temukan container list job (panel kiri) ──────────────────────
         container = None
         for sel in [
