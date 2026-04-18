@@ -17,15 +17,15 @@ import os
 # ─────────────────────────────────────────────
 # KONFIGURASI
 # ─────────────────────────────────────────────
-LINKEDIN_EMAIL    = "akunmu@gmail.com"   # ← ganti
-LINKEDIN_PASSWORD = "Fpasswordmu"          # ← ganti
+LINKEDIN_EMAIL    = "firmanadik09@gmail.com"   # ← ganti
+LINKEDIN_PASSWORD = "Fak_1809"          # ← ganti
 
 TARGET_JOB_ROLES = [
-    "Data Scientist"
+    "Software Engineer",
 ]
 
 LOCATION       = "Indonesia"
-JOBS_PER_ROLE  = 2000 # target per role
+JOBS_PER_ROLE  = 1000 # target per role
 OUTPUT_DIR     = r"C:\Users\asus3\Documents\CPSTNPROJECT\capstone-ds\Data"
 os.makedirs(f"{OUTPUT_DIR}/raw",       exist_ok=True)
 os.makedirs(f"{OUTPUT_DIR}/processed", exist_ok=True)
