@@ -8,19 +8,6 @@ from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 import time
 import pandas as pd
-import json
-from datetime import datetime
-import os
-
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from webdriver_manager.chrome import ChromeDriverManager
-import time
-import pandas as pd
 from datetime import datetime
 import os
 
@@ -29,12 +16,10 @@ import os
 # Logika: Tidak perlu login karena JobStreet publik
 # ─────────────────────────────────────────────
 TARGET_JOB_ROLES = [
-    "data scientist",
-    "data analyst",
-]
+    "web"]
 
 LOCATION      = "indonesia"
-JOBS_PER_ROLE = 10
+JOBS_PER_ROLE = 50
 MAX_PAGES     = 20   # JobStreet max ~20 halaman per search
 OUTPUT_DIR    = r"C:\Users\asus3\Documents\CPSTNPROJECT\capstone-ds\Data"
 
