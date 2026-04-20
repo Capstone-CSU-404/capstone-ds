@@ -1,0 +1,2708 @@
+﻿id,title,company,location,job_description,job_url,salary,search_role,search_location,extracted_skills,skills_count,scraped_at
+91628267,Software Engineer In Test Automation Testing (junior- senior level),PT Dwi Cermat Indonesia,,"Job Description
+
+
+Create detailed, comprehensive and well-structured test plans and test cases
+Design, develop and execute automation scripts using open source tools that is fast, scalable, easy to monitor and maintain
+Create code that's easy to read
+Able to perform Test Automation and set up frameworks on multiple application platforms like Web, Mobile - Android and API
+Work with the team to maintain, improve and clean your code
+Review each other's code and learn the software engineering best practices
+Work with deployments teams and resolve issues for the system
+Build and manage automated build/test/deployment environments
+
+Qualifications
+
+
+A formal degree in Computer Science is preferred, but candidates with demonstrable skills and experience are equally valued
+5 years of overall experience in software testing for Senior level, with strong focus on automation.
+Hands-on experience in Web, Mobile, and API automation using tools like Selenium, Appium, and REST-based tools.
+Strong programming skills in at least one language (Java, Python, or JavaScript) with the ability to write clean and maintainable automation code.
+Experience working with automation frameworks such as WebdriverIO and BDD frameworks (e.g., Cucumber), including
+contributing to framework improvements.
+Good understanding of SDLC and STLC, with experience in Agile development environments.
+Experience in designing test strategies, writing test cases (positive, negative, edge cases), and identifying automation
+opportunities.
+Practical exposure to CI/CD pipelines (e.g., Jenkins, GitHub Actions), including integrating and maintaining automation suites.
+Experience in maintaining and scaling automation suites, ensuring stability and reliability of test execution.
+Ability to take ownership of features/modules and collaborate with cross-functional teams",https://id.jobstreet.com/id/job/91628267,,web,indonesia,"['agile', 'java', 'android', 'javascript', 'scala', 'python', 'r', 'git']",8,2026-04-20T20:49:42.097840
+91627716,System Developer,PT IDX Solusi Teknologi Informasi,,"PT IDX Solusi Teknologi Informasi (IDXSTI) was established in November 2018 as a subsidiary of the Indonesia Stock Exchange (IDX) and other Self-Regulatory Organizations (SROs), including KPEI/IDClear and KSEI. IDXSTI focuses on providing Information Technology (IT) services for the Indonesian capital market and other financial industries. Our objective is to deliver the best IT solutions to support the growth and development of Indonesia’s capital market.
+
+At IDXSTI, we are dedicated to pushing the boundaries of innovation in our industry. We are looking for a results-driven and integrated team player to join our Team.
+
+
+Key Responsibilities:
+
+Design, develop, and maintain applications and system modules that support IDXSTI's digital products and services.
+
+Implement clean, efficient, and maintainable code aligned with best practices and internal standards.
+
+Participate in requirement analysis, system design, and architecture discussions with Product, BA, and Engineering teams.
+
+Build and integrate systems using internal and external APIs, including integration with market data or financial platforms.
+
+Ensure high performance, stability, and security through testing, code review, and optimization.
+
+Prepare and maintain technical documentation including system design, API specs, and deployment guides.
+
+Collaborate with QA Engineers to support testing and ensure high-quality releases.
+
+Troubleshoot issues in development, staging, and production environments.
+
+Contribute to continuous improvement initiatives and adoption of new technologies.
+
+Support deployment, monitoring, and maintenance activities with the infrastructure team.
+
+
+
+
+Requirements:
+
+Bachelor's degree in Computer Science, Software Engineering, Information Systems, or related fields.
+
+Min. 1 year of experience in software development (fresh graduates with strong portfolios are welcome).
+
+Proficiency in at least one of the following: Java, Go, Python, C#, or Node.js.
+
+Strong understanding of API development (REST/GraphQL), microservices, and modern application architectures.
+
+Experience with SQL/NoSQL databases and data modeling.
+
+Familiarity with DevOps tools and CI/CD workflows (GitLab Cl, Jenkins, Docker) is a plus.
+
+Strong analytical, problem-solving, and debugging skills.
+
+Able to work collaboratively in a dynamic environment.
+
+Good communication skills and ability to produce clear technical documentation.
+
+Candidates with knowledge of Brokerage Office Systems (BOFIS), trading workflows, or capital market back-office processes will have a significant advantage.",https://id.jobstreet.com/id/job/91627716,,web,indonesia,"['java', 'c#', 'sql', 'docker', 'python', 'r', 'ios', 'git']",8,2026-04-20T20:49:47.578885
+91627676,QA Engineer (Enterprise Efficiency) - Sea Labs,Shopee Internasional Indonesia,,"The Engineering and Technology team is at the core of the Shopee platform development. The team is made up of a group of passionate engineers from all over the world, striving to build the best systems with the most suitable technologies. Our engineers do not merely solve problems at hand; We build foundations for a long-lasting future. We don't limit ourselves on what we can or can't do; we take matters into our own hands even if it means drilling down to the bottom layer of the computing platform. Shopee's hyper-growing business scale has transformed most ""innocent"" problems into huge technical challenges, and there is no better place to experience it first-hand if you love technologies as much as we do.
+
+About the Team:
+
+About Sea Labs Indonesia
+
+Sea Labs is at the core of the Sea platforms development, supporting diverse business lines from e-commerce, supply chain, games, payment and finance, among many others. The strong growth and unique positioning of Sea's e-commerce business, Shopee, spurred the launch of Sea Labs Indonesia. Since its inception, the group of passionate engineers have charted the course to drive the best experience for our users in Indonesia, many of which solutions are even adapted to other markets in the region.
+
+Sea's hyper-growing business scale has transformed most ""innocent"" problems into huge technical challenges, and there is no better place to experience world-class projects first-hand if you love technologies as much as we do. Together with our passionate and driven teams, you'll get to develop your skills, build on industry knowledge and collaborate with global teams in a dynamic space. Browse our Sea Labs Indonesia team openings to see how you can make an impact with us.
+
+About team
+
+The Enterprise Efficiency team is dedicated to transforming workplace productivity through seamless integration of enterprise communication, open platform capabilities, and management systems covering HR, finance, and operational tools. Our products power the daily workflows of thousands of employees across Sea group companies.
+
+Our product lines include SeaTalk (enterprise communication and collaboration platform) and PFMS (People and Financial Management System). We are currently driving enterprise initiatives where we actively leverage AI-powered tools and LLM integrations to enhance product capabilities and accelerate engineering workflows.
+
+Job Description:
+
+Write and execute test cases based on PRD requirements and technical design documents, covering functional, regression, and edge-case scenarios.
+Perform manual testing across web and mobile platforms, ensuring product quality before each release.
+Write and maintain automated test scripts for API and E2E test suites under the guidance of the QA Lead.
+Participate in test case review sessions and contribute to improving test coverage and test design quality.
+Log, track, and verify bug fixes with clear reproduction steps, expected vs. actual results, and severity classification.
+Collaborate with frontend and backend engineers to understand feature implementations and identify testability gaps early.
+Support regression testing cycles during release sprints, ensuring timely completion without compromising coverage.
+Participate in UAT coordination with product managers and stakeholders.
+Contribute to QA process improvements including test documentation standards, bug triage workflows, and environment setup procedures.
+Coordinate with cross-site teams (Singapore, Shenzhen) on shared testing efforts during multi-team releases.
+
+Requirements:
+
+1–4 years of experience in software QA or quality engineering.
+Solid understanding of software testing fundamentals: test case design, boundary value analysis, equivalence partitioning, and regression testing.
+Hands-on experience with manual testing across web applications; mobile testing experience is a plus.
+Basic to intermediate programming skills in at least one of: Python, Java, or JavaScript/TypeScript — able to read code, write simple test scripts, and debug test failures.
+Familiarity with at least one test automation framework (Selenium, Playwright, Cypress, pytest, or similar) — or strong willingness and aptitude to learn.
+Experience with API testing tools (Postman, REST client) and basic understanding of REST API concepts.
+Familiarity with bug tracking and test management tools (Jira, TestRail, or similar).
+Proficient in using AI-assisted tools (e.g., ChatGPT, Claude, GitHub Copilot) to accelerate test case generation, debugging, and documentation workflows.
+Detail-oriented with strong analytical and problem-solving skills.
+Good communication skills — able to write clear bug reports, participate in cross-functional discussions, and flag risks to the team proactively.
+Good product sense and curiosity in defining best shape for the product.
+Self-motivated with a willingness to learn test automation and grow into a quality engineering role.",https://id.jobstreet.com/id/job/91627676,,web,indonesia,"['java', 'javascript', 'typescript', 'python', 'r', 'ios', 'git']",7,2026-04-20T20:49:52.800444
+91627595,Junior Programmer,PT Oktri Syarief Grup,,"Pendidikan D3/S1 Informatika atau Sistem Informasi
+
+Menguasai bahasa pemrograman (JavaScript & PHP)
+
+Memahami database Mysql/PostgreSql & API
+
+Mampu melakukan troubleshooting & problem solving
+
+Dapat bekerja mandiri maupun dalam tim
+
+Bertanggung jawab dan terbiasa dengan deadline",https://id.jobstreet.com/id/job/91627595,,web,indonesia,"['java', 'php', 'sql', 'javascript', 'postgresql', 'r', 'mysql']",7,2026-04-20T20:49:58.129115
+91584877,Full Stack Software Engineer (CAD Rooms Cloud PDM),Cavalry Collective Pte. Ltd,,"About the Role
+
+We are looking for a talented Full Stack Software Engineer to join our engineering team. In this
+role, you will design, build, and maintain scalable web applications and services across the
+entire technology stack. You will collaborate closely with product managers, designers, and
+fellow engineers to deliver high-quality software that powers our platform and delights our users.
+
+
+Responsibilities
+
+Design, develop, and maintain full stack applications using TypeScript across frontend
+and backend services.
+
+Build and manage containerized applications and development environments with
+Docker.
+
+Design, implement, and optimize PostgreSQL database schemas, queries, and
+migrations.
+
+Collaborate with cross-functional teams to translate product requirements into robust,
+scalable technical solutions.
+
+Write clean, well-tested, and well-documented code following engineering best practices.
+
+Participate in code reviews and contribute to improving team development processes
+and tooling.
+
+Troubleshoot and resolve production issues, ensuring high availability and performance
+of services.
+
+Contribute to architectural decisions and help shape the technical direction of the
+platform.
+
+
+Required Qualifications
+
+3+ years of professional experience in full stack software development.
+
+Strong proficiency in TypeScript for both frontend (React, Next.js, or similar) and
+backend (Node.js) development.
+
+Hands-on experience with Docker for containerization, orchestration, and local
+development workflows.
+
+Solid experience designing and working with PostgreSQL, including schema design,
+query optimization, and migrations.
+
+Familiarity with RESTful APIs and/or GraphQL.
+
+Experience with version control systems (Git) and CI/CD pipelines.
+
+Strong problem-solving skills and a passion for writing high-quality, maintainable code.
+
+Excellent communication and collaboration skills in a team environment.
+
+
+Nice to Have
+
+Experience with advanced PostgreSQL features such as trigger functions, Row Level
+Security (RLS), stored procedures, and database access policies.
+
+Experience with Deno as an alternative or complement to Node.js for backend
+development.
+
+Experience with AWS services (EC2, S3, Lambda, RDS, ECS, or similar).
+
+Proficiency or working knowledge of Golang for building performant backend services or
+microservices.
+
+Proficiency or working knowledge of Rust, particularly for maintaining and developing
+our desktop application built with Tauri.
+
+Experience with 3D-related engineering, such as WebGL, Three.js, Unity, Unreal
+Engine, or real-time rendering pipelines.
+
+Familiarity with infrastructure-as-code tools (Terraform, CloudFormation) and
+Kubernetes.
+
+Experience with performance profiling, monitoring, and observability tools.",https://id.jobstreet.com/id/job/91584877,"Rp 25,000,000 – Rp 35,000,000 per month",web,indonesia,"['kubernetes', 'rust', 'aws', 'golang', 'sql', 'scala', 'docker', 'typescript', 'postgresql', 'react', 'r', 'git']",12,2026-04-20T20:50:02.755450
+91627364,IT Development Intern,PT Adira Dinamika Multi Finance Tbk,,"Detail Pekerjaan:
+
+Membantu dalam pengkodean, pengujian, dan debugging aplikasi atau sistem yang sedang dikembangkan oleh tim.
+
+Membuat dan memperbarui dokumentasi teknis untuk perangkat lunak atau sistem.
+
+Menulis panduan pengguna dan manual teknis.
+
+Melakukan query SQL untuk membuat laporan dan checking data.
+
+Kualifikasi:
+
+Mahasiswa semester akhir atau fresh graduate dari jurusan Teknik Informatika, Ilmu Komputer, Sistem Informasi, atau jurusan terkait lainnya.
+
+Penguasaan Bahasa Pemrograman seperti Java dan JavaScript, beserta familiar dengan RDBMS (Relational Database Management System).
+
+Komitmen pada jadwal kerja yang telah ditentukan oleh perusahaan selama periode magang.
+
+Mampu melakukan dokumentasi teknis dan familiar dalam teknologi aplikasi mobile menjadi nilai tambah.",https://id.jobstreet.com/id/job/91627364,,web,indonesia,"['java', 'sql', 'javascript', 'r']",4,2026-04-20T20:50:08.525642
+91626470,Spesialis Search Engine Optimization (SEO) - WFO,PT Penjuru Bisnis Indonesia,,"Requirements
+
+* Memiliki pengetahuan mengenai SEO dan SEM
+
+* ⁠Memiliki portofolio website yang masih live/ online (sertakan URL dalam CV)
+
+* Terbiasa membangun website dengan wordpress
+
+* Familiar dengan server management seperti cPanel – web develop
+
+* Memiliki skill coding PHP, CSS, HTML, Javascript & Codeigniter
+
+* Memiliki skill design grafis seperti adobe photoshop/ corel draw/ AI
+
+* Memiliki pengetahuan ads strategy ( google ads, meta ads dll )
+
+* Available untuk WFO system",https://id.jobstreet.com/id/job/91626470,Rp 5.000.000 – Rp 7.500.000 per month,web,indonesia,"['java', 'php', 'javascript', 'r']",4,2026-04-20T20:50:14.072270
+91626293,Senior Full Stack Engineer,PT INTAN PARIWARA,,"Kualifikasi:
+
+Gelar Sarjana di bidang Teknologi Informasi, Ilmu Komputer, atau bidang terkait
+
+Pengalaman atau pengetahuan praktis dalam pengembangan menggunakan salah satu bahasa pemrograman backend yang populer (seperti Python, Java, atau Node.js)
+
+Pengalaman atau pengetahuan praktis dalam pengembangan menggunakan salah satu bahasa pemrograman frontend yang populer (seperti JavaScript atau TypeScript)
+
+Pengalaman atau pengetahuan praktis dalam pengembangan aplikasi mobile menggunakan salah satu bahasa pemrograman mobile yang populer (seperti Flutter, Swift, atau Kotlin)
+
+Kemampuan analisis dan pemecahan masalah yang tinggi
+
+Kemampuan komunikasi yang baik dan kemampuan bekerja secara tim
+
+Minat yang kuat dalam belajar dan berkembang dalam pengembangan aplikasi
+
+Pengalaman kerja sebelumnya dalam pengembangan aplikasi akan menjadi nilai tambah
+
+Pengetahuan atau pengalaman praktis dengan framework seperti Django REST Framework, FastAPI, Flutter, atau Next.js akan menjadi nilai tambah
+
+Memiliki sertifikasi dalam pemrograman aplikasi akan menjadi nilai tambah
+
+Bersedia untuk ditempatkan di Yogyakarta",https://id.jobstreet.com/id/job/91626293,Rp6.000.000 – Rp7.000.000 per month,web,indonesia,"['swift', 'fastapi', 'java', 'kotlin', 'javascript', 'flutter', 'typescript', 'python', 'django', 'r']",10,2026-04-20T20:50:19.931067
+91626034,Creative Staff (Video Editor/Graphic Designer/Videographer),World Harvest,,"Job Purpose
+
+1. Menjadi support system untuk kebutuhan creative ministry (mencakup: design grafis, video, photo dan web developer)
+
+2. Membangun tim (training, pembuatan manual, dan sebagainya)
+
+Job Description
+
+1. Membuat ataupun mensupervisi team dalam pengadaan SOP, Script (konsep) dan produk dari creative ministry
+
+2. Memastikan produksi berjalan dengan baik (pre - prod - post) termasuk pengaturan di lapangan (berhubungan dengan komunitas dan departemen)
+
+3. Melakukan maintaining creative files di google drive (mencakup: design grafis, video, photo dan web developer)
+
+4. Terlibat dalam pengembangan sosial media dan media marketing lainnya
+
+5. Menghasilkan produk berikut dengan konsistensi dan sesuai standard manual",https://id.jobstreet.com/id/job/91626034,"Rp 5,000,000 – Rp 5,500,000 per month",web,indonesia,['r'],1,2026-04-20T20:50:25.611102
+91625924,IT dan Kreatif,PT Sandpasifik Jaya Abadi,,"Lulusan S1 Teknik Informatika dan Kretif, Sistem Informasi diutamakan bidang website
+
+Membuat dan mengelola situs perusahaan, menguasai HTML, CSS, UX research, wireframing, prototyping, hingga aplikasi Figma atau Adobe XD.
+
+Harus memahami tentang server, hosting, API, dan bahasa pemrograman seperti Java Script, Python, atau PHP.
+
+Bisa membuat coding responsive design
+
+Mampu mebbuat web design dan web development
+
+Berpengalaman di bidang periklanan atau posisi sejenis minimal 4 tahun.
+
+Memiliki pemahaman yang kuat tentang proses kreatif, pemasaran, desain grafis, tipografi, copywriting/storytelling, fotografi, videografi, editing, dan konsep kreatif secara umum.
+
+Kreativitas yang tinggi, kemampuan berpikir konseptual, dan ketajaman visual.
+
+Pengetahuan tentang software dan alat desain terkini.
+
+Dapat bekerja dengan baik under pressure dan memiliki passion untuk industri kreatif.",https://id.jobstreet.com/id/job/91625924,Rp 5.000.000 – Rp 7.000.000 per month,web,indonesia,"['java', 'php', 'python', 'r']",4,2026-04-20T20:50:30.871496
+91625021,Junior Full Stack Engineer,PT INTAN PARIWARA,,"Kualifikasi:
+
+Fresh Graduate di bidang Ilmu Komputer, Teknologi Informasi, atau bidang terkait atau Software Engineer dengan pengalaman kerja 1 tahun
+
+Memiliki pengetahuan dasar tentang HTML, CSS, JavaScript, dan salah satu framework frontend (React, Vue, atau Angular)
+
+Familiar dengan teknologi backend seperti Node.js, Python (Django/Flask), atau PHP (Laravel).
+
+Memahami database (SQL / NoSQL)
+
+Memiliki semangat belajar dan pemecahan masalah yang baik
+
+Mampu berkomunikasi dengan baik dan bekerja dalam tim
+
+Bersedia untuk ditempatkan di Yogyakarta",https://id.jobstreet.com/id/job/91625021,Rp2.600.000 – Rp2.700.000 per month,web,indonesia,"['java', 'angular', 'php', 'sql', 'javascript', 'python', 'django', 'react', 'r', 'vue', 'flask']",11,2026-04-20T20:50:36.256828
+91607639,IT Staff,PT Alumindo Alloy Abadi,,"Tugas & Tanggung Jawab (Job Description)
+
+A. Monitoring & Proteksi Sistem
+
+Monitoring keamanan sistem (server, aplikasi, jaringan) setiap hari
+
+Mengawasi log, firewall, IDS/IPS, SIEM
+
+Mendeteksi aktivitas mencurigakan (hacker, malware, brute force)
+
+B. Vulnerability & Testing
+
+Vulnerability assessment
+
+Penetration testing (pentest)
+
+Mencari celah keamanan di software & website
+
+C. Incident Response
+
+Menangani insiden: Virus / malware , Kebocoran data, Login mencurigakan
+
+Investigasi + membuat laporan kejadian
+
+D. Maintenance & Improvement
+
+Update patch security (Windows/Linux/server)
+
+Improve sistem keamanan secara berkala
+
+Rekomendasi solusi keamanan ke tim developer
+
+E. Access Control
+
+Mengelola: User account, Hak akses (role / permission)
+
+F. Dokumentasi & Compliance
+
+Membuat: SOP keamanan, Laporan audit
+
+Menjaga compliance (ISO 27001, UU PDP, dll)
+
+G. Edukasi & Kolaborasi
+
+Memberikan awareness security ke karyawan
+
+Koordinasi dengan tim IT, developer, dan manajemen
+
+
+
+
+Skill yang Dibutuhkan
+
+A. Hard Skill (WAJIB)
+
+Network security (TCP/IP, OSI layer)
+
+Sistem operasi: Windows & Linux
+
+Web security (SQL Injection, XSS, dll)
+
+Tools: Burp Suite, SQLMap, Wireshark, SIEM tools
+
+Basic programming (minimal paham logic: VB.NET / C# / Python jadi nilai tambah)
+
+B. Soft Skill
+
+Analisa & problem solving kuat
+
+Teliti (detail-oriented)
+
+Cepat respon saat incident
+
+Bisa kerja tim & komunikasi baik
+
+
+
+
+Kualifikasi Umum
+
+Minimal D3 / S1: Teknik Informatika, Sistem Informasi, Cyber Security
+
+Fresh graduate dipersilahkan melamar
+
+Pengalaman 1–3 tahun, mempunyai pengalaman diatas 3 tahun lebih disukai
+
+Sertifikasi (Nilai Tambah): CEH (Certified Ethical Hacker), CompTIA Security+, ISO 27001
+
+Untuk System Security Software, mengerti Secure coding (OWASP Top 10), Code review security, API , Security DevSecOps (CI/CD security), Bug bounty / ethical hacking",https://id.jobstreet.com/id/job/91607639,,web,indonesia,"['c#', 'sql', 'linux', 'python', 'r']",5,2026-04-20T20:50:41.561891
+91564329,Junior Software Engineer (JAVA),PT Infinitium Solutions,,"Key Responsibilities:
+
+Participate in all aspects of development and implementation of project deliverables.
+
+Perform testing, troubleshooting, and bug fixing as necessary.
+
+Provide training, mentoring, and knowledge sharing with peers and junior team members.
+
+Follow good development practices and adhere to software development lifecycle methodologies throughout the development process.
+
+Requirements:
+
+Diploma or Degree in Information Technology or equivalent.
+
+Minimum 2 years of working experience in Java (candidates with 5 years or more experience may be considered for a senior position).
+
+Experience with frameworks such as Spring, Hibernate, MVC, or similar.
+
+Experience with JSON RESTful Web Services or other web services.
+
+Knowledge of HTML, JavaScript, jQuery, and related frontend technologies.
+
+Strong understanding of SQL and experience with DBMS such as SQL Server or Oracle DB.
+
+Experience in DevOps practices and tools such as SVN/Git, Jenkins, Sonar, and Maven is preferred.
+
+Familiarity with Agile development methodologies and tools such as Jira.
+
+Good communication skills in English are required.
+
+
+
+
+Added Advantage
+
+Knowledge in payment or related system such as Payment Gateway, Reconciliation, Fraud Detection, 3DS authentication, etc
+
+Experience with cloud platforms (AWS, Azure, or GCP).
+
+Exposure to Docker, Kubernetes, or DevOps practices.
+
+Awareness of security, compliance, or audit requirements (e.g. PCI-DSS, data protection).",https://id.jobstreet.com/id/job/91564329,,web,indonesia,"['kubernetes', 'azure', 'agile', 'aws', 'java', 'sql', 'javascript', 'docker', 'gcp', 'r', 'git']",11,2026-04-20T20:50:46.665389
+91623817,Supervisor E-Commerce,PT. TRI UNGGUL BOGAINDO,,"Tanggung Jawab Utama
+
+Merancang dan menerapkan strategi e-commerce yang komprehensif untuk meningkatkan visibilitas merek, traffic situs web, dan konversi penjualan.
+
+Mengawasi pengelolaan platform e-commerce, termasuk optimasi konten, analitik, dan manajemen inventaris.
+
+Menganalisis tren pasar, perilaku konsumen, dan kinerja kompetitor untuk mengidentifikasi peluang pertumbuhan dan perbaikan.
+
+Berkolaborasi dengan tim pemasaran dan penjualan untuk mengintegrasikan inisiatif e-commerce dengan kampanye pemasaran yang lebih luas.
+
+Mengelola dan mengarahkan tim e-commerce, termasuk mengembangkan, melatih, dan memotivasi anggota tim.
+
+Menyusun dan menyajikan laporan kinerja e-commerce secara teratur kepada manajemen senior.
+
+Keterampilan, Kualifikasi, dan Pengalaman yang Dibutuhkan
+
+Pendidikan minimal D3/S1 semua jurusan
+
+Memiliki jiwa leadership, komunikatif, dan hands-on
+
+Pengalaman minimal 3 tahun di e-commerce F&B / FMCG
+
+Pengalaman menangani produk frozen / cold chain
+
+Pernah setup dan mengelola toko marketplace dari nol
+
+Menguasai Shopee Ads, Tokopedia Ads, dan/atau TikTok Ads
+
+Mampu membaca dan menganalisa ROAS, CPA, CTR, dan conversion
+
+Terbiasa mengelola budget iklan dan target GMV
+
+Memahami alur pengiriman frozen, risiko retur, dan komplain
+
+Mampu mengelola stok, margin distributor, dan promo marketplace
+
+Terbiasa bekerja dengan target dan tekanan operasional
+
+Memiliki kemampuan analisa data & pelaporan (Excel/Google Sheet)
+
+Nilai Tambah (Diutamakan):
+
+Pengalaman di distributor FMCG / ice cream
+
+Pernah mengelola ROAS >3 secara konsisten
+
+Memahami pengaruh promo & ads terhadap margin distributor
+
+
+Jika Anda tertarik untuk bergabung dengan tim kami yang antusias, kirimkan aplikasi Anda sekarang!",https://id.jobstreet.com/id/job/91623817,,web,indonesia,['r'],1,2026-04-20T20:50:51.680562
+91622816,[294] Quality Assurance Engineer,PT KB Finansia Multi Finance,,"Responsibilities
+
+
+Contribute or lead engineering efforts from planning, execution, and delivery to solving complex engineering problems in tools and testing
+Develop scalable and reliable tests for software and feature quality at both the system level, user levels both functional and nonfunctional.
+Design, create, modify, and execute test strategies/plans and drive to improve software testing processes and methodologies.
+Proactively engage in a team-oriented culture, work hard, and play hard habits.
+Ability to initiate, contribute ideas in testing activities, and engage with cross-functional teams.
+Requirements
+
+Bachelor’s degree in Computer Science or related field (or equivalent experience).
+Minimum 3–4 years of experience in Software Testing / QA.
+Hands-on experience with TypeScript or Java.
+Experience with API testing (REST, gRPC, GraphQL).
+Strong knowledge of database querying and data modeling.
+Familiar with logs analysis and debugging.
+Excellent analytical and problem-solving skills.
+Good communication skills (written & verbal).
+Positive attitude and strong ownership mindset.
+Adaptive to dynamic tech stack and agile development environment.
+Strong “break-the-system” mindset to uncover defects effectively.
+Nice to Have
+
+Experience with tools: Jira, TestRail, Google Workspace, App Center.
+Familiar with testing & observability tools: Git, DB Client, REST Client, K6, Cypress, Appium, New Relic, VS Code.
+Experience in multiple testing types: API, UI, Stress, Regression, Blackbox & Whitebox (Web & Mobile).
+Work Arrangement
+
+Location: South Jakarta
+Working model: Work from Office (WFO)
+Employment: 6-month contract (extendable)
+
+BINAR Academy aims to unlock and channel human potential so we can help the world turn into a better place. One of the ways we strive to do that is to channel potential talents to impactful opportunities using our very own job connector, BINAR Job Connect.
+
+BINAR Job Connect has connected up to 250 talents & candidates; whether it be young & aspirational fresh graduate to tech-savvy team leaders, individuals who decided to start from scratch, and junior engineers to skilled product managers to our experienced hiring partners. BINAR Job Connect provides various options of employment, as we intend that everyone processed by us can choose the best career track for them.",https://id.jobstreet.com/id/job/91622816,,web,indonesia,"['agile', 'java', 'scala', 'typescript', 'r', 'git']",6,2026-04-20T20:50:57.280756
+91622239,IT & Web Developer,PT Lamindo Prima Mandiri,,"Berpengalaman minimal 2 tahun
+
+Memiliki gelar/lulusan sarjana dalam bidang Teknik Informatika/ Ilmu Komputer / Sistem Informasi atau bidang terkait.
+
+Mampu membuat website
+
+Mengerti implementasi server, baik server aplikasi maupun server database
+
+Berpengalaman membuat dan mengembangkan website
+
+Menguasai PHP, HTML, Java, CSS, Javascript atau pemrograman berbasis web
+
+Menguasai RDBMS SQL Server, MySql, Oracle atau lainnya
+
+Menguasai framework codeigniter (CI), Laravel, angular, vuejs atau framework lainnya
+
+Memiliki kemampuan tes software, pengembangan, dan pemeliharaan
+
+Dapat bekerjasama dalam tim
+
+Dapat membuat aplikasi Mobile merupakan nilai tambah",https://id.jobstreet.com/id/job/91622239,Rp 5.729.000 – Rp 7.000.000 per month,web,indonesia,"['java', 'angular', 'php', 'sql', 'javascript', 'r', 'mysql', 'vue']",8,2026-04-20T20:51:04.528930
+91622088,Senior Programmer Backend,PT Administrasi Medika,,"Kualifikasi:
+
+- Minimal S1 di bidang Teknik Informatika / Ilmu Komputer atau setara
+
+- Pengalaman kerja minimal 5 tahun sebagai Backend / Fullstack Developer
+
+- Mahir menggunakan Node.js dan Express.js dalam pengembangan RESTful API
+
+- Memiliki pengalaman kuat dengan Golang untuk pengembangan backend services / microservices
+
+- Berpengalaman dalam arsitektur microservices dan/atau monolithic system
+
+- Menguasai database relasional (MySQL, OracleDB) dan NoSQL (MongoDB, Redis)
+
+- Memahami konsep API design, authentication (JWT, OAuth), dan security best practices
+
+- Berpengalaman dengan Docker, CI/CD, dan deployment ke cloud (AWS, GCP, atau Azure)
+
+- Familiar dengan frontend (React/Vue/Next.js) untuk kebutuhan fullstack
+
+- Mampu menulis kode yang clean, scalable, dan maintainable
+
+- Memiliki pengalaman dalam code review dan mentoring tim developer
+
+- Terbiasa bekerja dengan Agile / Scrum methodology
+
+- Memiliki kemampuan problem solving dan komunikasi yang baik",https://id.jobstreet.com/id/job/91622088,,web,indonesia,"['azure', 'agile', 'aws', 'golang', 'mongodb', 'sql', 'scala', 'redis', 'docker', 'gcp', 'scrum', 'express', 'react', 'r', 'mysql', 'vue']",16,2026-04-20T20:51:09.764462
+91620775,e commerce operator,PT Panjabridge Indo Trading,,"Gambaran Umum Pekerjaan
+Kami dari PT Panjabridge Indo Trading, perusahaan yang bergerak di bidang perdagangan ecommerce, sedang mencari seorang e-Commerce Operator yang berpengalaman untuk bergabung dengan tim kami di Kosambi, Banten. Dalam peran ini, Anda akan memainkan peran kunci dalam mengelola dan mengoptimalkan pengalaman belanja online pelanggan kami, serta mendukung upaya pemasaran digital kami untuk meningkatkan penjualan dan visibilitas merek.
+
+Tanggung Jawab Utama
+
+Mengelola dan memperbarui konten toko online, termasuk deskripsi produk, gambar, dan promosi.
+
+Menganalisis data penjualan dan perilaku pelanggan untuk mengidentifikasi peluang peningkatan dan optimalisasi.
+
+Melakukan pemeliharaan dan pembaruan teratur pada platform e-commerce kami untuk memastikan pengalaman belanja yang lancar bagi pelanggan.
+
+Berkoordinasi dengan tim pemasaran dan penjualan untuk mengembangkan dan mengimplementasikan strategi pemasaran digital untuk meningkatkan visibilitas dan penjualan online.
+
+Mengelola pengadaan dan inventaris produk, memastikan ketersediaan stok yang memadai.
+
+Memantau dan menanggapi umpan balik serta ulasan pelanggan untuk terus meningkatkan pengalaman belanja.
+
+Keterampilan, Kualifikasi, dan Pengalaman yang Dibutuhkan
+
+Minimal 1 tahun pengalaman dalam peran terkait e-commerce atau pemasaran digital.
+
+Mahir dalam menggunakan platform e-commerce, seperti shopee, tiktok shop
+
+Pemahaman yang kuat tentang pemasaran digital, termasuk SEO, SEM, dan analitik web.
+
+Kemampuan analitis yang baik untuk mengidentifikasi tren dan wawasan yang dapat ditindaklanjuti dari data penjualan dan perilaku pelanggan.
+
+Kreativitas dan kemampuan untuk mengembangkan konten pemasaran yang menarik secara visual.
+
+Keterampilan komunikasi yang baik, baik tertulis maupun lisan, untuk berkolaborasi dengan tim lintas-fungsional.
+
+Kemampuan untuk bekerja dalam lingkungan yang berubah-ubah dan mematuhi tenggat waktu yang ketat.
+
+Manfaat Utama Bekerja di PT Panjabridge Indo Trading
+
+Gaji yang kompetitif dan tunjangan menarik.
+
+Lingkungan kerja yang dinamis dan mendukung, dengan peluang untuk berkembang secara profesional.
+
+Tunjangan kesehatan komprehensif dan program kesejahteraan karyawan.
+
+Jadwal kerja yang fleksibel dan opsi untuk bekerja jarak jauh.
+
+Kesempatan untuk terlibat dalam proyek-proyek menarik dan inovatif di bidang ecommerce.
+
+Jika Anda tertarik untuk bergabung dengan tim kami yang dinamis, lamar sekarang untuk peran e-Commerce Operator ini.",https://id.jobstreet.com/id/job/91620775,Rp 4.000.000 – Rp 6.000.000 per month,web,indonesia,"['r', 'git']",2,2026-04-20T20:51:15.424468
+91620779,Graphic Designer (Digital & Print),Maju Operations and Development,,"Location: Remote or Kuta Lombok
+Type: Full-time
+Salary: Negotiable, based on skills and experience
+
+About us
+
+Maju Agency is a growing digital agency focused on delivering high-quality design and web projects for a range of clients. We work across corporate websites, e-commerce, branding, and marketing materials, with a strong focus on clean, modern design and attention to detail.
+
+Role overview
+
+We are looking for a Graphic Designer with strong skills in both digital and print design.
+
+This role requires a designer with a modern visual approach, strong fundamentals, and the ability to translate ideas into clear, effective visual concepts. You will handle multiple projects simultaneously, working across branding, marketing, and production deliverables.
+
+Key responsibilities
+
+Design social media content (posts, campaigns, visual assets)
+
+Create marketing materials (flyers, brochures, posters, ads)
+
+Produce print designs, including large formats such as billboards
+
+Develop visual identities (logos, brand guidelines, design systems)
+
+Ensure consistency and quality across all deliverables
+
+Prepare files for both digital use and print production
+
+Translate client briefs into clear visual outputs
+
+Requirements
+Experience
+
+Minimum 2–4 years of experience in graphic design
+
+Strong portfolio showcasing digital and print work
+
+Experience working on branding and marketing materials
+
+Core design skills
+
+Strong sense of layout, typography, and visual hierarchy
+
+Solid understanding of color theory, composition, and balance
+
+Ability to translate ideas into visual concepts
+
+Strong understanding of branding principles and consistency
+
+High attention to detail and execution quality
+
+Software
+
+Proficiency in Adobe Creative Suite:
+
+Photoshop (including photo editing and manipulation)
+
+Illustrator
+
+InDesign
+
+Familiarity with Figma
+
+Communication
+
+Fluent in English (written and spoken)
+
+Ability to understand client briefs clearly and translate them into visuals
+
+Work style
+
+Strong time management and ability to handle multiple projects simultaneously
+
+Able to meet deadlines consistently
+
+Comfortable working independently in a remote environment
+
+Portfolio
+
+A strong portfolio is mandatory and more important than formal education
+
+Must include examples of:
+
+Logo design
+
+Social media content
+
+Posters / ads
+
+Branding projects
+
+What we offer
+
+Remote work or on-site in Kuta Lombok
+
+Diverse design projects across industries
+
+A collaborative and creative team
+
+Salary based on experience and profile
+
+How to apply
+
+Please send:
+
+Your portfolio (mandatory)
+
+Your resume or LinkedIn profile
+
+A short message describing your experience in digital and print design
+
+Your availability
+
+Only shortlisted candidates will be contacted.",https://id.jobstreet.com/id/job/91620779,Rp 6.000.000 – Rp 8.000.000 per month,web,indonesia,"['r', 'git']",2,2026-04-20T20:51:20.467437
+91620693,Fullstack Developer (Senior Level),PT JAYA AGUNG TEKNOLOGI,,"JOB DESCRIPTION 
+
+Contribute to impactful projects from start to finish. 
+
+Creative and able to work as an individual or part of a team. 
+
+Collaborate with peers, QA, BA, designers, DevOps or end-users to produce cuttingedge software solutions. 
+
+Interpret business requirements into working solutions. 
+
+Involved in solving the production issue efficiently. 
+
+Evaluate and recommend tools, technologies and processes to ensure the highest quality of our product. 
+
+Honest and always adapt to the latest technologies. 
+
+REQUIREMENTS 
+
+Min. 3 years experience as a Fullstack Web Developer.
+
+Good understanding of front-end technologies, including HTML5, CSS3, Javascript, Typescript (plus point), React, Redux, NextJs (plus point).
+
+Knowledge and experience of one or more programming languages: Python, Golang (it's MUST)
+
+Having knowledge and experience of backend-end technologies, such as: Django, Fast API, Fiber (golang). 
+
+Having knowledge and experience of using ORM framework, such as: Django ORM, SqlAlchemy. 
+
+Having knowledge and experience of relational databases, such as : PostgreSql. 
+
+Having experience in a scrum team would be an advantage. 
+
+Understanding in using version control (Git, Bitbucket) and Ticketing system (Jira) are plus points. 
+
+Familiar with container and container orchestration technology like Docker, Kubernetes are plus points. 
+
+Familiarity with google cloud platform is a plus point.",https://id.jobstreet.com/id/job/91620693,,web,indonesia,"['kubernetes', 'java', 'golang', 'sql', 'javascript', 'docker', 'scrum', 'typescript', 'postgresql', 'python', 'django', 'react', 'r', 'git']",14,2026-04-20T20:51:25.720854
+91620470,SEO Planning & Administrator,PT Central Mega Kencana,,"Job Descriptions:
+
+Implement keyword strategies by conducting in-depth keyword research focusing on the luxury goods segment and high-intent keywords to identify new content opportunities.
+
+Perform on-page optimization by enhancing web page elements such as meta tags, internal linking, and heading structures to improve content relevance.
+
+Execute technical SEO functions by conducting regular audits to ensure the site is free from indexing issues and loading speed constraints while maintaining a mobile-friendly interface.
+
+Foster content collaboration by working alongside the content team or copywriters to ensure blog articles and product descriptions meet SEO standards without compromising the brand voice.
+
+Conduct monitoring and reporting by tracking performance through Google Analytics 4 (GA4) and Google Search Console to provide monthly reports regarding traffic, rankings, and ROI.
+
+Execute competitor analysis by regularly monitoring the SEO strategies of competitors within the jewelry industry.
+
+
+
+
+Requirements:
+
+Bachelor’s Degree (S1) in a relevant field of study (is a must)
+
+Possess at least 1 to 2 years of professional work experience in the same or a related field.
+
+Possess expertise in operating technical tools such as Google Search Console, GA4, and other SEO software including Ahrefs, SEMrush, or Screaming Frog.
+
+Master on-page and technical SEO with a profound understanding of Core Web Vitals, JSON-LD schema markup, and site architecture.
+
+Demonstrate analytical thinking skills to translate raw data into effectively executable strategies.
+
+Show a high level of adaptability in following the latest Google algorithms including understanding the impact of AI or SGE on search results.
+
+Understand basic coding through HTML/CSS as an added value to facilitate seamless technical communication with the developer team.",https://id.jobstreet.com/id/job/91620470,,web,indonesia,['r'],1,2026-04-20T20:51:31.038559
+91620078,MANAGER MARCOMM & DIGITAL MARKETING,PT Topsel Raharja Indonesia,,"Kami perusahan retail Gadget, Aksesoris, Elektronik, dan Furnitur terkemuka di Jawa Timur mengundang para professional di bisnis retail untuk bergabung dalam perusahaan kami yang sedang berkembang pesat.
+
+Jika Anda orang yang tepat mari bergabung bersama kami sebagai:
+
+MANAGER MARCOMM & DGITAL MARKETING
+
+Deskripsi Pekerjaan
+
+1. Membuat dan mengelola Sosial Media
+
+2. Mengoptimalkan situs web dan sosial media (mengoptimalkan situs web, blog, dan fanpage termasuk Instagram dan facebook)
+
+3. Membuat sistem penjualan melalui Mobile App
+
+4. Membuat dan mengelola anggaran Marcomm
+
+5. Mengintegrasi dan menyelaraskan projek khusus menggunakan strategi marcomm
+
+6. Mengembangkan strategi dalam mengembangkan penjualan online dan offline
+
+Kualifikasi
+
+1. Pengalaman sebagai Marcomm Manager di Industri Retail min 3 Tahun
+
+2. Siap di tempatkan di area Jawa Timur
+
+3. Menguasai sistem pemasaran seperti mobile marketing, SEO, Google Algorithm, Google AUC, Google Analytics, Adwords
+
+4. Pengalaman menggunakan facebook ad manager, sosial media management, serta penjualan offline & online
+
+5. Mampu mengoperasikan Microsoft Office
+
+6. Memiliki positive attitude sesuai dengan Nilai-nilai Inti Perusahaan: INGOD
+
+Integrity : Kejujuran, Pantang Menyerah
+
+Noble : Kerja tulus, Melakukan sesuatu yang lebih besar, sesuatu yang mulia
+
+Give The Best : Kerja keras, Kerja pandai, Terus mau belajar
+
+Other We Care & Serve : Perhatian, Empati, Menghormati, Melayani sebagai gaya hidup
+
+Disciplin : Tanggung jawab, Melakukan yang seharusnya, Ketekunan
+
+
+
+
+Benefit Utama
+
+1. Lingkungan kerja yang positif dan kondusif
+
+2. Jenjang karir bagi yang mampu
+
+3. Training & pengembangan diri berkelanjutan
+
+4. BPJS Kesehatan & Ketenagakerjaan",https://id.jobstreet.com/id/job/91620078,Rp 7.000.000 – Rp 8.000.000 per month,web,indonesia,"['keras', 'r', 'git']",3,2026-04-20T20:51:37.908205
+91619703,Senior .NET Full Stack Engineer (English Speaker),PT Artha Solutions Indonesia,,"About the role
+
+Join our growing team at PT Artha Solutions Indonesia as a Senior .NET Full Stack Developer. In this key role, you will be responsible for designing, developing and maintaining high-performance web applications using the latest .NET technologies. As a senior member of the development team, you will play a pivotal part in shaping the technical direction of our products and mentoring more junior developers. This is a full-time position based in our modern office in Jakarta.
+
+What you'll be doing
+
+Design and implement scalable, maintainable, and secure cloud solutions using Microsoft Azure.
+
+Oversee the deployment, management, and operation of applications on Azure, ensuring optimal performance.
+
+Collaborate with IT and development teams to plan and execute cloud strategies, providing guidance on Azure best practices.
+
+Develop front-end applications, database development, and middle-tier services.
+
+Implement DevOps practices, including continuous integration and continuous deployment (CI/CD) pipelines.
+
+Ensure cloud solutions integrate seamlessly with existing systems and meet business requirements.
+
+Monitor and optimize cloud solutions for performance efficiency.
+
+Work with architects and other developers on the technical design of cloud and digital platforms, including hands-on full-stack development.
+
+What we're looking for
+
+8+ years of experience in developing enterprise-level web applications using .NET technologies
+
+Proficient in C#, .NET Core, ASP.NET MVC, and modern web frameworks such as Angular or React
+
+Strong understanding of relational databases (SQL Server) and NoSQL databases (MongoDB, Cosmos DB)
+
+Hands-on experience in designing and consuming RESTful APIs
+
+Familiarity with DevOps practices, including CI/CD pipelines and cloud-based hosting platforms
+
+Excellent problem-solving and analytical skills with a sharp attention to detail
+
+Strong communication and collaboration skills to work effectively with cross-functional teams
+
+Ability to mentor and guide more junior developers in the team
+
+Must Have & Desired Skills: 
+
+• In-depth knowledge of cloud computing concepts and Microsoft Azure services.
+• Proficiency in scripting and programming languages such as PowerShell, Python, and C#.
+• Experience with Azure-specific services like Azure SQL Database, Azure DevOps, and Azure Active Directory, Azure Data Factory, Key Vault, Function Apps, App Services, API Management.
+• Strong understanding of DevOps principles and tools.
+• Knowledge of security best practices and compliance standards for cloud environments.
+• Excellent problem-solving and troubleshooting skills.
+• Strong collaboration and communication skills, with the ability to work effectively with cross-functional teams.
+• Continuous learning and skill upgradation to keep up with the dynamic nature of cloud technologies.
+
+Desired Skills:
+• Experience with front-end technologies and frameworks like Angular.
+• Familiarity with agile and DevOps practices.
+• Previous experience in a similar role within a fast-paced environment.
+
+Education: Bachelor's degree in technology or equivalent.",https://id.jobstreet.com/id/job/91619703,,web,indonesia,"['azure', 'agile', 'angular', 'mongodb', 'c#', 'sql', 'scala', 'python', 'react', 'r', 'git']",11,2026-04-20T20:51:43.083195
+91618367,Application Support Engineer,PT Vads Indonesia,,"Qualifications:
+
+•A degree in computer Science IT, System Engineering or a related qualification
+
+•Fresh Graduates are welcome to apply
+
+•Preferably 2-3 years proven experience as a software developer, software engineer or similar role
+
+•Must have experience in troubleshooting bugs and improving applications using PHP laravel and YII2 framework (production issue)
+
+•Experience handling live system / support environment
+
+•Strong experience with API service development using laravel and express JS Framework
+
+•Familiar with logging & monitoring tools
+
+•Good understanding of REST API & Intergration
+
+•Must have strong experience in handling database query optimization (Mysql/MariaDB)
+
+•Familiar with version control (Git)
+
+•Experience in build application from scratch using (laravel or YII2 framework, React Js (Vite JS) and NodeJS (ExpressJS and Socket IO) Framework
+
+•Experience handling incident / Production issue is a MUST
+
+•Experience working with SLA / Tiketing system is a plus",https://id.jobstreet.com/id/job/91618367,,web,indonesia,"['php', 'sql', 'express', 'react', 'r', 'mysql', 'git']",7,2026-04-20T20:51:48.557233
+91615722,SAP ABAP Developer,PT ABISHAR TECHNOLOGIES INDONESIA,,"Job Description:
+
+Melakukan development dan enhancement menggunakan ABAP sesuai kebutuhan bisnis HC
+
+Mengelola object ABAP (Reports, Interfaces, Conversions, Enhancements, Forms/RICEF)
+
+Mendukung proses end-to-end Human Capital (OM, PA, Time Management, Payroll)
+
+Berkolaborasi dengan functional consultant dan tim bisnis
+
+Melakukan debugging, troubleshooting, dan performance tuning
+
+Mendukung testing (Unit Test, SIT, UAT) dan deployment
+
+Requirements:
+
+Minimal 4 tahun pengalaman sebagai SAP ABAP Developer
+
+Pengalaman kuat di modul SAP HC/HCM
+
+Memahami proses end-to-end HC hingga payroll
+
+Terbiasa dengan integrasi SAP (interface/API)
+
+Menguasai ABAP (Report, ALV, BAPI, BADI, User Exit, Smartform/Adobe Form)
+
+Memiliki kemampuan analisa dan problem solving yang baik
+
+Komunikatif dan mampu bekerja dalam tim
+
+Preferred:
+
+Pengalaman di industri perbankan / institusi besar
+
+Pernah terlibat project implementasi/rollout SAP HC
+
+Familiar dengan SAP SuccessFactors menjadi nilai tambah",https://id.jobstreet.com/id/job/91615722,Rp 12.000.000 – Rp 18.000.000 per month,web,indonesia,['r'],1,2026-04-20T20:51:53.968646
+91615639,Fullstack Web Programmer,PT. Venturo Pro Indonesia,,"Persyaratan
+
+Pendidikan minimal D3/S1 Teknik Informatika / Sistem Informasi atau bidang terkait.
+
+Pengalaman minimal 1–3 tahun sebagai Web Developer / Fullstack Developer.
+
+Memiliki pengalaman membangun REST API (Golang / Node / Python).
+
+Menguasai atau berpengalaman pada: Backend: Golang (Gin), Python (Django/Flask/FastAPI), Node (Express/Nest). Frontend: React (TypeScript menjadi nilai tambah), Vue, atau Angular
+
+Memahami konsep database relasional & NoSQL.
+
+Memahami konsep keamanan aplikasi web.
+
+Menguasai Version Control (Git).
+
+Terbiasa melakukan debugging dan problem solving secara analitis.
+
+Mampu bekerja sesuai timeline dan standar pengembangan.
+
+Memiliki kemauan untuk belajar, fleksibel, dan menyukai tantangan.
+
+Proaktif dan mampu berkomunikasi dengan baik.
+
+Memiliki kemampuan analitis dan detail yang kuat sehingga mampu memecahkan masalah kompleks dengan solusi yang tepat.
+
+
+Deskripsi Pekerjaan
+
+Mengembangkan dan memelihara aplikasi web end-to-end (backend & frontend).
+
+Membangun dan mengintegrasikan RESTful API sesuai kebutuhan bisnis dan standar pengembangan.
+
+Mengembangkan backend menggunakan Golang / Python / Node sesuai kebutuhan proyek.
+
+Mengembangkan frontend modern menggunakan React / Vue / Angular.
+
+Mengelola dan mengoptimasi database (PostgreSQL / MySQL / MongoDB).
+
+Menerapkan standar keamanan aplikasi (authentication, authorization, JWT, dll).
+
+Melakukan debugging, perbaikan bug, serta peningkatan performa dan skalabilitas aplikasi.
+
+Melanjutkan dan mengembangkan kode existing tanpa mengganggu sistem yang sudah berjalan.
+
+Mengelola source code menggunakan Git (branching, PR, merge).
+
+Berkolaborasi dengan tim UI/UX, QA, dan developer lainnya.
+
+Menyusun dokumentasi teknis dan memberikan dukungan teknis internal maupun ke klien.
+
+
+Nilai Tambah (Nice to Have)
+
+Paham dan mengimplementasikan AI tools (Claude)
+
+Pengalaman menggunakan Docker dan CI/CD.
+
+Pengalaman deployment ke VPS / Cloud / Kubernetes.
+
+Familiar dengan Clean Architecture atau microservices.
+
+Pengalaman menggunakan state management (Redux, TanStack Query)
+
+Aktif di komunitas teknologi / memiliki kontribusi open source.",https://id.jobstreet.com/id/job/91615639,,web,indonesia,"['kubernetes', 'fastapi', 'angular', 'golang', 'mongodb', 'sql', 'docker', 'typescript', 'express', 'postgresql', 'python', 'django', 'react', 'r', 'mysql', 'vue', 'git', 'flask']",18,2026-04-20T20:51:59.128223
+91614729,IT & Development,Kakiku Family Health & Beauty (Tangerang),,"KUALIFIKASI:
+
+Wajib memiliki pendidikan minimal S1 di bidang IT (Teknik Informatika, Sistem Informasi, atau bidang terkait).
+
+Memiliki pengalaman minimal 2-5 tahun sebagai IT Administrator, IT Support khususnya dalam pengembangan aplikasi (web/mobile).
+
+Menguasai minimal satu bahasa pemrograman (misalnya: Python, JavaScript, atau PHP) serta memahami konsep database (MySQL, PostgreSQL, dll).
+
+Memahami dasar software development lifecycle (SDLC), API integration, dan automation tools.
+
+Memiliki pengalaman dalam membuat aplikasi internal, dashboard, atau tools otomatisasi menjadi nilai tambah.
+
+Memiliki kemampuan komunikasi yang sangat baik, proaktif, dan mampu menerjemahkan kebutuhan bisnis ke solusi teknis.
+
+Mampu multitasking, detail-oriented, serta menjaga kerahasiaan data.
+
+
+
+
+DESKRIPSI PEKERJAAN:
+
+Menjadi penghubung antara kebutuhan bisnis pimpinan dengan solusi teknologi, termasuk merancang dan mengembangkan aplikasi sederhana hingga menengah.
+
+Mengembangkan dan memelihara aplikasi internal, dashboard, atau tools berbasis web/mobile untuk meningkatkan efisiensi kerja.
+
+Melakukan automation terhadap proses manual menggunakan script atau tools tertentu.
+
+Berkolaborasi dengan tim IT atau vendor dalam pengembangan sistem yang lebih kompleks.
+
+Melakukan troubleshooting, debugging, serta peningkatan performa aplikasi yang digunakan.
+
+Mengelola dan memastikan integrasi antar sistem (API, database, cloud services) berjalan dengan baik.
+
+Membuat dokumentasi teknis serta laporan pengembangan sistem.
+
+Tetap menjalankan fungsi sebagai Personal Assistant dalam mendukung kebutuhan digital dan operasional pimpinan.",https://id.jobstreet.com/id/job/91614729,Rp 7.000.000 – Rp 10.000.000 per month,web,indonesia,"['java', 'php', 'sql', 'javascript', 'postgresql', 'python', 'r', 'mysql', 'git']",9,2026-04-20T20:52:04.226003
+91614734,Assistant Engineer / Technician - Mechanical Design (Batam),Simatelex Manufactory Co Ltd,,"We are a leading OEM manufacturer of electrical household appliances for worldwide brand names. Based in Hong Kong, we have highly integrated production facilities in Guangdong Province and Batam, Indonesia.  We would like to invite high caliber individuals to fill the following vacancy:
+
+Responsible for managing project development starting from design stage to mass production, handling product cost evaluation & performing feasibility study.
+
+Bachelor Degree in Manufacturing, Mechanical, Industrial Engineering or related disciplines
+
+At least 2 years experience in product development & project follow-up with consumer product manufacturing company
+
+With experience in ISO9001, lean manufacturing and 6-Sigma is preferable
+
+Possess knowledge of 3D CAD
+
+Good command of both English and Mandarin
+
+Knowledge in Chinese is advantageous
+
+Candidates with more experience will be considered as Senior Engineer / Engineer, Mechanical Design
+
+Interested parties please send your full resume in English including the detail description of the industry and product in your working experience, expected salary and date available to Human Resources Department by clicking ""Apply Now"" button.
+
+For more details, please visit our web-site at www.simatelex.com.hk
+
+The personal data collected in this Job Application (the “Data”) may be shared among other companies within our group and/or our related companies for the recruitment purpose, who may be involved in processing your job application and related matters. You may contact our Human Resources Department if you have any questions regarding the collection of your personal data.",https://id.jobstreet.com/id/job/91614734,,web,indonesia,['r'],1,2026-04-20T20:52:09.595034
+91614672,Junior IT Business Analyst,PT Accelist Lentera Indonesia,,"Job Responsibilities:
+
+Gather and analyze business requirements from internal and external stakeholders.
+
+Translate business needs into technical documents such as BRD, SRS, FSD, User Manuals, or mockup wireframes.
+
+Conduct analysis and design for web and mobile applications aligned with business processes.
+
+Coordinate with development and QA teams to ensure the system meets initial requirements and design specifications.
+
+Provide support during user acceptance testing (UAT) and assist users in understanding the developed solutions.
+
+Collaborate with Project Managers, Developers, and Designers to ensure smooth project implementation.
+
+Engage directly with users to ensure the system delivers an optimal UI/UX design.
+
+Create functional and technical documentation to support system development and implementation.
+
+Proactively provide feedback and recommendations for system improvements.
+
+
+
+
+Requirements:
+
+Bachelor’s degree in Information Systems, Computer Science, or other IT-related fields.
+
+Minimum 1 years of experience as a Business Analyst or in a related role.
+
+Fresh graduate are welcome to apply
+
+Strong analytical, conceptual design, and problem-solving skills.
+
+Experience with application development life cycle, especially in .NET environments and Microsoft Azure is an advantage.
+
+Proven experience in analyzing and designing web and/or mobile application systems.
+
+Proficiency in MySQL or SQL Server for data analysis and system requirements.
+
+Good sense of UI/UX and effective communication skills, particularly when interacting with clients.
+
+Passionate about IT, a team player, quick learner, and able to work under pressure.
+Experience in automation testing is a plus.
+
+Placement : Sunter, Jakarta Utara",https://id.jobstreet.com/id/job/91614672,Rp 6.000.000 – Rp 7.500.000 per month,web,indonesia,"['azure', 'sql', 'r', 'mysql']",4,2026-04-20T20:52:15.137985
+91622382,IT QA Manual,PT Indocyber Global Teknologi,,"Job Description
+
+
+Contract Type: PKWT (12 Months)
+Industry: Banking
+Working System: Full WFO
+
+
+Perform testing on mobile and web applications, especially banking or financial service applications, to ensure functionality, reliability, and usability.
+
+Execute test cases, test scenarios based on business and technical requirements.
+
+Participate in test planning, test execution, defect reporting, and test result documentation.
+
+Identify, document, and track bugs using defect management tools.
+
+Minimum Qualifications
+
+
+Minimum 2 year of experience in mobile application testing, in banking industry/company.
+
+Deep knowledge of the banking industry and banking business processes.
+
+Proficient in database concepts and able to write basic to intermediate MySQL queries.
+
+Deep knowledge in SQL, Postman API, Jmeter, and Katalon (plus point).
+
+Experience in testing mobile applications (Android and/or iOS).
+
+Available to join ASAP or 2 weeks notice",https://id.jobstreet.com/id/job/91622382,,web,indonesia,"['android', 'sql', 'r', 'mysql', 'ios']",5,2026-04-20T20:52:21.362121
+91613904,Digital Marketing,Saban Group Indonesia,,"Peluang
+
+
+Kami mencari Spesialis Pemasaran Digital yang berdedikasi untuk bergabung dengan tim kami di Saban Group Indonesia di Malang, Jawa Timur. Dalam peran ini, Anda akan memainkan peran penting dalam mengembangkan dan menerapkan strategi pemasaran digital yang inovatif dan efektif untuk memaksimalkan visibilitas merek dan mendorong pertumbuhan bisnis.
+
+Tanggung Jawab
+
+Merancang dan menerapkan kampanye pemasaran digital terintegrasi di berbagai saluran seperti mesin pencari, media sosial, dan situs web.
+
+Mengoptimalkan konten dan strategi SEO untuk meningkatkan peringkat, visibilitas, dan lalu lintas ke situs web perusahaan.
+
+Mengelola kampanye iklan berbayar seperti Google Ads, Facebook Ads, dan platform serupa untuk mencapai tujuan pemasaran.
+
+Menganalisis dan melaporkan kinerja kampanye digital, memberikan wawasan, dan menyarankan perbaikan berdasarkan data.
+
+Berkolaborasi dengan tim Kreatif dan Pengembangan Web untuk menciptakan konten digital yang menarik dan efektif.
+
+Terus mempelajari tren dan perkembangan terbaru dalam pemasaran digital untuk mempertahankan keunggulan kompetitif.
+
+Kualifikasi
+
+Gelar di bidang Pemasaran, Komunikasi, atau bidang terkait.
+
+Minimum 1 tahun pengalaman dalam peran Pemasaran Digital yang terbukti.
+
+Mahir dalam menggunakan platform periklanan digital seperti Google Ads, Facebook Ads, dan lainnya.
+
+Pengetahuan yang kuat tentang strategi SEO, optimasi konten, dan analitik web.
+
+Kemampuan analitis yang kuat untuk mengukur dan mengoptimalkan kinerja kampanye.
+
+Kreativitas dan kemampuan berfikir di luar kotak untuk merancang kampanye yang inovatif.
+
+Keterampilan komunikasi yang baik untuk berkolaborasi dengan pemangku kepentingan internal.",https://id.jobstreet.com/id/job/91613904,,web,indonesia,"['r', 'git']",2,2026-04-20T20:52:26.900844
+91613142,Fullstack Developer,PT Mitra Solusi Lelang,,"The Fullstack Developer/Engineer is responsible for designing, developing, and maintaining end-to-end software solutions based on business requirements. This role works across frontend and backend technologies, ensuring efficient, high-quality code, functional software, and seamless collaboration with QA, stakeholders, and cross-functional teams.
+
+Key Responsibilities:
+
+Build technical solutions in accordance with available requirement documents.
+
+Develop frontend applications for mobile and web using React Native, React JS, Next JS, and TypeScript.
+
+Develop backend applications using Node.js, XState, and TypeScript.
+
+Develop reporting processes using Python.
+
+Maintain software and fix issues that arise after development.
+
+Maintain unit tests to ensure adequate coverage according to standards.
+
+Write efficient code and perform initial testing to ensure functionality.
+
+
+
+
+Qualifications:
+
+Proven experience as a Fullstack Developer or similar role.
+
+Strong proficiency in frontend frameworks including React Native, React JS, Next JS, and TypeScript.
+
+Experience with backend development using Node.js, XState, and TypeScript.
+
+Experience in Python for reporting and data-related processes.
+
+Knowledge of unit testing and software maintenance best practices.
+
+Ability to write efficient, maintainable code and perform initial functional testing.
+
+Strong collaboration and communication skills in English, working effectively with QA and stakeholders.
+
+
+
+
+Placements: Head Office Adira Finance, Jakarta Selatan",https://id.jobstreet.com/id/job/91613142,,web,indonesia,"['typescript', 'python', 'react', 'r']",4,2026-04-20T20:52:32.228930
+91612402,Junior Fullstack Programmer (Springboot),PT ABISHAR TECHNOLOGIES INDONESIA,,"Available to join ASAP is a must
+
+Develop and maintain web applications using Spring Boot (backend) and React.js (frontend)
+
+Collaborate with cross-functional teams (PM, QA, UI/UX) to deliver high-quality features
+
+Write clean, maintainable, and efficient code
+
+Participate in code reviews, testing, and debugging
+
+Assist in system design and implementation
+
+Requirements:
+
+1–2 years of experience as a Fullstack Developer (fresh graduates are welcome)
+
+Hands-on experience or project exposure in Java Spring Boot and React.js
+
+Strong understanding of REST API development
+
+Familiar with databases (MySQL / PostgreSQL / etc.)
+
+Basic understanding of Git version control
+
+Willing to learn, proactive, and able to work in a team",https://id.jobstreet.com/id/job/91612402,Rp 7.000.000 – Rp 8.000.000 per month,web,indonesia,"['java', 'sql', 'postgresql', 'react', 'r', 'mysql', 'spring boot', 'git']",8,2026-04-20T20:52:51.535178
+91612339,Fullstack Developer,PT Nusantara Duta Solusindo (NDS),,"PT. Nusantara Duta Solusindo is seeking Fullstack Developer to join and strengthen our team. We are looking for a candidate who is passionate about technology, has a strong analytical mindset, excels in problem-solving, and has a proven track record in developing effective software solutions for complex systems.
+
+
+
+
+Technical Skills
+
+Backend Development:
+
+1. Strong proficiency in Java and Spring Boot for building scalable, secure RESTful APIs and microservices.
+
+2. Experience with Spring Security, JPA/Hibernate, and API integration with third-party or internal systems.
+
+3. Proficient in Oracle SQL, including writing optimized queries, stored procedures, and schema design.
+
+Frontend Development:
+
+1. Proficiency in JavaScript and TypeScript.
+
+2. Hands-on experience with Angular, ReactJS, or NextJS frameworks.
+
+3. Strong understanding of responsive design, UI/UX best practices, and state management
+
+Search & Analytics:
+
+1. Experience using Elasticsearch for search indexing and analytics.
+
+2. Familiarity with Kibana or similar tools for monitoring and visualization.
+
+DevOps & CI/CD:
+
+1. Working knowledge of Docker for containerization and deployment of microservices.
+
+2. Experience configuring GitLab CI/CD pipelines for automated testing, building, and deployment.
+
+3. Familiarity with Ansible for configuration management and infrastructure automation.
+
+4. Understanding of Linux system administration, systemd service management, and deployment on Tomcat or similar servers.
+
+Performance & Monitoring:
+
+1. Experience using Application Performance Monitoring (APM) tools such as Jennifer, New Relic, or Dynatrace for diagnostics and performance optimization.
+
+Soft Skills:
+
+Strong analytical, problem-solving, and debugging abilities.
+
+Excellent communication and collaboration skills.
+
+Commitment to writing clean, maintainable, and well-documented code.
+
+Self-motivated, adaptable, and eager to learn new technologies.
+
+Ability to work independently and as part of a cross-functional team.
+
+
+
+
+Preferred Qualifications (Nice to Have):
+
+Experience with cloud platforms (AWS, Azure, or GCP).
+
+Familiarity with microservices architecture, distributed systems, and API Gateway patterns.
+
+Strong understanding of software design patterns and architectural principles.
+
+Experience working with banking systems or other secure, transaction-heavy applications.
+
+Familiarity with JIRA, Confluence, or similar tools for Agile project management and documentation.
+
+Knowledge of Git branching strategies.",https://id.jobstreet.com/id/job/91612339,,web,indonesia,"['azure', 'agile', 'aws', 'java', 'angular', 'sql', 'javascript', 'scala', 'linux', 'docker', 'gcp', 'typescript', 'elasticsearch', 'react', 'r', 'spring boot', 'git']",17,2026-04-20T20:52:59.066313
+91594384,Sales Representatif,Neurasphres,,"Lead Generation: Proactively identify and prospect B2B clients, startups, and SMEs that need a digital upgrade (Websites & AI tools).
+
+Outreach Strategy: Execute ""Gen Z-approved"" outreach through LinkedIn, cold emailing, and networking events to build a robust sales pipeline.
+
+Solution Pitching: Conduct discovery calls and presentations to understand client pain points and propose Neuraspheres’ custom digital solutions.
+
+Relationship Management: Act as a bridge between the client and our technical team (CTO & CFO) to ensure project requirements are aligned.
+
+Market Analysis: Stay updated on the latest trends in AI and Web Dev to effectively communicate our competitive edge.
+
+Closing: Manage the full sales cycle from initial contact to contract signing.",https://id.jobstreet.com/id/job/91594384,Rp 3.500.000 – Rp 5.000.000 per month,web,indonesia,"['r', 'git']",2,2026-04-20T20:53:04.531137
+91610893,Operations Director: Hyperscale Data Center&Critical Facilities (Multiple sites),"VISTAS TECHNOLOGY CO., LTD.",,"Director of Data Center Operations (Country Head)
+
+📍 GIIC / KIIC, West Java, Indonesia
+🕒 Full-time, Permanent
+
+Role
+
+Lead multi-site hyperscale data center operations across the GIIC and KIIC campuses in Indonesia. Own uptime, critical facilities performance (power and cooling), and infrastructure readiness, while serving as the senior interface with hyperscale clients, utilities, and government authorities. Requires an electrical engineering background and strong English fluency. Reports to the Group CEO in Singapore.
+
+Key Responsibilities
+
+Lead 24×7 mission-critical operations across multiple campuses
+
+Own uptime, reliability, and SLA performance
+
+Oversee power infrastructure readiness, including grid coordination and capacity planning
+
+Act as senior interface for hyperscale clients and colo customers
+
+Support campus expansion, commissioning, and operational handover
+
+Establish and enforce MOP / SOP / EOP governance and operational standards
+
+Lead large-scale technical teams, vendors, and contractors
+
+Coordinate with utilities, regulators, and local authorities
+
+Requirements
+
+10+ years in hyperscale or large-scale data center operations
+
+Proven experience leading multi-site / campus operations (100MW+ preferred)
+
+Strong expertise in:
+
+HV / MV / LV systems, substations, UPS, generators
+
+Cooling systems and critical facilities infrastructure
+
+Experience working with utilities, regulators, and government authorities
+
+Proven client-facing experience with hyperscalers / colo customers
+
+Demonstrated leadership of large technical teams and service providers
+
+Degree in Electrical Engineering or related field (preferred)
+
+Target Background
+
+Candidates from leading hyperscale and colocation operators, including:
+Amazon Web Services, Microsoft, Google, Meta Platforms, Equinix, Digital Realty, GDS Holdings, AirTrunk, ST Telemedia Global Data Centres, NTT Global Data Centers, Princeton Digital Group
+
+Not Suitable For
+
+Candidates with primarily IT, cloud, or network operations backgrounds
+
+Non-hyperscale or non-mission-critical facility leadership roles",https://id.jobstreet.com/id/job/91610893,"Rp 170,000,000 – Rp 250,000,000 per month",web,indonesia,"['java', 'r', 'git']",3,2026-04-20T20:53:10.157894
+91610665,Software Engineer,PT Limin Marine & Offshore,,"Key Responsibilities
+
+Assist in designing, developing, testing, and maintaining ERP-related web applications using Node.js, Vue.js, and Express.js.
+
+Collaborate with front-end developers, UI/UX designers, and system analysts during ERP module development.
+
+Write clean, structured, and maintainable code under guidance from senior developers.
+
+Support integration between ERP modules and third-party APIs or internal systems (Finance, HR, Procurement, Inventory).
+
+Perform debugging, basic testing, and resolve minor application issues.
+
+Assist in preparing and updating technical documentation.
+
+Provide support during deployment and troubleshoot ERP applications when required.
+
+Help monitor system performance and escalate issues when necessary.
+
+Requirements
+
+Bachelor’s degree in Computer Science, Information Technology, or related field.
+
+1–3 years of experience in web development (fresh graduates with strong portfolio are welcome).
+
+Familiar with JavaScript, Node.js, Vue.js, and Express.js.
+
+Understanding of RESTful API concepts.
+
+Basic knowledge of relational databases (MySQL or PostgreSQL).
+
+Familiar with Git version control.
+
+Understanding of ERP systems or business process modules is a strong advantage.
+
+Strong logical thinking and problem-solving skills.
+
+Nice to Have
+
+Experience working on ERP, accounting, HRIS, or inventory systems.
+
+Basic understanding of system integration and API documentation.
+
+Familiarity with deployment processes or Linux server environment.",https://id.jobstreet.com/id/job/91610665,Rp 7.500.000 – Rp 11.000.000 per month,web,indonesia,"['java', 'sql', 'javascript', 'scala', 'linux', 'express', 'postgresql', 'r', 'mysql', 'vue', 'git']",11,2026-04-20T20:53:17.552843
+91610620,AI Imaging Intern,Jonas Photo,,"Qualifications
+
+Currently enrolled as an active student (minimum 4th semester) in Photography, Visual Communication Design, Multimedia, or a related field
+
+Demonstrated interest and basic understanding of Artificial Intelligence applications in photography and visual imaging
+
+Familiar with AI visual tools (such as Midjourney, DALL·E, Stable Diffusion, or similar)
+
+Understanding of prompting techniques to generate relevant and high-quality visual outputs
+
+Able to refine and enhance AI-generated images using editing software (Adobe Photoshop, Lightroom, or similar)
+
+Strong visual sense, including composition, color, and overall aesthetics
+
+Detail-oriented with good analytical thinking
+
+Able to work independently as well as collaboratively in a team environment
+
+Proactive, communicative, and eager to learn
+
+Having a portfolio related to AI visual or photography is a plus",https://id.jobstreet.com/id/job/91610620,,web,indonesia,['r'],1,2026-04-20T20:53:24.256368
+91610604,Frontend Developer,BALIMMO DEVELOPMENT GROUP,,"Balimmo is a real estate group based in Bali operating across villa management, construction, and agency services. Each business line has its own digital presence: 3 public-facing websites, 2 mobile applications, and 3 internal software platforms — all built in-house with Next.js, Laravel, and Flutter.
+
+We have a dedicated UI/UX designer who handles visual design in Figma. This role is the bridge between that design and what users actually experience. You implement, refine, challenge, and make it real — and you bring data to back up your decisions.
+
+Job Description:
+–   Collaborate closely with the UI/UX designer: bring your technical perspective to improve navigation flows, interaction patterns, and branding consistency before designs are finalized
+
+–   Implement Figma designs into production-quality front-end code across all Balimmo platforms: 3 websites, 2 mobile apps, 3 internal tools
+
+–   Build and maintain a unified design system — components, tokens, and interaction states — consistent across all products
+
+–   Integrate front-end work with back-end developers: handle API connections, loading states, error handling, and real data rendering
+
+–   Configure and maintain SEO structure and analytics tracking so the marketing team can accurately measure traffic, leads, and conversions
+
+–   Run user testing and experimentation (A/B tests, conversion funnels, heatmaps) to validate UI decisions with data rather than assumptions
+
+–   Optimize existing interfaces for performance, responsiveness, and accessibility
+
+What matters most:
+
+–   You see immediately when something does not look or feel right — spacing, hierarchy, interaction — and you know how to fix it
+
+–   You are attentive to detail without being paralyzed by perfectionism: you ship, then improve
+
+–   You can produce a clean, on-brand UI for a new feature quickly when needed — not perfect, but solid and consistent
+
+–   You bring recommendations and raise concerns about design choices that could hurt usability or branding
+
+–   You back your UI decisions with data — you use analytics, user feedback, and test results, not just personal preference
+
+–   You understand how SEO and tracking tools work, and you configure them correctly so the marketing team has reliable data
+
+Requirement:
+–   Strong Tailwind CSS — you work with utility classes fluently across responsive layouts
+
+–   React / Next.js for web, Flutter for mobile — both are actively used
+
+–   Experience building or contributing to a production design system
+
+–   Hands-on experience with analytics tools (GA4, Mixpanel, or equivalent) and SEO fundamentals
+
+–   Familiarity with A/B testing tools and conversion rate optimization practices
+
+–   Bonus: Storybook, Radix UI, shadcn/ui, Framer Motion, or similar
+
+- Must be able to speak English both written and oral",https://id.jobstreet.com/id/job/91610604,Rp 5.000.000 – Rp 7.000.000 per month,web,indonesia,"['flutter', 'react', 'r', 'git']",4,2026-04-20T20:53:30.735473
+91610561,Internship IT Programmer,PT Limin Marine & Offshore,,"Job Description
+
+Assist in designing, developing, testing, and maintaining web applications using JavaScript technologies (Node.js, Vue.js, Express.js).
+
+Support collaboration with front-end developers, UI/UX designers, and system analysts during development activities.
+
+Help write clean and readable code under guidance from senior developers.
+
+Assist in integrating applications with third-party APIs and internal systems.
+
+Support debugging, basic testing, and fixing minor bugs.
+
+Help prepare and update technical documentation.
+
+Provide support during deployment and application troubleshooting when required.
+
+Job Requirements
+
+Currently pursuing or recently completed a Diploma/Bachelor’s degree in Computer Science, Information Technology, or a related field.
+
+Basic understanding of JavaScript and web development concepts.
+
+Familiar with or willing to learn frameworks such as Vue.js, Express.js, or React.js.
+
+Basic knowledge of software development principles and logical thinking.
+
+Familiarity with databases is a plus (MySQL, PostgreSQL, or MongoDB).
+
+Basic understanding of RESTful APIs is an advantage.
+
+Familiar with Git or other version control tools is a plus.
+
+Willing to learn, proactive, and detail-oriented.
+
+Able to work independently with supervision and collaborate in a team.
+
+Basic communication skills in English (written and verbal).",https://id.jobstreet.com/id/job/91610561,,web,indonesia,"['java', 'mongodb', 'sql', 'javascript', 'express', 'postgresql', 'react', 'r', 'mysql', 'vue', 'git']",11,2026-04-20T20:53:36.594533
+91586241,Digital Transformation Lead (IT Supervisor),Bintangdelapan Group,,"We are seeking an experienced IT professional to lead infrastructure management and drive digital transformation. This role combines hands‑on expertise in IT operations with leadership in software development and AI‑driven innovation.
+
+
+Qualifications:
+
+Minimum Bachelor's Degree in IT, Computer Science, Information Systems, or a related field.
+
+Have a minimum of 5 years of experience in the field of IT Infrastructure / IT Operations and SOftware Development
+
+Proven skills in software development (website, internal systems, POS).
+
+Proficiency in MySQL database management and Laravel framework for web applications.
+
+Knowledge and practical use of AI tools for IT digitalization.
+
+Understand servers, networking, databases, and cloud platforms
+
+Experience with VMware, Windows Server, Linux, backup systems.
+
+Familiarity with ERP (SAP or similar).
+
+Experience with MikroTik routers and network configuration.
+
+Strong analytical, problem‑solving, and communication skills.
+
+
+
+
+Duties and Responsibilities:
+
+Manage and maintain IT infrastructure (servers, networks, storage, CCTV).
+
+Lead software development for internal systems (HRIS, Purchasing, POS) and company website.
+
+Drive AI‑based digitalization projects to enhance efficiency and business transformation.
+
+Ensure system stability through monitoring, backups, and updates.
+
+Provide technical support and administer Office 365, Active Directory.
+
+Safeguard network security (firewalls, VPNs, IT policies).
+
+Oversee IT projects (system upgrades, migrations, new technologies).
+
+Manage IT assets and lifecycle.",https://id.jobstreet.com/id/job/91586241,,web,indonesia,"['sql', 'linux', 'r', 'mysql', 'git']",5,2026-04-20T20:53:42.006918
+91608083,Front Office,TIKI Makassar,,"Kualifikasi Sales Counter:
+
+Pendidikan minimal Diploma
+
+Komunikatif, inisiatif, beretika baik, dinamis dan berdedikasi tinggi
+
+Dapat bekerjasama & berinteraksi dengan tim & lingkungan kerja
+
+Berpenampilan rapih
+
+Dapat bekerja di bawah tekanan
+
+Familiar menggunakan Aplikasi Web dan Ms. Office",https://id.jobstreet.com/id/job/91608083,Rp 3.700.000 – Rp 4.200.000 per month,web,indonesia,['r'],1,2026-04-20T20:53:46.750587
+91603414,Threat and Vulnerability Management,Kop. Nusantara,,"Responsibilities
+
+Execute vulnerability scans (network, host, web, container, SCA) and ensure asset coverage.
+
+Analyze and prioritize findings using CVSS, KEV, EPSS, and business impact.
+
+Track remediation, manage exceptions, and coordinate fixes with Infra/Dev/DB teams.
+
+Verify remediation via re-scan and support audit documentation.
+
+Monitor metrics (patch compliance, SLA, vulnerability aging).
+
+Support DevSecOps scanning in CI/CD (SCA, container, basic SAST/DAST).
+
+Requirements
+
+2–5 years in Vulnerability Management / VA / Blue Team.
+
+Experience with tools like Nessus, Qualys, or OpenVAS.
+
+Strong understanding of CVSS, OWASP Top 10, and remediation practices.
+
+Basic Windows/Linux and networking knowledge.
+
+Familiar with ITSM and reporting.
+
+Nice to Have
+
+Experience with CI/CD security scanning.
+
+Familiar with KEV / EPSS prioritization.
+
+Basic scripting (Python/Bash).
+
+Experience in ISO 27001 or regulated environments.",https://id.jobstreet.com/id/job/91603414,,web,indonesia,"['linux', 'bash', 'python', 'r']",4,2026-04-20T20:53:52.397025
+91599722,Admin Marketing,PT BALANCE BUSINESS TECHNOLOGY,,"Kualifikasi
+
+Perempuan/ Laki laki
+
+Wajib Menggunakan Accurate
+
+Disiplin
+
+Bertanggung Jawab
+
+
+
+
+Job Descriptions
+
+Melakukan kegiatan administrasi terkait kampanye pemasaran.
+
+Mengelola dan memelihara database pelanggan serta mengupdate data secara teratur.
+
+Memonitor kinerja kampanye pemasaran dan menyediakan laporan analisis.
+
+Mendukung dalam penyusunan materi promosi dan konten pemasaran, termasuk desain grafis dan penulisan copywriting.
+
+Mengelola kehadiran online perusahaan melalui platform media sosial dan situs web.
+
+Berkoordinasi dengan tim pemasaran dan pihak terkait lainnya untuk mengimplementasikan strategi pemasaran yang terpadu.
+
+Menjaga up-to-date dengan tren dan perkembangan terkini dalam industri pemasaran.
+
+
+
+
+Job Requirements
+
+WAJIB BISA APLIKASI ACCURATE DAN MICROSOFT EXCEL
+
+Pendidikan Minimal S1 bidang pemasaran / sales
+
+Memiliki pengetahuan mendalam tentang konsep pemasaran dan strategi promosi.
+
+Mahir menggunakan perangkat lunak dan alat analisis pemasaran.
+
+Kemampuan menulis konten pemasaran yang menarik dan berbahasa Indonesia dengan baik dan benar.
+
+Kreatif, inovatif, dan mampu berpikir strategis dalam mengembangkan kampanye pemasaran.",https://id.jobstreet.com/id/job/91599722,Rp 4.000.000 – Rp 5.000.000 per month,web,indonesia,['r'],1,2026-04-20T20:53:57.601039
+91599628,Staff Digital Marketing,PT Villa Butik Development,,"Gambaran Umum Pekerjaan
+PT Villa Butik Development, sebuah perusahaan properti terkemuka di Bandung, sedang mencari Staff Digital Marketing yang berpengalaman untuk bergabung dengan tim pemasaran kami. Dalam peran ini, Anda akan bertanggung jawab untuk mengembangkan dan mengelola strategi pemasaran digital yang inovatif untuk memperkenalkan dan mempromosikan portofolio properti kami kepada audiens yang relevan.
+
+Tanggung Jawab Utama
+
+Merancang dan mengimplementasikan kampanye pemasaran digital terintegrasi, termasuk iklan berbayar, konten media sosial, dan strategi SEO/SEM.
+
+Facebook ads dan Google Ads
+
+Menganalisis data dan menyusun laporan kinerja untuk mengidentifikasi tren dan wawasan yang dapat digunakan untuk mengoptimalkan strategi pemasaran digital.
+
+Berkolaborasi dengan tim Penjualan dan Perencanaan untuk memahami kebutuhan pelanggan dan mengembangkan solusi pemasaran yang efektif.
+
+Memantau tren industri dan teknologi digital terbaru, serta mengimplementasikan strategi inovatif untuk meningkatkan visibilitas merek dan keterlibatan pelanggan.
+
+Mengelola anggaran pemasaran digital dan memastikan pemanfaatan sumber daya secara efektif dan efisien.
+
+Keterampilan, Kualifikasi, dan Pengalaman yang Dibutuhkan
+
+Gelar sarjana dalam Pemasaran, Komunikasi, Bisnis, atau bidang terkait.
+
+Minimal 3 tahun pengalaman dalam peran digital marketing atau pemasaran di industri properti atau konsumen.
+
+Punya sertifikasi Facebook ads dan google ads
+
+Pemahaman komprehensif tentang strategi pemasaran digital, termasuk iklan berbayar, optimisasi mesin pencari, pemasaran media sosial, dan analitik web.
+
+Kemampuan untuk menganalisis data, membuat laporan, dan mengukur kinerja kampanye pemasaran.
+
+Kreatif, inovatif, dan kemampuan beradaptasi dengan cepat dalam lingkungan yang terus berubah.
+
+Keterampilan komunikasi yang baik, kemampuan untuk berkolaborasi dengan tim lintas-fungsi.
+
+Manfaat Bekerja di PT Villa Butik Development
+
+Gaji kompetitif dan bonus kinerja berdasarkan pencapaian.
+
+Pengembangan karier dan pelatihan yang komprehensif untuk mendukung pertumbuhan profesional Anda.
+
+Asuransi kesehatan dan program kesejahteraan karyawan yang menarik.
+
+Lingkungan kerja yang dinamis dan kolaboratif yang mendorong inovasi.
+
+Kesempatan untuk terlibat dalam proyek pengembangan properti yang menarik dan bergengsi.
+
+Tentang PT Villa Butik Development
+PT Villa Butik Development adalah perusahaan properti terkemuka di Bandung yang telah dikenal luas karena pengembangan proyek-proyek residensial dan komersial berkualitas tinggi. Didirikan pada tahun 2005, kami telah membangun reputasi sebagai pengembang terkemuka di Jawa Barat yang menawarkan gaya hidup mewah dan modern bagi pelanggan kami. Kami bangga akan komitmen kami terhadap inovasi, kualitas, dan kepuasan pelanggan, yang tercermin dalam setiap proyek yang kami luncurkan.
+
+
+Segera lamar posisi menarik ini dan bergabunglah dengan tim inovatif kami di PT Villa Butik Development!",https://id.jobstreet.com/id/job/91599628,Rp 4.000.000 – Rp 5.000.000 per month,web,indonesia,"['r', 'git']",2,2026-04-20T20:54:03.370306
+91599051,IT Programmer (Internship),PT Prakarsa Alam Segar,,"Requirements:
+
+Bachelor’s Degree in Computer Science, Information Systems, or related fields
+
+Ready to work on-site (Mon to Fri) at Pondok Ungu, Bekasi
+
+
+
+
+Qualification:
+
+Strong understanding of fullstack programming and data processing
+
+Comfortable with basic PHP OOP
+
+Familiar with HTML, CSS, and JavaScript
+
+Basic knowledge of Laravel framework (hands-on project experience with Laravel is a strong advantage)
+
+Love exploring data & building digital solutions
+
+
+
+
+What You’ll Be Learning & Doing:
+
+Be part of our digitalization projects and make cool ideas happen",https://id.jobstreet.com/id/job/91599051,,web,indonesia,"['java', 'php', 'javascript', 'r', 'git']",5,2026-04-20T20:54:08.764655
+91597549,Digital Marketing Supervisor,PT. Mamnich Karya Nusantara,,"Gambaran Umum Pekerjaan
+PT. Mamnich Karya Nusantara, sebuah perusahaan pemasaran digital terkemuka di Surakarta Jawa Tengah, sedang mencari seorang Digital Marketing Supervisor yang berdedikasi untuk bergabung dengan tim kami. Dalam peran ini, Anda akan bertanggung jawab untuk mengawasi dan mengelola kampanye pemasaran digital perusahaan, memastikan keberhasilan dan pertumbuhan yang berkelanjutan di pasar digital yang kompetitif.
+
+Tanggung Jawab Utama
+
+Mengembangkan dan mengimplementasikan strategi pemasaran digital yang efektif untuk meningkatkan kehadiran online dan menjangkau target audiens Mamnich.
+
+Mengawasi dan mengelola pelaksanaan kampanye iklan berbayar, termasuk PPC, media sosial, dan platform lainnya.
+
+Menganalisis data dan metrik kinerja kampanye, serta membuat rekomendasi untuk optimalisasi dan peningkatan yang berkelanjutan.
+
+Berkoordinasi dengan tim konten dan kreatif untuk menciptakan materi pemasaran digital yang menarik dan efektif.
+
+Memantau tren industri, pesaing, dan inovasi terbaru di bidang pemasaran digital, dan mengimplementasikan strategi baru untuk mempertahankan keunggulan kompetitif.
+
+Mengelola anggaran dan sumber daya pemasaran digital secara efisien.
+
+Membina hubungan dengan pemangku kepentingan internal dan eksternal untuk mendukung inisiatif pemasaran digital.
+
+Keterampilan, Kualifikasi, dan Pengalaman yang Dibutuhkan
+
+Gelar sarjana atau setara dalam bidang Pemasaran, Komunikasi, atau studi terkait.
+
+Minimal 3 tahun pengalaman dalam bidang pemasaran digital.
+
+Berdomisili di Solo dan sekitarnya.
+
+Pemahaman yang mendalam tentang platform iklan digital, termasuk Google Ads, Meta Ads, dan Tiktok Ads.
+
+Pengetahuan dan keahlian dalam analitik web, seperti Google Analytics, untuk mengukur dan mengoptimalkan kinerja kampanye.
+
+Kemampuan yang terbukti dalam mengembangkan dan mengimplementasikan strategi pemasaran digital yang inovatif dan efektif.
+
+Keterampilan kepemimpinan dan kemampuan untuk memotivasi serta membimbing tim.
+
+Pemikiran strategis, kreativitas, dan kemampuan pemecahan masalah yang kuat.
+
+Kemampuan kecakapan bahasa inggris yang baik, multitasking dan beradaptasi dalam lingkungan yang cepat berubah.
+
+Manfaat Utama
+
+Gaji pokok diatas UMR
+
+Kesempatan untuk pengembangan profesional dan kemajuan karier.
+
+Lingkungan kerja yang fleksibel dan kolaboratif.
+
+Budaya perusahaan yang mendukung keseimbangan kehidupan-kerja.
+
+Berikut adalah draf deskripsi perusahaan yang profesional, menarik, dan terstruktur untuk profil PT. Mamnich Karya Nusantara di JobStreet.
+
+Tentang Kami
+
+PT. Mamnich Karya Nusantara adalah perusahaan manufaktur fashion pionir di Indonesia yang berfokus pada pelestarian budaya melalui karya seni berpakaian. Kami bangga menjadi produsen pertama yang secara khusus memproduksi dan memasarkan berbagai jenis produk fashion dengan tema etnik kontemporer dalam skala profesional.
+
+Kami percaya bahwa warisan nusantara adalah kemewahan yang tak lekang oleh waktu. Dengan memadukan kekayaan motif tradisional dan sentuhan desain modern, kami menciptakan produk yang tidak hanya berkualitas tinggi, tetapi juga memiliki cerita dan jiwa di setiap jahidannya.
+
+Visi & Misi Kami
+
+Visi: Menjadi pemimpin pasar fashion etnik di tingkat nasional maupun internasional yang menjunjung tinggi nilai budaya Indonesia.
+
+Misi: Menghasilkan produk fashion inovatif yang nyaman digunakan sehari-hari, memberdayakan pengrajin lokal, dan memberikan pengalaman berbelanja yang berkesan bagi para pecinta etnik.
+
+Mengapa Bergabung Bersama Kami?
+
+Di PT. Mamnich Karya Nusantara, kami bukan sekadar membuat pakaian; kami membangun identitas bangsa. Kami mencari individu-individu kreatif, berdedikasi, dan memiliki semangat untuk tumbuh bersama dalam industri yang dinamis ini.
+
+Lingkungan Kreatif: Kami menghargai ide-ide segar yang mampu mendobrak batasan desain fashion tradisional.
+
+Pertumbuhan Karir: Sebagai pionir di industri fashion etnik, kami memberikan ruang yang luas bagi karyawan untuk mengembangkan skill dan potensi diri.
+
+Budaya Kerja Kolaboratif: Kami percaya bahwa kesuksesan besar diraih melalui kerjasama tim yang solid dan suportif.
+
+Kontribusi Budaya: Setiap peran di perusahaan kami berkontribusi langsung pada upaya pelestarian budaya Indonesia.
+
+Bergabunglah menjadi bagian dari revolusi fashion etnik Indonesia. Mari berkarya dan melestarikan budaya bersama PT. Mamnich Karya Nusantara!",https://id.jobstreet.com/id/job/91597549,Rp 3.400.000 – Rp 4.500.000 per month,web,indonesia,"['r', 'git']",2,2026-04-20T20:54:14.415359
+91602699,Digital Marketing,PT. Royal Dparagon Land,,"- Mengidentifikasi tren dan mengembangkan wawasan terkait tren di pasar- Merencanakan dan mengarahkan kampanye pemasaran- Mengelola situs web organisasi- Mengoptimalkan konten untuk situs web dan platform media sosial- Bekerja dengan berbagai format konten seperti blog, video, podcast audio, dll.- Melacak arus lalu lintas situs web- Menerapkan dan menganalisis metrik kinerja- Memberikan laporan internal secara berkala- Menjalankan kolaborasi pemasaran - - Tanpa Pengalaman Bekerja- SMA/SMK- 25 - 40 Tahun- Terima kandidat tanpa foto diri- Provinsi sesuai penempatan kerja (Daerah Istimewa Yogyakarta)",https://id.jobstreet.com/id/job/91602699,,web,indonesia,['r'],1,2026-04-20T20:54:20.489020
+91598004,Creative Designer,PT Superior Porcelain Sukses,,"Bring Your Ideas to Life!
+
+Kami mencari Creative Designer yang penuh ide, up-to-date dengan tren, dan siap menciptakan visual yang impactful untuk mendukung branding perusahaan.
+
+Jika kamu kreatif, detail, dan suka eksplorasi desain—this is your stage.
+
+
+About the Role
+
+Sebagai Creative Designer, kamu akan bertanggung jawab dalam membuat berbagai materi visual yang menarik dan konsisten dengan identitas brand perusahaan.
+
+Kamu akan bekerja bersama tim untuk menciptakan konten yang engaging, modern, dan relevan dengan target market.
+
+
+Key Responsibilities
+
+Mendesain konten visual untuk kebutuhan digital & offline (social media, poster, banner, dll)
+
+Mengembangkan konsep desain yang kreatif dan sesuai dengan brand identity
+
+Berkolaborasi dengan tim marketing untuk campaign dan promosi
+
+Mengikuti tren desain terbaru untuk menghasilkan karya yang fresh dan menarik
+
+Melakukan revisi desain berdasarkan feedback secara cepat dan tepat
+
+Menjaga konsistensi visual brand di semua platform
+
+
+
+
+Qualifications
+
+Minimal D3/S1 Desain Grafis / Visual Communication Design / bidang terkait
+
+Memiliki pengalaman sebagai Graphic / Creative Designer menjadi nilai tambah
+
+Menguasai tools desain seperti Adobe Photoshop, Illustrator, Sketchup, atau sejenisnya
+
+Mampu bekerja dalam tenggat waktu
+
+Memiliki kemampuan membuat konsep dan desain brand (logo, kemasan, situs web)
+
+Memiliki sense of design yang kuat (layout, warna, tipografi)
+
+Kreatif, detail-oriented, dan up-to-date dengan tren
+
+Mampu bekerja dalam tim maupun individu
+
+Bersedia melakukan perjalanan dinas ke luar kota, jika diperlukan
+
+Penempatan di Surabaya
+
+
+
+
+Note: Sertakan portolio terbaik Anda di lamaran!
+
+
+
+
+✨ Why Join Us?
+
+🎨 Ruang untuk explore ide dan kreativitas tanpa batas
+
+🚀 Lingkungan kerja yang dinamis dan kolaboratif
+
+📈 Kesempatan berkembang di bidang creative & branding
+
+🤝 Tim yang suportif dan terbuka dengan ide baru",https://id.jobstreet.com/id/job/91598004,,web,indonesia,"['r', 'git']",2,2026-04-20T20:54:26.796539
+91541243,Technical Consultant / Developer Apex - Salesforce CRM Software & Application,PT Harrisma Informatika Jaya,,"All interview processes are conducted offline at Harrisma Group office address.
+
+
+
+
+Technical Consultant / Developer Apex - Salesforce CRM Software & Application :
+
+
+
+
+Designing Salesforce CRM Software solutions for customer needs.
+
+Salesforce CRM Developer, serve as advisors for software deployment, implementation & integrations. 
+
+Develop and implement technical specifications for Salesforce CRM Software.
+
+Implementation from proposal to delivery.
+
+
+
+
+Main Duties:
+
+Supports the implementation from proposal to delivery.
+
+Build Salesforce applications using Apex and Visualforce to meet documented business requirements and conform to design specifications.
+
+Developing customized solutions within the Salesforce platform to support critical business functions.
+
+Responsible for developing in Visualforce, Apex and other technologies to build customized solutions that support business requirements.
+
+Troubleshoot technical issues related to Apex code, Lightning Components and Visualforce pages and LWC.
+
+Solid Apex coding practices along with collaboration with dev team in conducting peer reviews.
+
+Create/modify existing controllers, controller extensions, and triggers across all platforms.
+
+Develop UI using Visualforce, JavaScript and jQuery.
+
+Meet the timeline on delivering the development task.
+
+Ensure all the development activities are completed according to the project timeline.
+
+Works with cross functional IT and business teams to architect, design and develop solutions based on business requirements.
+
+Identify areas of improvement in design, implementation, process, tooling, automated testing, SQA.
+
+Create and execute unit and integration test plans, including writing test cases, creating test data, and documenting test results.
+
+Ensure functionality is delivered per the SOW. Identify deviations and communicate to project leadership.
+
+Follow all project standard operating procedures (SOP) related to time reporting, DevOps, reporting status, updating PM/ticketing  system for assignments, bugs, events, incidents, requests, changes, problems, etc.
+
+
+
+
+Requirements: 
+
+
+
+
+Only who have experience at Apex will be processed, at least 2 or more years of Salesforce development experience as a Developer/Programmer.
+
+Salesforce Developer or Architect Certification is a plus.
+
+Must have historical and proven knowledge and practical application of Visualforce, APEX programming, and Web Services.
+
+Experience working with Salesforce API’s and general connectivity/integration best practices, including implementation and maintenance of external sync agents developed in Java,  NodeJS, JavaScript, Python, or similar.
+
+Experience with Lightning custom and out of the box components, SOQL or SQL and understanding of RDBMS concepts.
+
+Experience with database software, platform as a Service solutions, integrating Salesforce with multiple internal applications & applying software development lifecycle methodologies to Salesforce development, including source code  control, automated testing, change management and promotion,  and secure management of test data.
+
+Knowledge of general Web Services concepts such as SOAP, REST, HTTP etc. is a must.
+
+Mastery of data types, algorithms, object-oriented programming.
+
+Ability to multi-task and manage multiple projects at a time while paying attention to detail.
+
+Able to communicate in English both oral and written is a must (active).
+
+Willing to work in west Jakarta - Meruya & Puri area and assigned to customer office.",https://id.jobstreet.com/id/job/91541243,Rp 18.000.000 – Rp 25.000.000 per month,web,indonesia,"['java', 'sql', 'javascript', 'python', 'r']",5,2026-04-20T20:54:32.358737
+91599144,Performance Tester,Pro Sigmaka,,"Job Description
+
+Participate in initial discussions with related teams to understand Performance Testing requirements and provide analysis and recommendations for the application to be tested.
+Define and document Performance Testing requirements and strategy in the Test Management Plan (TMP) / prerequisites, including objectives, scope, environment, business processes, and success criteria.
+Analyze test cases or scenarios to be used for Performance Testing.
+Develop Performance Test Scripts based on agreed test cases and scenarios, including test data preparation (if required), through stages such as recording, scripting, parameterization, verification, and correlation.
+Execute Performance Testing to evaluate system performance.
+Monitor, report, and coordinate any issues or findings throughout all phases of Performance Testing with relevant teams.
+Analyze Performance Testing results and provide recommendations based on reports from performance testing tools, simulator tools, and server utilization monitoring.
+Prepare Test Reports and official Performance Testing documentation, and present the results clearly and accurately to stakeholders.
+Minimum Qualifications
+
+Minimum Bachelor’s Degree (S1) in Information Technology, Computer Science, or a related field.
+Minimum 1–2 years of experience in Performance Testing.
+Hands-on experience with Performance Testing tools such as Micro Focus LoadRunner, IBM Rational Performance Tester, Apache JMeter, or similar (especially for Java, Web/HTTP, Web Services, Database protocols, etc.).
+Experience with simulation / service virtualization tools (e.g., SOAP UI or similar).
+Experience with monitoring tools (e.g., SiteScope or similar) to analyze system performance.
+Familiar with defect management tools such as JIRA, ALM, or similar.
+Strong analytical skills, good communication, and the ability to work collaboratively in a team environment.
+Contract project based, and ASAP Hiring",https://id.jobstreet.com/id/job/91599144,,web,indonesia,"['java', 'r', 'ios']",3,2026-04-20T20:54:37.820036
+91599133,Quality Assurance Automation Perbankan Syariah,Pro Sigmaka,,"Job Description
+
+
+Job Description:
+
+Mengembangkan dan memelihara automation script menggunakan Selenium, Playwright, atau WebdriverIO.
+Melakukan eksekusi automated testing untuk aplikasi web dan API.
+Melakukan review hasil testing, membuat dokumentasi defect, serta bekerja sama dengan tim developer untuk proses perbaikan.
+Membuat dan menjalankan test scenario, test case, serta regression testing.
+Berkolaborasi dengan tim QA dan Product Owner untuk memastikan fitur sesuai kebutuhan.
+Melakukan API testing menggunakan SoapUI, Postman, atau tools serupa.
+Membantu meningkatkan efektivitas dan efisiensi proses QA dengan automation.
+Minimum Qualifications
+
+
+Kualifikasi:
+
+Pendidikan minimal S1 (Teknik Informatika/Sistem Informasi atau sejenisnya).
+Junior: minimal pengalaman 1 tahun sebagai QA automation
+Middle: minimal pengalaman 2–4 tahun sebagai QA Automation.
+Menguasai Katalon, Selenium, atau Playwright.
+Memahami proses API testing (SoapUI, Postman, atau tools komersial seperti UFT, QTP, dll).
+Memahami dasar-dasar SQL, SDLC, STLC, serta konsep regression & integration testing.
+Mampu menganalisis hasil automation & melakukan debugging script.
+Detail, terstruktur, dan mampu bekerja secara mandiri maupun dalam tim.
+Pengalaman di lingkungan Agile/Scrum menjadi nilai plus.",https://id.jobstreet.com/id/job/91599133,,web,indonesia,"['agile', 'sql', 'scrum', 'r']",4,2026-04-20T20:54:43.891675
+91594214,Senior Backend Software Engineer (Distributed Systems) - Online Transportation,PT Adecco Personnel Indonesia,,"ADECCO INDONESIA - Senior Backend Software Engineer (Distributed Systems) - WE ARE HIRING!
+
+Job Title: Senior Backend Software Engineer (Distributed Systems)
+
+Location: South Jakarta
+
+Industry: Multinational Online Transportation Platform Company
+
+Employment Type: 6 months contract under Adecco Indonesia (Extendable)
+
+
+
+
+Get to know the Team
+The Fulfilment tech family is one of the pillars enabling our client to out-serve our customers and partners in different businesses and marketplaces across Southeast Asia. We are working on high throughput, real-time distributed systems that use advanced software engineering techniques to solve hundreds of millions of requests per day. We are a distributed team in 4 different locations: Singapore, Beijing, Indonesia, and Malaysia. Our communication is in English, both in spoken and written form.
+
+Our mission is to offer the best-in-class products and experiences to our driver partners as to increase adoption and engagement of our services. Improve driver partner opportunities and efficiency in order to fulfill customer orders without fail, rain or shine. And to create efficient marketplaces by determining an optimal price that is both sustainable and loved by our partners and customers.
+
+The Day-to-Day Activities
+
+Design and write with the Go language to improve the availability, scalability, latency, and efficiency of our client's range of services.
+
+Work with the engineering team to explore and create new design/architectures geared toward scale and performance.
+
+Participate in code and design reviews to maintain our high development standards.
+
+Engage in service capacity and demand planning, software performance analysis, tuning, and optimization.
+
+Collaborate with product and experience teams to define and prototype feature specifications.
+
+Work closely with the infrastructure team in building and scaling back-end services as well as performing root cause analysis investigations.
+
+Design, build, analyze, and fix large-scale systems.
+
+Pro-actively debug and solve production incidents during your on-call shift.
+
+Participate in interview loops to help our client continue hiring top industry talent.
+
+Provide technical guidance, mentorship, and knowledge sharing to peers.
+
+The Must-Haves
+
+A degree in Computer Science, Software Engineering, Information Technology or related fields.
+
+5+ years of experience in software engineering in a distributed systems environment.
+
+Experience with Golang, including an understanding of its core syntax and semantics, familiarity with its standard library, its concurrency primitives, and experience in developing and optimizing Golang applications.
+
+Proficiency in maintaining operational excellence and site reliability, including familiarity with monitoring system performance, ensuring system health, and managing service capacity planning.
+
+Strong Computer Science fundamentals in algorithms and data structures.
+Familiarity with running large-scale web services; understanding of systems internals and networking are a plus.
+
+Experience in developing distributed systems with high throughput and scalability, including a deep understanding of streaming systems and queuing models and their respective integration into these systems.
+
+Possess excellent communication, sharp analytical abilities with proven design skills, and the ability to think critically of the current system in terms of growth and stability.
+
+You can be a good coder in any language (C++, C, Java, Scala, Rust, Haskell, OCaml, Erlang, Python, Ruby, PHP, Node.JS, C#, etc.), but willing to work on Golang
+
+The Good-to-Haves
+
+Expert knowledge in databases, including relational databases such as MySQL and NoSQL databases like AWS DynamoDB, Scylla, and others, accompanied by a distinct understanding of various design decision implications.
+
+Capable of architecting highly scalable solutions while keeping cost-effectiveness in mind.
+
+Experience in coaching and mentoring junior developers, providing guidance on coding standards, and promoting a collaborative learning environment within the team.
+
+Demonstrate a keen sense of product thinking, being able to align technical strategies with product goals, and understanding how development decisions can directly impact end-users.
+
+Tech Stack : Redis, MySQL, DynamoDB, Kafka, and Elasticsearch for data storage.
+
+These services are orchestrated using Kubernetes and run on the AWS cloud infrastructure, equipped with auto-scaling abilities.
+
+Our mobile app platform coverage includes native iOS, and Android, written in Swift/Kotlin, RxJava, and Flutter.
+
+Our previously developed front-end is built on Rails, HTML5, CSS, React, and Javascript.utilizing
+
+
+We use GitLab for our code repository and we adhere to the basic Continuous Delivery tenets utilising a host of tools to support our release pipeline and code quality. These include GitLab CI, DataDog, Code Climate, and Jenkins.",https://id.jobstreet.com/id/job/91594214,Rp 27.000.000 – Rp 33.000.000 per month,web,indonesia,"['kubernetes', 'swift', 'rust', 'aws', 'java', 'c++', 'android', 'golang', 'kotlin', 'php', 'c#', 'sql', 'javascript', 'scala', 'redis', 'flutter', 'kafka', 'elasticsearch', 'python', 'react', 'r', 'mysql', 'ios', 'git']",24,2026-04-20T20:54:48.632559
+91594201,PowerBuilder Developer,PT Cycent Inovasi Kaizen,,"Saat ini kami sedang membuka kesempatan bagi kandidat terbaik untuk bergabung bersama kami yang akan ditempatkan di perusahaan klien kami.
+
+
+
+
+Deskripsi Pekerjaan
+
+Sebagai PowerBuilder Developer, Anda akan bertanggung jawab untuk memelihara dan meningkatkan aplikasi PowerBuilder yang sudah ada. Anda akan bekerja sama dengan developer senior untuk memastikan stabilitas sistem serta melakukan perbaikan dan pengembangan yang diperlukan.
+
+
+Tanggung Jawab
+
+Melakukan pemeliharaan, debugging, dan peningkatan pada aplikasi PowerBuilder.
+
+Menulis dan mengoptimalkan SQL queries serta stored procedures yang kompleks.
+
+Menganalisis serta menyelesaikan masalah aplikasi dan bottleneck performa.
+
+Mengembangkan fitur baru dan laporan berdasarkan kebutuhan bisnis.
+
+Mendokumentasikan perubahan kode, modifikasi sistem, dan proses teknis.
+
+Mendukung proses data migration dan integrasi sistem jika diperlukan.
+
+Berkolaborasi dengan pengguna bisnis untuk memahami kebutuhan dan memberikan solusi teknis.
+
+Berpartisipasi dalam sesi knowledge transfer serta mempelajari praktik terbaik PowerBuilder.
+
+Memastikan aplikasi memenuhi standar keamanan dan integritas data.
+
+
+Kualifikasi
+
+Pendidikan minimal S1 Ilmu Komputer, Teknologi Informasi, atau bidang terkait.
+
+Memiliki pengalaman 1–4 tahun dalam pengembangan perangkat lunak.
+
+Memiliki pengalaman dengan teknologi desktop atau client-server seperti Visual Basic, Delphi, atau framework legacy serupa.
+
+Menguasai SQL dan konsep database dengan baik, termasuk query kompleks, stored procedures, dan konektivitas database.
+
+Bersedia mempelajari dan bekerja dengan teknologi PowerBuilder.
+
+Memiliki kemampuan komunikasi bahasa Inggris yang baik, baik lisan maupun tulisan.
+
+Teliti serta memiliki kemampuan analisis yang kuat.
+
+Mampu bekerja secara mandiri serta mendokumentasikan perubahan teknis dengan jelas.",https://id.jobstreet.com/id/job/91594201,Rp 13.000.000 – Rp 17.000.000 per month,web,indonesia,"['sql', 'r']",2,2026-04-20T20:54:54.053257
+91256508,Procurement Engineer,PT Duraquipt Cemerlang,,"Kualifikasi Procurement Engineer:
+
+Pendidikan S1 Jurusan apa saja / Lulusan S1 Teknik Mesin/Industri lebih diutamakan
+
+Bisa berbahasa Inggris, baik lisan dan tulisan
+
+Mengerti alur pembelian barang Lokal/import
+
+Pengalaman 2-4 Tahun di Procurement Engineer
+
+Menguasai MS Excel dengan baik
+
+Deskripsi Pekerjaan :
+
+Menangani pembelian import (Negosiasi, Sourcing, Membuat PO , Memonitor dan Mengontrol PO sampai di gudang)
+
+Penjadwalan pembelian Lokal/import dalam rangka memastikan On Time Delivery
+
+Bekerjasama dengan Team Expedite dan User
+
+Mengontrol supplier
+
+Mencari vendor-vendor baru
+
+Menegosiasikan harga dengan pembanding dan tools lainnya
+
+Komoditas lain yang ditangani : Consumable rutin Foundry, Kalibrasi dan admin petty cash
+
+Kualifikasi Procurement Sipil :
+
+Pendidikan minimal S1 jurusan Teknik Sipil dan Mesin 
+
+Memiliki pengalaman minimal 3 tahun sebagai Purchasing Staff
+
+Memiliki pengalaman di bidang Konstruksi
+
+Bersedia bekerja dihari sabtu dan lembur sampai malam 
+
+Jujur dan Cekatan dalam bekerja
+
+Menguasai microsoft office excel 
+
+Teliti dan bisa mengerjakan pekerjaan administratif
+
+Domisili Depok diutamakan
+
+Bersedia bergabung secepatnya
+
+Berpengalaman juga menghandle item konsumable kontrak, IT, GA dan HSE
+
+Data Analisis atau Kataloger:
+
+Pendidikan: Min D3 Ilmu Perpustakaan dan Informasi.
+
+Pengalaman minimal 2 tahun sebagai supervisor di perpustakaan.
+
+Pemahaman yang kuat tentang prinsip dan prosedur perpustakaan.
+
+Keakraban dengan sistem otomasi perpustakaan dan database.
+
+Menguasai Microsoft Office dan Slims. Penempatan di Cinere – Depok.
+
+Qualifikasi sbb : 
+
+Rasionalisasi material, standardisasi dan pengayaan setiap item berdasarkan Standar Katalogisasi
+
+Meninjau, Membersihkan, dan Memperbarui deskripsi master material agar lebih efektif dan efisien berdasarkan informasi yang tersedia dari permintaan pengguna
+
+Nilai standar terhadap nilai yang diekstraksi di kolom terpisah.
+
+Memastikan semua nilai atribut Wajib terisi dan jika tidak dapat diisi dengan nilai yang tersedia, lakukan pencarian web berdasarkan referensi Pabrikan seperti nomor Bagian, nomor Model
+
+Melakukan pemeriksaan kualitas menyeluruh atas pekerjaan yang dilakukan oleh staf operator gudang. 
+
+Menerapkan proses penjaminan mutu untuk menjaga keakuratan dan keandalan data
+
+Melakukan Verifikasi Fisik di Gudang.
+
+Menggali dan mengembangkan data besar (big data) untuk membantu dalam hal pembuatan keputusan yang lebih baik",https://id.jobstreet.com/id/job/91256508,,web,indonesia,['r'],1,2026-04-20T20:55:14.777218
+91591942,Lowongan Kerja Full Time Admin Marketing Balikpapan Timedoor Balikpapan,PT Timedoor Indonesia,,"Info Terbaru Lowongan Kerja Full time Admin Marketing Balikpapan Balikpapan April 2026 di Timedoor. Selamat Pagi bagi agan yang sedang mencari pekerjaan. Semoga tidak menyerah untuk mencari pekerjaan yang pas dengan keinginan Anda. Memang terkadang mencari pekerjaan yang pas sangatlah tidak mudah di tahun 2026 ini. Pada kesempatan ini admin akan memberikan informasi Lowongan Kerja Full time Admin Marketing Balikpapan Balikpapan April 2026 di Timedoor. Berikut ini info lebih lengkap mengenai Lowongan Kerja Full time Admin Marketing Balikpapan Balikpapan April 2026 Timedoor.
+
+Lowongan Kerja Full time Admin Marketing Balikpapan Balikpapan April 2026 Timedoor
+
+
+Berikut ini adalah kualifikasi yang harus Anda penuhi untuk mendaftar Lowongan Kerja Full time Admin Marketing Balikpapan Balikpapan April 2026 Timedoor yang dibuka pada 16 April 2026 ini:
+
+Hai! Timedoor Academy sedang mencari kandidat untuk posisi (Fulltime) Administrasi dan Marketing untuk cabang kami di Balikpapan
+
+Komplek Ruko Balikpapan Baru, Sentra Eropa II Blok AB 6 No. 18, Damai, Balikpapan, Kota Balikpapan, Kalimantan Timur 76114
+
+Timedoor Academy (https://timedooracademy.com/) adalah perusahaan pendidikan IT yang berbasis di Bali dan menyediakan kursus pemrograman (web, game, pengembangan aplikasi) serta literasi digital (seperti keseimbangan digital, keamanan digital, dan hoaks) untuk anak-anak mulai dari TK, SD, SMP, hingga SMA.
+
+Tanggung Jawab:
+
+Meyakinkan calon pelanggan untuk bergabung dengan Timedoor Academy melalui strategi pemasaran online maupun offline.
+Melakukan layanan pelanggan melalui WhatsApp.
+Berkomunikasi dengan calon pelanggan, termasuk menjawab pertanyaan mengenai kelas.
+Mengajak calon siswa untuk mengikuti kelas percobaan (trial class).
+Menganalisis data penjualan dan menyiapkan strategi pemasaran.
+Membantu operasional kelas, administrasi, dan kegiatan marketing lainnya bersama tim.
+
+Kompetensi yang Diperlukan:
+
+Memiliki kemampuan komunikasi dan negosiasi yang baik dalam meyakinkan pelanggan.
+Memahami dasar-dasar operasional administrasi komputer (Excel, Google Sheets, dll).
+Disiplin, bertanggung jawab tinggi, dan memiliki inisiatif yang baik.
+Mampu bekerja dalam tim.
+Memiliki kemampuan bahasa Inggris (minimal pasif, aktif lebih diutamakan).
+
+Job Types: Full-time, Contract
+
+Experience:
+
+Administrative: 3 years (Preferred)
+
+Work Location: In person
+
+Hanya kandidat yang memenuhi ketentuan di atas yang akan dipanggil untuk melakukan interview. Untuk itu jika Anda berminat dan memenuhi peserta Lowongan Kerja Full time Admin Marketing Balikpapan Balikpapan April 2026 Timedoor di atas, silahkan kirimkan lamaran Anda sebelum lowongan expired.
+
+Demikian info Lowongan Kerja Full time Admin Marketing Balikpapan Balikpapan April 2026 Timedoor yang dapat kami sampaikan. Semoga informasi lowongan kerja hari ini membantu Anda sekalian yang sedang mencari pekerjaan. Jika Info lowongan kerja di atas tidak cocok dengan impian Anda, tidak ada salahnya untuk membaca info lowongan kerja lainnya di bawah ini. Akhir kata kami ucapkan kam sia sudah mengunjungi website ini, jangan lupa untuk membagikan informasi bermanfaat ini melalui twitter. Selamat mencari kerja dan berkarya!
+
+Jika kamu tertarik melamar Lowongan Kerja Full time Admin Marketing Balikpapan Balikpapan April 2026 Timedoor, segera siapkan berkas lamaran dan dokumen yang diminta untuk mengisi Lowongan Kerja Full time Admin Marketing Balikpapan Balikpapan April 2026 Timedoor tersebut. Silakan klik tombol ""Kirim Lamaran"" di bawah ini.
+
+  Kirim Lamaran",https://id.jobstreet.com/id/job/91591942,,web,indonesia,"['r', 'git']",2,2026-04-20T20:55:28.735920
+91594606,Junior IT Testing,PT Tiga Daya Digital Indonesia,,"Job Desc:
+
+Execute software testing activities to support SIT (System Integration Testing) and UAT (User Acceptance Testing) processes in the banking industry. 
+Analyze business and system requirements to design and develop effective test scenarios and test cases. 
+Perform testing across multiple platforms, including API, Mobile, Web, and Desktop applications. 
+Document test results, defects, and overall testing progress in accordance with defined test scripts and standards. 
+Collaborate with developers, business analysts, and stakeholders to ensure issues are properly identified and resolved. 
+Support defect tracking, retesting, and validation processes to ensure system quality before release. 
+
+Qualiciations:
+
+Minimum 2 years of experience as a Software Tester, with hands-on involvement in SIT/UAT within the banking industry. 
+Strong understanding of requirement analysis and test case/test script creation. 
+Experience in testing across multiple platforms: API, Mobile, Web, and Desktop applications. 
+Ability to perform structured and detailed test documentation. 
+Familiarity with defect tracking and test management tools. 
+Knowledge of automation testing is a plus.",https://id.jobstreet.com/id/job/91594606,,web,indonesia,"['r', 'ios']",2,2026-04-20T20:55:34.271715
+91598216,Fullstack Developer,PT Yayasan utama kasih,,"""Kualifikasi Teknis (Hard Skills)1. Penguasaan Framework: Mahir menggunakan library/framework modern seperti React.js, Vue.js, atau Angular serta menguasai MVC .Net dan .Net Core .2. Dasar Web: Pemahaman mendalam tentang HTML5, CSS3 (SASS/LESS) , dan JavaScript (ES6+).3. Server-side: Menguasai salah satu bahasa backend utama seperti Node.js (Express), Python (Django/FastAPI), PHP (Laravel), atau Go serta .Net4. Manajemen Database: Pengalaman bekerja dengan database PostgreSQL, MySQL, SQL Server.5. API Development: Mampu merancang, mendokumentasikan, dan mengintegrasikan RESTful API .6. Reporting : Menguasai pembuatan reporting dengan menggunakan Crystal Report,Reporting Services .7. Version Control: Mahir menggunakan Git (GitHub/GitLab/Bitbucket).8. Cloud & Deployment: Familiar dengan layanan cloud seperti AWS, Google Cloud, atau Azure .Kualifikasi Non -Teknis (Soft Skills)1. Problem Solving: Kemampuan menganalisis masalah kompleks dan memecahkannya menjadi solusi teknis yang efisien.2. Adaptabilitas: Cepat belajar teknologi baru .3. Komunikasi: Mampu menjelaskan konsep teknis kepada user, serta dapat berkomunikasi yang baik dengan sesama anggota tim IT maupun dengan user.4. Detail -Oriented: Memiliki perhatian tinggi terhadap kualitas kode, keamanan data, dan performa aplikasi.Persyaratan Pengalaman & Pendidikan1. Gelar Sarjana (S1) di bidang Teknik Informatika, atau Sistem Informasi .2. Pengalaman kerja minimal 5 tahun sebagai Fullstack Developer.3. Memiliki portofolio proyek yang bisa ditunjukkan (link GitHub atau website hidup).4. Pengalaman di bidang finance/banking"" - - Berpengalaman- S1- Tidak ada batasan usia- Terima kandidat tanpa foto diri- Terima kandidat dari mana saja",https://id.jobstreet.com/id/job/91598216,,web,indonesia,"['fastapi', 'azure', 'aws', 'java', 'angular', 'php', 'sql', 'javascript', 'express', 'postgresql', 'python', 'django', 'react', 'r', 'mysql', 'vue', 'git']",17,2026-04-20T20:55:39.411484
+91591447,Software Integration Project Manager,PT Giesecke & Devrient Indonesia,,"Area of responsibility
+
+Successfully run and complete projects implementing Vault Management, Warehouse management and/or Production software with additional developments within our client’s organization, within the agreed timelines, budget and quality criteria.
+
+Contributing to project budget calculations and presentations to clients in the pre-sales phase.
+
+Management of resources and distribution of tasks across projects in coordination with the resources involved.
+
+Within quotation processes, the SW Project Manager analyses the implementation strategy and impact.
+
+Within projects the SW Project Manager is able to write requirements, work with the development team and perform acceptance tests.
+
+ 
+
+Main tasks
+
+ Integrate Software Products
+
+SW Product Integration capabilities
+
+Proven experience of file transfer mechanism, new integration platforms/APIs
+
+Porting or migration from legacy integration footprints to modern integration landscapes
+
+Large application implementations with significant integration components including ESB, web-services, file transfers, point to point integrations
+
+ 
+
+Execute resource management
+
+Anticipating on project timelines by resource allocation scenarios with a horizon of 3-36 months.
+
+Continuous resource and (project) task allocation management based on the dynamics.
+
+Ownership of the project related resource anticipation sheet with a 3-36 month horizon.
+
+Continuous management of proper task allocation and commitment across projects.
+
+Discussing and challenging task requirements and anticipated effort.
+
+Anticipating and discussing development requirements with the Product and Service Manager (internal and external) for alignment with project timelines.
+
+Control project activities of all involved stakeholders and address issues like missing tasks, improper task descriptions, non-committed tasks, overdue tasks, etc.
+
+Managing people’s proper project contributions regarding taking task and due date responsibility and delivering high quality.
+
+ 
+
+ 
+
+Manage and execute projects
+
+Managing large projects or programs with multiple projects or work streams operating in parallel with internal and external dependencies
+
+Executing projects with significant third party dependencies and stakeholder management to align delivery time frames and testing
+
+Creation of detailed project plans consisting of scope, deliverables, budget, delivery and lead times, resource planning, risks & mitigations, communication and reporting.
+
+Organize proper project teams and their involvement in the creation of plans and commitment to the tasks.
+
+Monitor and manage project involved in order to achieve quality and timely deliveries.
+
+Coaching of project involved and Sales team members regarding project management.
+
+Manage risks, resources, issues across all projects with a horizon 3-36 months.
+
+Intervene when project involved cannot resolve project issues.
+
+Plan and manage transfers from project to support.
+
+Regular communication with and visits to clients where projects are operative, informing them about the progress of the projects.
+
+Organization and execution of the steering committee meetings and ensure proper governance.
+
+Organize project evaluations and lessons learned registration, for future use.
+
+Continuous improvement of the processes.
+
+ 
+
+Authorities
+
+Management of implementation project budgets.
+
+Deciding on (priorities relating to) the use of internal and external employees.
+
+Deciding on task allocations.
+
+Deciding on project standards and methodologies.
+
+
+
+
+Result areas
+
+(Client) project objectives and results.
+
+Commercial project success.
+
+Project organisation - quality and effectiveness.
+
+Satisfaction of principals, clients, relations.
+
+Quality and implementation of improvement suggestions.
+
+ 
+
+ 
+
+Job requirements
+
+ Knowledge
+
+Project management
+
+Handling cash and cash management processes
+
+Concepts and models for supply chain integration and logistics
+
+Software product and services of G+D
+
+Business process (re)design
+
+G+D Strategy
+
+Skills
+
+Project management
+
+Interpersonal skills (including communication)
+
+Planning and organizing
+
+Conflict handling
+
+ 
+
+Competences
+
+Ability to remain positive, with a 'can do' attitude
+
+Ability to find pragmatic solutions to challenges
+
+Forward thinking
+
+Result orientation
+
+Managing performance
+
+Decisiveness
+
+Persuasiveness
+
+External awareness",https://id.jobstreet.com/id/job/91591447,Rp 25.000.000 – Rp 35.000.000 per month,web,indonesia,"['r', 'ios']",2,2026-04-20T20:55:45.261746
+91591408,Magang Admin Data Entry (Magang/PKL untuk SMK/Sarjana),PT. Djaja Indonesia Liputan,,"Bergabunglah dengan SEVIMA – Pioneer EdTech di 1200+ Kampus Indonesia!
+Kami membuka kesempatan Internship Admin Support untuk kamu yang enerjik dan detail-oriented. Selama 6 bulan, kamu akan:
+
+
+
+
+Membantu tim operasional dalam pengelolaan data dan administrasi harian, termasuk, namun tidak terbatas pada:
+
+Input dan pembersihan data kontak institusi (kampus, lembaga, perusahaan) ke dalam spreadsheet
+
+Riset dan pencarian informasi dasar melalui Google (website kampus, kementerian, lembaga pelatihan)
+
+Membantu pengelolaan dokumen dan surat-menyurat dalam jumlah besar
+
+Memantau dan merangkum informasi dari website resmi (LLDIKTI, direktorat kementerian) terkait agenda atau acara mendatang
+
+Koordinasi harian via WhatsApp dengan anggota tim terkait
+
+Membantu administrasi dan pencatatan data program magang (Maganghub)
+
+Pengolahan data sederhana menggunakan Excel (input, sorting, filter)
+
+Pencarian database sederhana: sekolah, HRD/IT perusahaan, lembaga sertifikasi (LSP/LPK), program beasiswa
+
+
+
+
+
+Keterampilan dan kualifikasi yang diperlukan:
+
+Bisa mengoperasikan Microsoft Excel dan Google Sheets (dasar: input data, filter, sort), dan siap belajar lebih detil lagi atas berbagai rumus excel
+
+Terbiasa menggunakan WhatsApp Web dan Google Search
+
+Teliti, rapi, dan konsisten dalam mencatat data
+
+Mampu mengikuti instruksi tertulis secara mandiri
+
+Responsif dan aktif berkomunikasi via chat harian
+
+Tidak harus berpengalaman — yang penting mau belajar dan tidak perlu diingatkan berulang kali
+
+Terbuka untuk seluruh jurusan, SMK/Kuliah/sudah lulus, diutamakan S1 Statistika
+
+
+
+
+
+Benefit Internship di SEVIMA:
+
+Makan Siang
+
+Honor Magang
+
+Sertifikat Magang
+
+Lokasi: Surabaya, Jawa Timur (Onsite)",https://id.jobstreet.com/id/job/91591408,Rp1.000.000 per month,web,indonesia,['r'],1,2026-04-20T20:55:50.902491
+91591279,STAFF DX,PT Abadi Tambah Mulia Internasional,,"Kualifikasi Umum
+
+Pendidikan minimal S1 di bidang: Teknik Informatika/Sistem Informasi/Ilmu Komputer, atau bidang terkait
+
+Memiliki pengalaman minimal 1–3 tahun di bidang IT / Digital Transformation (fresh graduate dipertimbangkan dengan portofolio kuat)
+
+Memiliki kemampuan komunikasi dan problem solving yang baik
+
+Kualifikasi Teknis (Wajib)
+
+Menguasai minimal satu bahasa pemrograman:
+
+Python (diutamakan)
+
+Java / JavaScript / C# / Go (nilai tambah)
+
+Memahami konsep:
+
+API (REST / JSON)
+
+Database (MySQL, PostgreSQL, atau NoSQL)
+
+Pengalaman menggunakan:
+
+Git (version control)
+
+Framework (seperti FastAPI, Django, .NET, Node.js)
+
+Kemampuan AI & Digital Transformation
+
+Memahami dasar Artificial Intelligence / Machine Learning
+
+Pernah membuat atau terlibat dalam project:
+
+Machine Learning (klasifikasi, prediksi, dll)
+
+Computer Vision / NLP (nilai tambah)
+
+Familiar dengan tools/libraries:
+
+TensorFlow / PyTorch / Scikit-learn
+
+Pandas, NumPy
+
+Memahami konsep:
+
+Data preprocessing
+
+Model training & evaluation
+
+Nilai plus jika:
+
+Pernah deploy model ke production (API / web app / Streamlit)",https://id.jobstreet.com/id/job/91591279,Rp 6.000.000 – Rp 8.000.000 per month,web,indonesia,"['fastapi', 'scikit-learn', 'java', 'tensorflow', 'c#', 'sql', 'javascript', 'numpy', 'pytorch', 'postgresql', 'python', 'django', 'r', 'pandas', 'mysql', 'git']",16,2026-04-20T20:55:56.208083
+91595454,COBOL Developer,Midas Daya Technology,,"Job Description
+
+Develop and maintain COBOL programs on the L400/GASIA core insurance system
+Work with DB2 and IBM WebSphere MQ for integration and data management
+Perform debugging, troubleshooting, and performance optimization
+Collaborate with business teams to understand insurance product requirements
+Minimum Qualifications
+
+
+COBOL Developer (Core Insurance System – L400/GASIA)
+
+Bachelor's degree in Computer Science, Information Technology, or a related field
+3–5 years of experience in COBOL development
+Proficiency in COBOL (syntax, data structures, file handling, program logic)
+Strong understanding of core insurance products, processes, and terminology
+Experience with mainframe systems (IBM i) and relevant software (DB2, IBM WebSphere MQ)
+Knowledge of relational databases (e.g., DB2) and database concepts
+Proficiency in debugging and problem-solving
+Must have development experience in L400/GASIA core system",https://id.jobstreet.com/id/job/91595454,,web,indonesia,['r'],1,2026-04-20T20:56:01.487899
+91590480,Entry Level Full Stack Developer & AI Research,Nora Dynamic Sport,,"Kesempatan
+Kami dari perusahaan Nora Dynamic Sport, perusahaan teknologi yang berbasis di Surabaya, Jawa Timur, sedang mencari Entry Level Full Stack Developer & AI Research untuk bergabung dengan tim kami. Dalam peran ini, Anda akan berperan penting dalam pengembangan aplikasi digital dan melakukan penelitian terkait teknologi AI yang inovatif untuk mendorong pertumbuhan bisnis kami.
+
+Tanggung Jawab
+
+Merancang dan mengembangkan aplikasi web dan seluler yang andal dan berskala tinggi menggunakan teknologi stack terbaru.
+
+Melakukan penelitian dan pengembangan di bidang kecerdasan buatan (AI) untuk meningkatkan fungsionalitas produk kami.
+
+Bekerja dengan tim lintas-fungsi untuk mengidentifikasi dan menerapkan solusi inovatif.
+
+Menjaga dan memperbaiki infrastruktur aplikasi saat dibutuhkan.
+
+Memastikan kode yang ditulis berkualitas tinggi dan sesuai dengan standar industri.
+
+Berkontribusi pada proses pengujian dan penjaminan kualitas.
+
+Persyaratan
+
+Gelar sarjana dalam Ilmu Komputer, Teknik Informatika, atau bidang terkait.
+
+Memiliki pemahaman yang baik tentang berbagai teknologi web, seperti HTML, CSS, JavaScript, React, Node.js, dan database.
+
+Pengalaman dalam pengembangan aplikasi back-end menggunakan bahasa pemrograman seperti Python, Java, atau PHP.
+
+Pengetahuan dasar tentang machine learning, deep learning, dan algoritma AI.
+
+Kemampuan pemecahan masalah yang kuat dan pemikiran kritis.
+
+Mampu bekerja dalam tim dan berkomunikasi dengan efektif.
+
+Selalu ingin belajar dan mengikuti perkembangan teknologi terbaru.
+
+Manfaat
+
+Gaji kompetitif dan paket tunjangan yang menarik.
+
+Lingkungan kerja yang dinamis dan kolaboratif.
+
+Kesempatan untuk belajar dan berkembang melalui pelatihan dan mentoring.
+
+Fleksibilitas dalam pengaturan kerja, termasuk opsi bekerja jarak jauh.
+
+Asuransi kesehatan yang komprehensif dan tunjangan lainnya.
+
+Budaya perusahaan yang mendukung keseimbangan kehidupan kerja.
+
+Tentang Kami
+Nora Dynamic Sport adalah perusahaan teknologi yang berfokus pada pengembangan solusi digital inovatif untuk industri olahraga dan gaya hidup. Kami bertujuan untuk mengubah cara orang berolahraga dan berinteraksi dengan olahraga melalui aplikasi, perangkat pintar, dan teknologi AI. Dengan tim yang berdedikasi dan berkomitmen pada inovasi, kami terus memperluas jangkauan kami di pasar global.
+
+Jika Anda tertarik untuk menjadi bagian dari perjalanan kami, lamar posisi ini sekarang dan bergabunglah dengan tim kami yang dinamis!",https://id.jobstreet.com/id/job/91590480,Rp 1.600.000 – Rp 2.400.000 per month,web,indonesia,"['java', 'php', 'javascript', 'python', 'react', 'r', 'git']",7,2026-04-20T20:56:07.646564
+91590348,Backend Developer Intern,PT Alto Network,,"About Us
+
+
+ALTO Network is a leading payment infrastructure provider as well as the pioneer in payment solution by always bringing the most innovative and impactful technology to connect merchants or financial institutions with their customers to grow their businesses nationwide and beyond.
+
+Job Description
+
+Manage the work that has been assigned according to the due date.
+Coordinate with other teams as needed.
+Provide solutions, consultation, and collaboration with shareholders.
+Manage and prioritize tasks that have been assigned.
+Risk/Findings audit to be fulfilled.
+Qualifications
+
+
+Technical Skills
+
+Proficiency in Golang, Java, and Spring Boot
+Basic knowledge of databases (e.g., PostgreSQL)
+Basic knowledge of version control (Git)
+Basic knowledge of parallel processing
+Basic knowledge of cloud platforms, e.g. AWS or GCP
+
+
+Non-Technical Skills
+
+Good communication and teamwork skills.
+Eagerness to learn and adapt to new technologies.
+
+
+Experience
+
+Experience in developing applications in academic, personal, or professional contexts.
+
+Qualifications
+
+Currently pursuing a degree in Computer Science or a related field.",https://id.jobstreet.com/id/job/91590348,,web,indonesia,"['aws', 'java', 'golang', 'sql', 'gcp', 'postgresql', 'r', 'spring boot', 'git']",9,2026-04-20T20:56:12.933938
