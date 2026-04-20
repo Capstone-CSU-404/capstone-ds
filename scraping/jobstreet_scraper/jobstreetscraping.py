@@ -1,12 +1,16 @@
-import pandas as pd
-import time
-from datetime import datetime
+
 from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.chrome.service import Service
-from webdriver_manager.python import ChromeDriverManager  # auto-download driver
+from webdriver_manager.chrome import ChromeDriverManager
+import time
+import pandas as pd
+import json
+from datetime import datetime
+import os
 
 # ─────────────────────────────────────────
 # SETUP BROWSER
@@ -14,29 +18,19 @@ from webdriver_manager.python import ChromeDriverManager  # auto-download driver
 # sehingga JavaScript berjalan dan Cloudflare
 # melihat request dari browser nyata.
 # ─────────────────────────────────────────
-def init_driver(headless=False):
-    options = webdriver.ChromeOptions()
-    
-    if headless:
-        options.add_argument("--headless=new")  # Mode tanpa jendela (production)
-    
-    # Opsi penting agar tidak terdeteksi bot
-    options.add_argument("--no-sandbox")
-    options.add_argument("--disable-dev-shm-usage")
-    options.add_argument("--window-size=1920,1080")
-    options.add_argument("--disable-blink-features=AutomationControlled")  # ← Kunci!
+def create_driver():
+    options = Options()
+    options.add_argument("--start-maximized")
+    options.add_argument("--disable-notifications")
+    options.add_argument("--disable-blink-features=AutomationControlled")
     options.add_experimental_option("excludeSwitches", ["enable-automation"])
     options.add_experimental_option("useAutomationExtension", False)
-    
-    driver = webdriver.Chrome(
-        service=Service(ChromeDriverManager().install()),
-        options=options
-    )
-    
-    # Sembunyikan tanda bahwa ini Selenium
-    driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
-    
+    service = Service(ChromeDriverManager().install())
+    driver  = webdriver.Chrome(service=service, options=options)
     return driver
+
+driver = create_driver()
+wait   = WebDriverWait(driver, 15)
 
 
 # ─────────────────────────────────────────
