@@ -86,22 +86,7 @@ def scroll_job_list(driver, times=3):
     driver.execute_script("window.scrollTo(0, 0)")
     time.sleep(0.5)
 
-# ─────────────────────────────────────────────
-# CORE: Scrape SATU halaman JobStreet
-#
-# PERSAMAAN dengan LinkedIn:
-# - Klik card → panel kanan muncul (detail job)
-# - Ambil deskripsi dari panel kanan
-# - Tidak perlu buka tab baru (lebih cepat & stabil)
-#
-# PERBEDAAN dari LinkedIn:
-# - Tidak perlu login
-# - Selector card: article[data-automation="normalJob"]
-#   bukan li.jobs-search-results__list-item
-# - Selector deskripsi: div.kx2b1u0
-#   bukan div.jobs-description__content
-# - Panel kanan JobStreet berisi data-automation yang clean
-# ─────────────────────────────────────────────
+
 def scrape_one_page(driver, wait, role, location):
     results = []
 
@@ -163,17 +148,7 @@ def scrape_one_page(driver, wait, role, location):
             # HTML: <span data-automation="jobSalary">Rp 8.000.000</span>
             salary = safe_text(card, 'span[data-automation="jobSalary"]')
 
-            # ── KLIK CARD → BUKA PANEL KANAN ────────────────────
-            # KOREKSI dari versi sebelumnya:
-            # JobStreet PUNYA panel kanan, sama persis dengan LinkedIn.
-            # Kita klik title card → panel kanan load → ambil deskripsi.
-            # TIDAK perlu buka tab baru (lebih cepat & tidak ribet).
-            #
-            # HTML panel kanan (dari paste HTML detail):
-            # h1[data-automation="job-detail-title"]   → title
-            # span[data-automation="advertiser-name"]  → company
-            # a[data-automation="job-detail-location"] → lokasi
-            # div.kx2b1u0                              → job description ← kunci!
+            
             jd_text = ""
 
             try:
@@ -242,21 +217,7 @@ def scrape_one_page(driver, wait, role, location):
     return results
 
 
-# ─────────────────────────────────────────────
-# MAIN: Paginasi dengan tombol "Selanjutnya"
-#
-# KOREKSI dari versi sebelumnya:
-# JobStreet PUNYA tombol "Selanjutnya" (seperti LinkedIn).
-# Kita pakai klik tombol sebagai strategi utama,
-# dengan fallback URL ?page=N jika tombol tidak ditemukan.
-#
-# Mengapa pakai klik tombol?
-# → Lebih aman: tombol hanya muncul jika halaman berikutnya ada
-# → Konsisten dengan behavior user asli (anti-bot lebih jinak)
-#
-# Mengapa ada fallback URL?
-# → Jika tombol gagal ditemukan/diklik (flaky), URL tetap bisa dipakai
-# ─────────────────────────────────────────────
+
 def click_next_button(driver, wait):
     """
     Klik tombol 'Selanjutnya' di JobStreet.
