@@ -17,7 +17,7 @@ import os
 # ─────────────────────────────────────────────
 # KONFIGURASI
 # ─────────────────────────────────────────────
-LINKEDIN_EMAIL    = "akunmu@gmail.com# ← ganti
+LINKEDIN_EMAIL    = "akunmu@gmail.com" # ← ganti
 LINKEDIN_PASSWORD = "Passwordmu"   # ← ganti
 
 TARGET_JOB_ROLES = [
