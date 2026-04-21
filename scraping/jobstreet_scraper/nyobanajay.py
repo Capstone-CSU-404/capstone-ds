@@ -14,12 +14,11 @@ import os
 # KONFIGURASI
 # ─────────────────────────────────────────────
 TARGET_JOB_ROLES = [
-    "data scientist",
-    "data analyst",
+    "software"
 ]
 
 LOCATION      = "indonesia"
-JOBS_PER_ROLE = 500
+JOBS_PER_ROLE = 50
 OUTPUT_DIR    = r"C:\Users\asus3\Documents\CPSTNPROJECT\capstone-ds\Data"
 
 os.makedirs(f"{OUTPUT_DIR}/raw",       exist_ok=True)
