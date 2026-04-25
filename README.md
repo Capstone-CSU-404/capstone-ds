@@ -79,29 +79,6 @@ LinkedIn Jobs
 ```
 
 ---
-
-## Struktur Folder
-
-```
-capstone-ds/
-│
-├── scraping/
-│   ├── linkedinfix.py          # Script utama scraping LinkedIn
-│   └── data/
-│       └── raw/                # Output mentah scraping (.csv per role)
-│
-├── preprocessing/
-│   ├── preprocessing.py        # Script ETL utama (FILE INI)
-│   └── data/
-│       ├── raw/                # Input: CSV hasil scraping
-│       └── processed/          # Output: CSV bersih + JSON summary
-│
-├── eda/
-│   └── eda_notebook.ipynb      # Exploratory Data Analysis (Minggu 4)
-│
-└── README.md                   # Dokumen ini
-```
-
 ---
 
 ## Penjelasan Setiap Tahap
