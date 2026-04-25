@@ -23,5 +23,5 @@ wordcloud==1.9.3
 streamlit==1.35.0
 
 # ── Utilities ─────────────────────────────────────────────────
-python-dotenv==1.0.1
+python-dotenv==1.2.2
 requests==2.32.3
