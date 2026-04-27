@@ -21,7 +21,7 @@ LINKEDIN_EMAIL    = "firmanadik09@gmail.com"   # ← ganti
 LINKEDIN_PASSWORD = "Fak_1809"          # ← ganti
 
 TARGET_JOB_ROLES = [
-    "Full stack Developer", "Backend Developer", "Frontend Developer"
+ "Frontend", "IT/System"
 ]
 
 LOCATION       = "Indonesia"

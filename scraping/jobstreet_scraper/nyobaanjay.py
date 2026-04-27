@@ -108,7 +108,7 @@ def scrape_one_page(driver, wait, role, location):
     )
     print(f"  📋 {len(job_cards)} card ditemukan")
 
-    for idx, card in enumerate(job_cards):
+    for idx, card in range(job_cards):
         try:
             # ── DATA DARI CARD (panel kiri) ──────────────────────
             # Job ID langsung dari attribute HTML
