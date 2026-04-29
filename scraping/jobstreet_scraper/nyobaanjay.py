@@ -14,7 +14,7 @@ import os
 # KONFIGURASI
 # ─────────────────────────────────────────────
 TARGET_JOB_ROLES = [
-    "software"
+"backend developer","data engineer"
 ]
 
 LOCATION      = "indonesia"
