@@ -1,0 +1,27 @@
+# ══════════════════════════════════════════════════════════════
+# requirements.txt
+# Capstone Project: AI-Driven Career Pathing & Skill Gap Analyzer
+# Tim: CC26-PSU404 | Role: Data Scientist
+# ══════════════════════════════════════════════════════════════
+
+# ── Web Scraping ──────────────────────────────────────────────
+selenium==4.21.0
+webdriver-manager==4.0.1
+
+# ── Data Processing ───────────────────────────────────────────
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.4.2
+
+# ── File Output ───────────────────────────────────────────────
+openpyxl==3.1.2
+
+# ── EDA & Visualisasi (untuk notebook & Streamlit dashboard) ──
+matplotlib==3.9.0
+seaborn==0.13.2
+wordcloud==1.9.3
+streamlit==1.35.0
+
+# ── Utilities ─────────────────────────────────────────────────
+python-dotenv==1.0.1
+requests==2.32.3
