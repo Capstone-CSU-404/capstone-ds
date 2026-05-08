@@ -1,0 +1,1150 @@
+id,title,company,location,job_description,job_url,salary,search_role,search_location,extracted_skills,skills_count,scraped_at
+91778257,Software Engineer Intern,PT Adira Dinamika Multi Finance Tbk,,"Kualifikasi :
+
+Program Studi: Teknik Informatika/Sistem Informasi/Teknik Komputer/Rekayasa Perangkat Lunak
+
+Minimal semester 5 di Universitas/Perguruan Tinggi atau mengikuti ketentuan program magan dari masing-masing Universitas/Perguruan Tinggi (S1/D4/D3).
+
+Pernah terlibat dalam membangun system atau aplikasi (backend API/ web front end /mobile) dengan bahasa pemrogaman diutamakan : Java/ PHP/ JS/Python
+
+Pernah terlibat dalam pembuatan dokumentasi terkait system atau aplikasi
+
+Bersedia Full WFO from Sudirman, Jakarta Selatan
+
+
+
+Tugas:
+
+Membantu dalam pengembangan aplikasi dalam tim IT Dev SSD (core and satelite)
+
+Membantu proses mulai dari unit testing dan functionality testing dalam Pengembangan Aplikasi
+
+Melengkapi Dokumentasi Teknis sesuai kebutuhan Project",https://id.jobstreet.com/id/job/91778257,,IT,indonesia,"['r', 'java', 'python', 'php']",4,2026-04-28T10:35:57.911988
+91530036,Presales IT Security,Cyber Sinergi Indonesia,,"Bachelor's degree in Information Technology (S1)
+
+Understanding of Security fundamentals, security protocols and analytical skills
+
+Minimum of 3 years experience in related position
+
+Experience with Solution Design & Technical Proposal
+
+Lead, demonstrate, and conduct PoCs to prove solution effectiveness to prospective clients
+
+Familiar cybersecurity tools such as PAM, IAM, EDR, SIEM, Firewall
+
+Good communications skill in English",https://id.jobstreet.com/id/job/91530036,,IT,indonesia,['r'],1,2026-04-28T10:36:02.160277
+91777382,IT System Analyst / Solution Architect,PT ELISTEC INFORMATIKA UTAMA,,"Jobdesk
+
+Melakukan analisis proses bisnis asuransi retail untuk diterjemahkan ke dalam kebutuhan teknis sistem.
+
+Merancang arsitektur integrasi antara MyTugu, TICS, dan aplikasi lain yang saling berkaitan agar pengakuan produksi dapat berjalan secara otomatis dan optimal.
+
+Menyusun dokumen desain sistem (Technical System Design) dan pemetaan data (Data Mapping) dari MyTugu ke database TICS.
+
+Memberikan rekomendasi solusi teknis terkait efisiensi infrastruktur
+
+
+
+
+Kompetensi utama
+
+Pengalaman minimal 5–8 tahun sebagai IT System Analyst / Solution Architect
+
+Mampu merancang dan menganalisis arsitektur sistem terintegrasi
+
+Pengalaman merancang dan mengelola integrasi sistem berbasis RESTful API (JSON)
+
+Memahami pengembangan aplikasi berbasis: PHP Laravel, Vue.js/React, dan Database PostgreSQL.
+
+Memahami konsep Transaction processing, Data consistency, dan Error handling & retry mechanism.
+
+Mampu membuat dan menjelaskan System flow diagram, Data flow, dan integration flow
+
+Familiar dengan microservices atau modular architecture
+
+Terbiasa bekerja secara kolaboratif menggunakan code repository (GitHub / Bitbucket)
+
+Memiliki pemahaman dan pengalaman mengembangkan integrasi dengan core system
+
+Memiliki pemahaman dan pengalaman implementasi API security (JWT, API key, OAuth)
+
+Pengalaman bekerja di lingkungan cloud (GCP / AWS)
+
+
+
+
+Kompetensi tambahan
+
+Pengalaman di industri asuransi
+
+Memiliki sertifikasi profesional terkait arsitektur sistem atau manajemen proyek IT",https://id.jobstreet.com/id/job/91777382,,IT,indonesia,"['r', 'react', 'git', 'postgresql', 'gcp', 'sql', 'vue', 'aws', 'php']",9,2026-04-28T10:36:06.407585
+91777245,Part-time Programming Teacher Pangkal Pinang,Timedoor Academy,,"Timedoor Academy sedang mencari Part-Time Programming Teacher untuk mengajar anak-anak hingga remaja usia 5-18 tahun di Pangkal Pinang
+
+Alamat:
+Jl. Kampung Melayu, Kec. Gerunggang, Kel. Bukit Merapin
+
+Timedoor Academy menyediakan kursus anak-anak dari berbagai usia, serta orang dewasa, dapat belajar programming dan design dengan cara yang menyenangkan.
+
+Tanggung Jawab:
+
+Mengajar programming kepada siswa SD, SMP, hingga SMA
+
+Membuat laporan hasil pengajaran
+
+Bekerja sama dalam tim untuk meningkatkan kualitas pengajaran
+
+Kompetensi:
+
+Kemampuan dasar komputer
+
+Untuk teacher teens : pengalaman coding, terutama JavaScript, lebih diutamakan
+
+Fasih berbahasa Inggris lebih diutamakan
+
+Kemampuan komunikasi yang baik untuk bekerja dalam tim
+
+Disiplin, bertanggung jawab, dan memiliki pola pikir untuk membangun masa depan siswa melalui pendidikan IT
+
+Mahasiswa dipersilakan untuk melamar posisi ini.",https://id.jobstreet.com/id/job/91777245,Rp 40.000 – Rp 53.000 per hour,IT,indonesia,"['r', 'java', 'javascript']",3,2026-04-28T10:36:10.751308
+91777132,IT Support,PT. MITRA PELITA TERANGI BANGSA,,"PT Mitra Pelita Terangi Bangsa adalah perusahaan terkemuka di bidang Call Center & Layanan Konsumen yang berkomitmen menghadirkan layanan berkualitas tinggi dan berorientasi pada kepuasan pelanggan. Kami percaya bahwa sumber daya manusia adalah aset utama perusahaan, sehingga kami terus membangun lingkungan kerja yang profesional, suportif, dan penuh peluang pengembangan karier.
+
+Tanggung Jawab Utama :
+
+Memastikan seluruh infrastruktur jaringan (LAN, WAN, internet) berjalan dengan optimal tanpa gangguan.
+
+Melakukan monitoring secara berkala terhadap performa jaringan dan segera menangani apabila terjadi kendala (troubleshooting).
+
+Menyusun laporan terkait kondisi dan performa jaringan secara rutin.
+
+Mengelola seluruh aset IT perusahaan, termasuk perangkat keras (laptop, PC, headset, router, dll) dan melakukan pencatatan keluar-masuk aset secara akurat dan terupdate.
+
+Menangani proses instalasi, konfigurasi, distribusi perangkat kepada karyawan dan melakukan maintenance dan pergantian perangkat apabila diperlukan.
+
+Melakukan pengelolaan akun softphone untuk kebutuhan operasional call center / desk collection, termasuk pembuatan, perubahan, penonaktifan akun karyawan dan memastikan seluruh akun aktif dan dapat digunakan dengan baik tanpa kendala.
+
+Menangani permintaan user (ticketing) dan memberikan edukasi dasar kepada user terkait penggunaan perangkat dan sistem.
+
+
+Kualifikasi :
+
+Minimal pendidikan D3/S1 di bidang IT atau sejenisnya
+
+Memiliki pengalaman sebagai IT Support (diutamakan di industri fintech atau call center)
+
+Memahami dasar jaringan, troubleshooting hardware/software
+
+Familiar dengan sistem softphone dan manajemen user account
+
+Memiliki kemampuan komunikasi yang baik dan responsif
+
+Bersedia bekerja 6 hari kerja (Senin – Sabtu) sesuai jam operasional perusahaan.",https://id.jobstreet.com/id/job/91777132,Rp 5.300.000 – Rp 5.500.000 per month,IT,indonesia,"['keras', 'r']",2,2026-04-28T10:36:14.977304
+91777018,Modern Workplace Engineer Staff,PT Intikom Berlian Mustika,,"What You Will Do
+
+Implement projects based on schedules defined by the Team Leader or Project Manager.
+
+Execute Modern Workspace infrastructure solutions, including: Installation, configuration, and testing of Microsoft 365, Microsoft Teams, SharePoint, and related technologies based on customer requirements.
+
+Optimization and troubleshooting of Modern Workplace environments.
+
+Provide high-quality service and technical support to customers:
+
+Resolve technical issues related to Modern Workplace solutions.
+
+Provide technical guidance and support to end users.
+
+Collaborate with team members to support successful solution implementation.
+
+Create and maintain technical documentation related to implementation, configuration, and troubleshooting.
+
+Explore and continuously learn both new and existing technologies to improve solution quality and effectiveness.
+
+What We're Looking For
+
+Bachelor’s Degree (S1) in a relevant field.
+
+Minimum 2 years of experience in IT infrastructure or Modern Workplace-related roles.
+
+Strong knowledge of Microsoft 365, Active Directory, and Exchange Server.
+
+Good communication skills and ability to interact with customers and internal teams.
+
+Fast learner with a positive attitude and strong willingness to grow.
+
+Able to work independently and collaboratively in a team environment.",https://id.jobstreet.com/id/job/91777018,monthly salary,IT,indonesia,['r'],1,2026-04-28T10:36:19.243200
+91776988,Product & Presales (Cybersecurity),PT Intikom Berlian Mustika,,"Job Description:
+
+Develop solutions and organize, plan, create, and deliver compelling proof-of-concept demonstrations.
+
+Prepare cost estimates and technical proposals that meet client requirements.
+
+Ensure solutions stated in the Statement of Work adhere to best practices and align with client requirements.
+
+Liaise with principals to gain in-depth knowledge that can be communicated to customers, including user behavior and potential client-requested changes.
+
+Respond to requests for information (RFIs) and request for proposals (RFPs) in a detailed and professional manner.
+
+Regularly meet with team members to discuss progress and identify opportunities for business improvement.
+
+Requirements:
+
+Minimum 3 years of working experience as a Presales Consultant or in Product Management within the IT industry.
+
+Strong knowledge of at least one of the following Security Products is a MUST:
+
+Cloud security (Akamai, Cloudflare)
+
+Microsegementation (Akamai, ColorTokens)
+
+SASE (Zscaler, Netskope)
+
+Document Control (IP-Guard)
+
+Microsoft Security (intune)
+
+Device Management
+
+Bachelor's degree in information technology, System Information, Computer Engineering, or Industrial Engineering.
+
+Ideal candidates will possess excellent communication and presentation skills in both Indonesian and English.
+
+Strong interpersonal skills, including the ability to present to audiences ranging from C-Level executives to end-users. Can clearly articulate the value that Profile products bring to an organization and earn trusted advisor respect. Capable of delivering well-executed system presentations and effectively conveying the product's value.
+
+Willingness to learn Profile products and stay updated with the fast-paced changes in the industry",https://id.jobstreet.com/id/job/91776988,-,IT,indonesia,"['rust', 'r']",2,2026-04-28T10:36:23.471663
+91776982,IT Director,ESQ Group,,"Kualifikasi
+
+Pendidikan minimal S1 di bidang Teknologi Informasi, Sistem Informasi, Teknik Informatika, atau bidang terkait (S2 menjadi nilai tambah)
+
+Memiliki pengalaman minimal 7–10 tahun di bidang IT, dengan pengalaman leadership minimal 3–5 tahun
+
+Memiliki pengalaman dalam mengelola tim IT yang mencakup programmer, database, dan IT support
+
+Memahami arsitektur sistem, pengembangan aplikasi (web/mobile), serta manajemen database
+
+Menguasai konsep IT governance, IT security, dan data protection
+
+Berpengalaman dalam perencanaan dan implementasi transformasi digital
+
+Memiliki kemampuan analisis, problem solving, dan pengambilan keputusan strategis
+
+Mampu menyusun IT roadmap yang selaras dengan visi dan kebutuhan bisnis
+
+Memiliki kemampuan komunikasi, leadership, dan stakeholder management yang kuat
+
+Terbiasa bekerja dengan target, KPI, dan manajemen proyek (Agile/Scrum menjadi nilai tambah)
+
+Memiliki integritas tinggi serta mampu memahami dan mengimplementasikan nilai-nilai ESQ dalam pengelolaan tim
+
+Jobdesk
+
+Menyusun dan mengimplementasikan strategi serta roadmap IT yang selaras dengan visi dan tujuan bisnis ESQ Corps
+
+Memimpin dan mengelola seluruh tim IT (Database, Programmer, dan IT Support) agar berjalan efektif dan produktif
+
+Mengawasi pengembangan, implementasi, dan maintenance sistem/aplikasi internal maupun eksternal
+
+Memastikan keamanan sistem, data, dan infrastruktur IT perusahaan
+
+Mengelola dan mengoptimalkan database perusahaan untuk mendukung kebutuhan operasional dan analisis
+
+Mengarahkan tim programmer dalam pengembangan aplikasi yang scalable, efisien, dan user-friendly
+
+Memastikan layanan IT support berjalan optimal untuk mendukung seluruh unit kerja
+
+Mengelola anggaran IT serta melakukan efisiensi penggunaan teknologi
+
+Berkolaborasi dengan stakeholder lintas divisi untuk memahami kebutuhan dan solusi teknologi
+
+Mengawasi vendor IT dan memastikan kualitas layanan sesuai standar perusahaan
+
+Mengembangkan inovasi digital dan meningkatkan efisiensi proses bisnis melalui teknologi
+
+Menetapkan KPI, melakukan evaluasi kinerja tim, serta pengembangan kompetensi anggota tim IT
+
+Menyusun kebijakan dan SOP terkait penggunaan serta pengelolaan sistem IT",https://id.jobstreet.com/id/job/91776982,,IT,indonesia,"['r', 'agile', 'git', 'scala', 'scrum']",5,2026-04-28T10:36:27.681145
+91776764,Technical Writer,PT ELISTEC INFORMATIKA UTAMA,,"Jobdesk
+
+Menyusun dan memperbarui dokumen teknis pengembangan sistem, termasuk dokumentasi API dan kamus data (Data Dictionary).
+
+Membuat panduan penggunaan aplikasi (User Manual) bagi pengguna internal maupun operasional untuk setiap fitur baru yang dirilis.
+
+Mendokumentasikan seluruh alur proses bisnis yang diimplementasikan ke dalam sistem selama jangka waktu kontrak.
+
+Mengelola arsip dokumentasi proyek agar tersusun secara terstruktur untuk kebutuhan audit dan knowledge transfer.
+
+Menyusun dan memperbarui dokumen STK yang berkaitan dengan TCES.
+
+
+
+
+Kompetensi wajib
+
+Pengalaman minimal 1–3 tahun sebagai Technical Writer atau dokumentasi sistem IT
+
+Mampu menyusun dokumentasi teknis yang terstruktur dan mudah dipahami
+
+Memahami konsep API dan Sistem terintegrasi
+
+Mampu bekerja sama dengan developer, system analyst, QA, dan User
+
+Mampu menyusun dokumentasi dalam Bahasa Indonesia dan Inggris
+
+
+
+
+Kompetensi tambahan
+
+Pengalaman menyusun dan mempersiapkan dokumentasi sistem enterprise
+
+Pengalaman menyusun API documentation, Integration guide, dan Technical handover document",https://id.jobstreet.com/id/job/91776764,,IT,indonesia,['r'],1,2026-04-28T10:36:31.879334
+91776698,DevOps Engineer,PT Asuransi Bina Dana Arta Tbk,,"Key Responsibilities:
+
+Design, deploy, and manage highly available infrastructure on AWS, with a focus on serverless services (Lambda, API Gateway, AWS EventBridge).
+
+Configure and maintain multiple AWS Account, VPCs, firewall, networking components, and IAM security policies to ensure system reliability and security.
+
+Provision, configure, and scale infrastructure using Infrastructure as Code (IaC) tools, primarily Terraform.
+
+Build, maintain, and troubleshoot CI/CD pipelines in Jenkins to support efficient and reliable software delivery.
+
+Set up and manage monitoring, logging, and alerting solutions (CloudWatch, Grafana, Prometheus, OpenSearch) to ensure optimal system health.
+
+Collaborate closely with development teams to ensure seamless application deployment and infrastructure integration.
+
+Participate in incident response, troubleshoot system issues, assist in root cause analysis, and apply reliability improvements.
+
+Provide out-of-hours or weekend support for critical incidents and urgent troubleshooting when required.
+
+Continuously monitor AWS infrastructure, applying a strong cost optimization mindset to improve performance, enhance security, and proactively reduce cloud spend.
+
+Maintain clear documentation for infrastructure, deployment processes, and system configurations.
+
+Qualifications:
+
+Bachelor’s degree in Computer Science, IT, or a related field (or equivalent work experience).
+
+2–4 years of hands-on experience in DevOps, SRE, or Cloud Engineering.
+
+Strong proficiency in both written and spoken English to effectively collaborate with a multinational engineering team.
+
+Solid experience working with AWS services, particularly serverless architecture (Lambda, API Gateway, EventBridge). • Hands-on experience with Terraform for managing and automating infrastructure.
+
+Practical experience in building and maintaining CI/CD pipelines using Jenkins.
+
+Good understanding of networking concepts, VPC design, load balancers (ALB/NLB), firewall, and IAM security principles.
+
+Scripting proficiency (Python, Bash, or similar) for daily automation tasks.
+
+Experience with observability and monitoring tools (CloudWatch, OpenSearch, Grafana, Prometheus).
+
+Familiarity with containerization (ECS, EKS, Docker) is a plus.
+
+A proactive attitude with a strong willingness to learn and adapt to new technologies, tools, and best practices.
+
+Comfortable with a hybrid working style, requiring working from the Jakarta office (WFO) at least 3 days a week.
+
+Strong problem-solving skills and a collaborative, team-oriented mindset.",https://id.jobstreet.com/id/job/91776698,,IT,indonesia,"['bash', 'r', 'docker', 'aws', 'python']",5,2026-04-28T10:36:36.090180
+91776694,.NET Developer,PT ABISHAR TECHNOLOGIES INDONESIA,,"Merancang, mengembangkan, melakukan test dan mendokumentasikan framework dan sistem aplikasi.
+
+Mencari & mempelajari tools development, sistem ataupun device baru agar dapat menghasilkan sistem yang memberikan benefit dan support bagi pengembangan bisnis perusahaan.
+
+Kualifikasi:
+
+Male,usia maks. 32 tahun
+
+Pendidikan minimal S1 di bidang IT
+
+Menguasai- web programming, C# .NET & TSOL
+
+Memahami Visual Studio.Net Programming
+
+Memiliki pengalaman relevan minimal 2-3th",https://id.jobstreet.com/id/job/91776694,Rp 7.000.000 – Rp 8.000.000 per month,IT,indonesia,"['r', 'c#']",2,2026-04-28T10:36:40.426848
+91776669,Korean Interpreter & Technical Coordinator,PT.AGPA Refinery Complex,,"Translation & Interpretation: Real-time interpretation for Korean management and local teams; translating technical document (KR-ID-EN).
+
+Technical Coordination: Supporting communication and coordination regarding project, maintenance, production troubleshooting on-site.
+
+Document Control: Managing technical document (drawings, material, maintenance), project reports, contract and operational licenses
+
+
+
+
+Qualifications
+
+Language: Fluent in Korean (TOPIK 5+) and Indonesian. English proficiency is a plus.
+
+Experience: Experience in industrial/plant sites (Preferred working in Korean EPC project Company. (e.g. RDMP, Line Project).
+
+Skills: Proficient in MS Office and Ability to understand technical processes, Strong interpersonal skills.
+
+Education: Bachelor’s Degree in engineering (Preferred)",https://id.jobstreet.com/id/job/91776669,,IT,indonesia,['r'],1,2026-04-28T10:36:44.694577
+91776601,Internship Program Green School Bali August-December 2026,Green School Bali,,"Join the Semester 1 2026-27 Internship Program
+
+The Green School Internship Program provides a supervised and meaningful working experience for Indonesian university students and/or recent graduates. We offer the unique opportunity to learn, share, and connect with our passionate and resourceful community in a safe, wall-less, and natural environment. Interns also get the chance to be directly involved in real projects and exposed to multiple activities around the campus.
+
+Each year, a diverse group of interns comes with their own special set of interests and skills to share, over the course of one full semester. The program is designed for interns to learn, grow, and take action now. Ultimately, interns will walk out with personal and professional growth, a network of like-minded professionals, and a deeper understanding of education, sustainability, and green innovation projects.
+
+Internships are offered depending on the needs and capacity of our school to receive and supervise interns. Currently, available internship opportunities for August-December 2026 are as below (please open the link for the job description & expectations for each position):
+
+
+
+
+Digital Marketing Intern
+
+IT Support Intern
+
+BirdLab Teacher Intern (International Intern)
+
+Early Years Teacher Assistant Intern
+
+Primary School Teacher Assistant Intern
+
+Finance Admin Intern
+
+
+
+
+Key Requirements
+
+Candidates from university students and/or recent graduates. Having a relevant field of study with the role that you are applying for is strongly preferred, but not mandatory.
+
+Ability to adapt and work collaboratively within our multicultural community
+
+Good English, both in writing and speaking
+
+Interest in education and sustainability fields
+
+Love for being outdoors and working in our wall-less, jungle environment
+
+Willingness to learn new skills
+
+One semester commitment is strongly preferred
+
+
+
+
+What is Covered
+
+Please note that this is a non-paid internship; however, a monthly allowance of IDR 1 million is provided for meal & transport expenses.
+
+
+
+
+What is Not Covered
+
+Flight to and from Bali
+
+Accommodation in Bali
+
+Transportation from and to Green School
+
+
+
+
+Closing Date : None
+
+
+OUR CORE COMMITMENT TO CHILD PROTECTION
+
+Please refer to our Student Safeguarding Policy HERE
+
+Green School Bali is committed to safeguarding and promoting the welfare of all the students in our care and expects all applicants to share this commitment. We follow safe recruitment practices, which are aligned with the recommendations of the International Task Force on Child Protection. We hold ourselves to a high standard of effective recruiting practices with specific attention to child protection. All appointments are subject to an interview, identity checks, criminal record checks, social media checks, successful references, as well as due visa and work permit process as required by Indonesian law.
+
+GSB are committed to diversity within its team, organisational practices, policies and culture. It recognises that people with different backgrounds, skills, attitudes and experiences bring fresh ideas and perceptions, and it encourages and leverages these differences to make its work more relevant and approachable. Green School Bali will not discriminate or tolerate discriminatory behaviour on any grounds such as, but not limited to, race, gender, disability, nationality, national or ethnic origin, religion or belief, marital/partnership or family status, sexual orientation, age or socioeconomic background. Green School Bali strives to be an inclusive workplace where everyone feels a sense of belonging, has a voice, can raise concerns, and feels comfortable and confident. It expects everyone who works with it to share this commitment and to act accordingly, as it aspires to best serve the mission and its community.
+
+
+
+
+Thank you for your interest in Green School Bali.",https://id.jobstreet.com/id/job/91776601,Rp 1.000.000 per month,IT,indonesia,"['r', 'git']",2,2026-04-28T10:36:49.012675
+91776352,IT Business Analyst (SQL),PT 360 TEKNOLOGI INDONESIA,,"Pengalaman IT Business Analyst minimal 3 tahun bekerja
+
+Pendidikan minimal sarjana/S1 dengan minimal IPK 3,0
+
+Onsite di jakarta",https://id.jobstreet.com/id/job/91776352,Rp 6.000.000 – Rp 8.000.000 per month,IT,indonesia,['r'],1,2026-04-28T10:36:53.300444
+91776312,AV Technical Support Officer,Jakarta Intercultural School,,"QUALIFICATIONS, EXPERIENCES & ATTRIBUTES
+
+Bachelor’s Degree in Multimedia, Visual Communication Design, Digital Media, Information Technology, Computer Science, or any other related major.
+
+Fluent in written and spoken English
+
+Experience in AV control systems such as Extron, Crestron, or similar to manage integrated audiovisual systems
+
+Preferably: Experience in filming and editing video, and the use of audiovisual editing software.
+
+Works well with colleagues, children, and the public
+
+Able to solve problems independently 
+
+Demonstrates a willingness to accept training in any area that the Audio-Visual Aide deems appropriate 
+
+Helpful, cooperative, high energy, with engaging people skills 
+
+Attention to detail and a proactive approach to problem-solving
+
+Strong organizational and time-management skills
+
+Adaptable and able to prioritize/manage multiple tasks
+
+Clear commitment to Child Protection, safety, service learning, and environmental stewardship
+
+
+
+
+DUTIES AND RESPONSIBILITIES
+
+AV Equipment Management
+
+Ensure all AV equipment is fully functional and ready for use during events, meetings, and classroom activities.
+
+Coordinate and support the installation, calibration, and configuration of AV systems across the organization.
+
+Manage loaning and booking systems for AV equipment to ensure availability and accountability.
+
+Perform regular inspections, cleaning, and preventive maintenance of AV hardware.
+
+Liaise with vendors for procurement, repairs, and upgrades of AV technology.
+
+Maintain accurate documentation of AV assets, service records, and usage logs.
+
+
+Inter-Library Coordination
+
+Arrange inter-library loans of AV equipment.
+
+
+
+
+Technical Support & Event Coverage
+
+Set up, operate, and troubleshoot AV equipment for school events, assemblies, meetings, and classroom activities.
+
+Operate AV control systems such as Extron, Crestron, or similar to manage integrated audiovisual systems environments in classrooms, auditoriums, and meeting rooms.
+
+Serve as a cameraman for school events and productions, ensuring high-quality footage.
+
+Perform basic video editing tasks for internal documentation, promotional materials, and classroom content.
+
+Provide technical support for live and recorded streaming, hybrid learning environments, and video conferencing setups.
+
+Maintain, test, and troubleshoot multimedia equipment, including cameras, projectors, displays, microphones, audio mixers, and lighting systems.
+
+Ensure readiness and smooth execution of AV setups during school functions, including event-specific support and multimedia content creation.
+
+
+Ongoing Professional Growth
+
+Reflect upon professional practice and engage in learning opportunities.
+
+Set goals for professional development and take advantage of professional development opportunities. 
+
+
+
+
+Other
+
+Embrace the JIS Learning Dispositions of Resilience, Resourcefulness, Relating, and Reflectiveness
+
+Performing other related duties and assuming other responsibilities as assigned by the Head of Technology and the Technical Support and Multimedia Coordinator.",https://id.jobstreet.com/id/job/91776312,,IT,indonesia,"['r', 'git']",2,2026-04-28T10:36:57.504698
+91776174,Information Technology Staff (IT STAFF),,,"Requirement :
+
+Associate degree in IT, Computing or related field.
+
+Capable of troubleshooting and maintain hardware and software
+
+Has experience to manage email server and system to protect information inside the company
+
+Has experience to build up production information system from zero (would be a plus)
+
+Has experience to debug and optimize ERP, e-file, and backup system, etc
+
+Familiar with MySQL, javascript, PHP
+
+Able to work independently under high pressure
+
+job placement: Semarang",https://id.jobstreet.com/id/job/91776174,,IT,indonesia,"['r', 'java', 'mysql', 'javascript', 'sql', 'php']",6,2026-04-28T10:37:01.791151
+91776010,Platform Analyst,CGS International Sekuritas Indonesia,,"Responsibilities:
+
+
+Analyse user/BU requirement and translate it to a technical document.
+
+Analyse performance requirement.
+
+As a technical pair / advisor  of related vendor or internal developer.
+
+ 
+
+Requirement :
+
+Bachelor Degree in IT / Computer Science or equivalent.
+
+Having work experience as platform analyst at least 1-2 years.
+
+Proven experience as System Design, preferably in the fintech or banking industry.
+
+Having Programming, Testing Skill or Literacy
+
+Have knowledge of capital markets will be an advantage.
+
+Strong analytical and decision-making skills.
+
+Good communication skill, detail oriented, positive work attitude and responsive.",https://id.jobstreet.com/id/job/91776010,,IT,indonesia,['r'],1,2026-04-28T10:37:05.967293
+91775571,Assisten Manager Technical Support,PT Mitra Kabel Indonesia (MKI Group),,"Gambaran Umum Pekerjaan
+Kami dari PT Mitra Kabel Indonesia (MKI Group) sedang mencari Asisten Manager Technical Support yang handal dan berdedikasi untuk mendukung operasi teknis bisnis kami di Surabaya, Jawa Timur. Dalam peran ini, Anda akan menjadi bagian integral dari tim teknis kami, memastikan kelangsungan operasi dan kepuasan pelanggan melalui dukungan teknis yang efisien dan efektif.
+
+Tanggung Jawab Utama
+
+Memberikan dukungan teknis dan solusi cepat untuk masalah pelanggan terkait produk dan layanan perusahaan.
+
+Mengkoordinasikan dan mengelola tim teknisi lapangan untuk memastikan penyelesaian masalah pelanggan secara tepat waktu.
+
+Menganalisis tren masalah dan umpan balik pelanggan untuk mengidentifikasi peluang perbaikan proses.
+
+Membantu dalam pengembangan dan implementasi prosedur dan protokol dukungan teknis.
+
+Berkolaborasi dengan tim lain, seperti penjualan dan pemasaran, untuk menyediakan informasi produk dan dukungan teknis.
+
+Memantau dan melaporkan tingkat kepuasan pelanggan terkait dukungan teknis.
+
+Keterampilan, Kualifikasi, dan Pengalaman yang Dibutuhkan
+
+Gelar sarjana dalam bidang Teknik Elektro/Elektronika atau disiplin teknis terkait.
+
+Minimal 3 tahun pengalaman dalam peran dukungan teknis atau manajemen proyek di industri telekomunikasi. terutama yang berkaitan dengan teknologi FTTH (Berpengalaman di ISP lebih disukai).
+
+Pengetahuan teknis yang kuat dalam jaringan, fiber optik, GPON, sistem OLT/ONT, dan infrastruktur telekomunikasi.
+
+Berpengalaman dalam setting dan troubleshoot perangkat mikrotik, router AP dan Operating Sytem.
+
+Keterampilan komunikasi yang baik, baik secara lisan maupun tertulis, untuk berinteraksi dengan pelanggan dan rekan kerja.
+
+Kemampuan bekerja dalam tim dan berkolaborasi dengan efektif.
+
+Bersedia untuk melakukan perjalanan dinas jika diperlukan.",https://id.jobstreet.com/id/job/91775571,,IT,indonesia,['r'],1,2026-04-28T10:37:10.205645
+91774467,Channel Manager,PT Alfa Siber Teknologi,,"Responsibilities:
+
+Mengidentifikasi, merekrut, dan membina Partner/Reseller baru.
+
+Melakukan Enablement (pelatihan) kepada tim sales partner agar fasih menjual solusi kita.
+
+Menyusun program insentif dan strategi Go-to-Market bersama partner.
+
+Qualification:
+
+Min. 2-3 tahun pengalaman di Channel Management (Distributor IT/Cybersec).
+
+Memiliki jaringan luas dengan SI/Reseller di Indonesia.
+
+Kemampuan negosiasi dan presentasi yang persuasif.",https://id.jobstreet.com/id/job/91774467,,IT,indonesia,['r'],1,2026-04-28T10:37:14.464674
+91774444,Dealer Management Support,PT Intrias Mandiri Sejati,,"Job Description
+
+* Handle and manage dealer database
+
+* Maintain and update dealer master data (active, inactive, new, closed dealers)
+
+* Ensure data accuracy across internal systems (sell-in, sell-through, activation, inventory)
+
+* Monitor dealer lifecycle (onboarding, activation, deactivation, reactivation)
+
+* Manage and monitor monthly dealer targets and coordinate with regional teams
+
+* Track and analyze dealer performance
+
+* Ensure smooth operational processes related to dealer management
+
+* Support dealer development initiatives to drive sales growth and network efficiency
+
+🎯 Requirements
+
+* Proficient in Microsoft Excel (data analysis, reporting, spreadsheet management)
+
+* Strong analytical skills and attention to detail
+
+* Good communication skills (verbal & written)
+
+* Responsible, reliable, and able to work with integrity
+
+* Able to work under tight deadlines and pressure
+
+* Bachelors Degreee in Reputable University
+
+* English proficiency is a plus",https://id.jobstreet.com/id/job/91774444,Rp 6.000.000 – Rp 7.000.000 per month,IT,indonesia,"['r', 'react']",2,2026-04-28T10:37:18.696383
+91506995,"PLTU Power Plant Talent Pool – Operations, Technical & Support Functions",PT BHUMI JEPARA SERVICE,,"Our company is currently building a talent pool database for professionals who have experience in Coal-Fired Power Plant (PLTU) operations and support functions.
+
+This posting is intended to collect potential candidates for future opportunities within our plant operations.
+
+We invite candidates who have knowledge or experience in the following areas:
+
+Technical & Operations Area
+
+Mechanical Technician – maintenance of turbine, pump, compressor, rotating equipment, and mechanical systems.
+
+Electrical Technician – maintenance of motor, electrical panels, switchgear, transformer, and electrical distribution systems.
+
+Plant Operator – operation and monitoring of power plant equipment such as boiler, turbine, generator, and auxiliary systems.
+
+Performance Engineer / Performance Staff – monitoring plant efficiency, heat rate analysis, and operational performance improvement.
+
+Chemist / Laboratory – water chemistry control, coal analysis, and laboratory testing to support plant operations.
+
+Jetty & Material Handling – operation and monitoring of coal unloading, conveyor system, coal yard, and jetty operation.
+
+Safety & Environmental
+
+Health, Safety & Environmental (HSE) – implementation of safety management system, environmental monitoring, and compliance with regulatory standards.
+
+Engineering & Planning
+
+Engineering – technical analysis, system improvement, and engineering support for plant equipment.
+
+Planning / Maintenance Planning – maintenance scheduling, outage planning, and work coordination.
+
+Commercial & Support Functions
+
+Accounting & Finance (ACT) – financial reporting, budgeting, and cost monitoring.
+
+Procurement & Warehouse – procurement process, vendor coordination, and inventory management for plant materials and spare parts.
+
+Human Resources, General Affairs, IT & Site Services (HRGA) – HR administration, recruitment, employee development, industrial relations, IT support and infrastructure management, site services, facility management, transportation, accommodation, and general affairs area management.
+
+General Requirements
+
+Minimum Diploma (D3) / Bachelor Degree (S1) in relevant field.
+
+Experience in Power Plant / Industrial Plant environment in relevant position with minimum 5 years experience.
+
+Understanding of plant operation, maintenance practices, and safety standards.
+
+Good teamwork, analytical, and communication skills.
+
+Note
+
+This advertisement is intended for talent pooling purposes. Only shortlisted candidates will be contacted when relevant opportunities become available.",https://id.jobstreet.com/id/job/91506995,,IT,indonesia,['r'],1,2026-04-28T10:37:22.901490
+91773477,Sysadmin,Internet Service Provider,,"Persyaratan :
+
+Pendidikan Minimal S1/D3 Teknik Informatika/Sistem Informasi.
+
+Memiliki komunikasi yang baik dan dapat bekerja dalam tim.
+
+Memiliki kemampuan Manajemen Waktu.
+
+Kreatif, Analitis, Disiplin dan Teliti.
+
+Familiar dengan Cloud dan Virtualisasi.
+
+Tugas dan tanggung jawab:
+
+Strong Logical Thinking & Problem Solving yang kuat.
+
+Menguasai Server OS: Linux, Server, Configuration & Deployment.
+
+Mengerti Hardware Server dan paham atur Migrasi antar Server.
+
+Pemahaman Infrastruktur IT & memiliki logika Pemograman dengan baik.
+
+Memiliki kemampuan Monitoring & Security Sistem yang baik.
+
+Mengerti Topologi Jaringan, Topologi Mall Server, DNS & NMS Server.
+
+Mengerti cara membangun Server Clustering.
+
+Diutamakan pelamar yang berdomisili Depok dan sekitarnya.",https://id.jobstreet.com/id/job/91773477,,IT,indonesia,"['r', 'linux']",2,2026-04-28T10:37:27.152119
+91773174,Project Manager,,,"Job Descriptions:
+
+Manage the daily routine of maintenance of the showroom (changing the display) (including manage the repair work when it is applicable)
+
+Manage the routine of the repair and renovation work on the other company properties such as warehouses and offices
+
+Qualifications:
+
+Education background of Architecture or Interior Designer or Civil Engineer
+
+Experience in project management; starting from planning (coordinating with consultant); tender process and supervision on the site works
+
+Ability to coordinate with other department in the company to plan on the next renovation work and prepare accordingly (be it manage the detail works inhouse or employ external consultant to do the job) from the planning stage all the way until execution on the site
+
+Have a good conceptual understanding and reasonable good knowledge on the MEP discipline other than understanding on structural/construction details
+
+Ability to work under pressure (constraint on cost and time and resources) and maintain good coordination with other department (sales; GA; procurement; legal; etc)
+
+Ability to coordinate and manage the visual merchandising works which concept coming from the marketing department and then executing it on site with real construction works
+
+Ability to identify the common design and standard details of each individual showrooms (including the signature showroom) and then prepare a standard performance of it
+
+Ability to work independently and make fast decision in a fast paced environment
+
+Knowledge or experience of tiling works will be a plus point
+
+A fair knowledge of additional language (spoken English and or Chinese) will be a plus",https://id.jobstreet.com/id/job/91773174,,IT,indonesia,['r'],1,2026-04-28T10:37:31.436662
+91772701,Area Manager (Indonesia),EDU Corporate Services Pty Ltd.,,"About EDU:
+
+EDU is an Australia based  (ASX-listed) company focused on delivering quality education in the Health and Community Services sectors. We empower individuals towards meaningful careers through our two key businesses:
+
+Australian Learning Group (ALG) - VET provider for international students. Learn more about ALG.
+Ikon Institute of Australia (Ikon) - HE provider for domestic and international students. Learn more about Ikon.
+
+About You:
+
+As the Area Manager (Offshore), you will be responsible for driving international student recruitment in your designated region. Your role will include promoting our courses, ensuring that education agents adhere to company policies and regulatory requirements, and providing essential support and training to agents to facilitate smooth student enrolment. You will work closely with various internal teams to achieve recruitment targets and maintain strong relationships with external partners.
+
+You will be working remotely.
+
+Key Responsibilities
+
+Promoting Institutions and Courses
+
+Actively promote EDU’s Institutions (ALG and Ikon) and courses to prospective international students.
+Ensure all marketing materials and promotional content comply with EDU’s guidelines and receive prior approval from the company before publication.
+
+Agent Management and Training
+
+Train education agents (both new and experienced) to ensure they have access to the latest information about EDU’s Institutions and Courses.
+Ensure all education agents attend required training workshops and understand the policies and directives related to marketing and promoting our courses.
+
+Application and Admission Process
+
+Ensure agents provide students with all relevant documentation, including the institution’s prospectus, application forms, and details of the course entry requirements.
+Oversee the collection and submission of required student documentation, such as proof of OSHC and signed written agreements.
+
+Compliance and Regulatory Requirements
+
+Ensure education agents follow all local and Australian regulatory obligations, including the ESOS Framework.
+Ensure agents inform students about the cost of living in Australia and other important requirements (e.g., schooling fees for dependents).
+Ensure that education agents act in accordance with the VET Regulator and meet compliance standards, including those outlined in the Standards for Registered Training Organisations (RTO).
+
+Market and Recruitment Insights
+
+Provide regular reports on market developments and recruitment opportunities in your region.
+Offer insights and feedback to the company regarding the status of applicants and market trends.
+
+Education, Experience, and Skills
+
+Tertiary Qualification
+
+A relevant undergraduate qualification (e.g., in Business, Marketing, Education, or International Relations) is preferred. Postgraduate qualifications will be highly regarded.
+
+Experience
+
+Minimum 3 years’ experience in international student recruitment or agent management, preferably within the offshore education sector
+Proven track record in managing education agents and delivering recruitment targets in international markets.
+Experience in training and supporting education agents to ensure they are well-equipped with up-to-date course information and recruitment practices.
+Experience in marketing and developing promotional activities to drive international student enrolment, particularly in a cross-cultural setting.Skills:
+
+Technology Proficiency
+
+Strong knowledge of Microsoft Office (Word, Excel, PowerPoint), and familiarity with CRM systems (e.g., Salesforce, HubSpot) to track leads, manage agent relationships, and report on recruitment activities.
+
+Why Join us? 
+
+A supportive team - When you work with us, you’re not just a team member—your part of a supportive community that lifts each other up, values every contribution, and thrives on mutual respect. 
+
+Career progression - Here, you’ll find an environment where your ideas matter, your growth is prioritized, and you’re empowered to do your best work—because when we succeed, we do it together 
+
+A positive and fun work environment- Work should be more than just a job—it should be an experience you enjoy! 
+
+Daily breakfast supplied - We believe that a positive and fun work environment starts with the little things, and what’s better than breakfast? 
+
+Training and Development opportunities - Professional development allowance available to invest in your future & help you stay at the forefront of your field 
+
+Diversity & Inclusion - We celebrate diversity and are committed to reflecting Australian society to better serve our students. We encourage applications from Aboriginal and Torres Strait Islander people, culturally and linguistically diverse people, people with disabilities, sexually and gender diverse people, and individuals of all ages. 
+
+Next steps
+
+Please apply online or send your resume and a covering letter summarising your relevant skills and experience to trisha.singson@edu.com.au",https://id.jobstreet.com/id/job/91772701,,IT,indonesia,['r'],1,2026-04-28T10:37:35.704290
+91772277,IT Officer,PT Nugraha Tanamal,,"Job Description
+
+Maintains company systems and networks to ensure everything runs smoothly and securely.
+
+Oversee the management, monitoring, and development of IT systems to ensure operational efficiency.
+
+Manage IT related infrastructure; physical (laptop, router, switch, etc), digital (internet, server, etc) and working license for every employees.
+
+Develop and manage annual IT budget to align with organizational goals.
+
+Prepare and maintain technical documentation, maintenance, reports, and system updates.
+
+
+
+
+Qualification
+
+Minimum Bachelor’s Degree (S1) in Information Technology, Information Systems, Computer Science, or related field.
+
+3+ years of experience in similar field (IT support, network/system operations).
+
+Strong troubleshooting and problem-solving skills across systems, networks, and applications.
+
+Good communication, able to work both independently and in a team.Detail-oriented, proactive, able to manage multiple tasks with continuous improvement attitude.
+
+Able to join immediately.
+
+Domicile Makassar would be preferred.",https://id.jobstreet.com/id/job/91772277,,IT,indonesia,"['r', 'git']",2,2026-04-28T10:37:40.011779
+91769607,Executive Engineer,PT OSI ELECTRONICS,,"Overview
+
+For over 35 years, OSI Electronics has provided Manufacturing Solutions of the highest quality,
+reliability,and customer support. We specialize in customized Manufacturing Solutions with the portfolio
+of services,capabilities, and factory locations needed to provide our customers with a competitive
+advantage in theglobal marketplace.
+OSI Electronics offers turnkey solutions for the full range of assembly complexity. We partner with
+Customers on Product Development, New Product Introduction, Mass Production, Sustaining
+Engineeringand Product Lifecycle Management. Our cutting edge technology, manufacturing proficiency
+and responsivetechnical services deliver the Tier One capabilities Customers require
+
+
+Responsibilities
+Process Optimization: Develop and optimize SMT/wave soldering process parameters to improve yield and reduce defects.
+Machine Troubleshooting: Perform hands-on troubleshooting and maintenance of SMT/Wave machines to ensure operational reliability.
+Yamaha SMT Programing Proficiency include AOI &SPI SMT Machine troubleshooting skills
+Experience Wave soldering technology, fluxing and soldering defect dianogsis
+Experience introducing new product to mass production
+Process validation, PFMEA, GMP, ect
+Quality Management: Conduct failure analysis (FA) on defect parts and implement corrective actions (CAPA).
+Interacting with the clients and understanding their requirements effectively
+Plan work according to the client requirements and manage the time
+Supervising the engineers and assistant engineers
+Guiding and suggesting changes, requirements, and necessities in the project
+Training the newly joined employees and educating them about the company policies, rules,and their duties
+Maintaining records of the ongoing projects and document them properly
+Prepare presentations for the clients
+Document reports and submit them to higher authorities
+Manage budget of the project and submit it to the management and accounts department
+Interviewing candidates and judging them appropriately
+Ensure proper safety policies for the employees
+Evaluate employees according to their intellect, work skills, and punctuality.
+
+Qualifications
+Min. 5 years in same field
+Equipment Engineering support, sparepart, inventory ordering & replacement evaluate m/c problems, conduct rootcouse analysis, and provide solutions to preventpotential problems and to optimize process yield
+Provide countinous improvement in resolving related m/c issue, cycle time rduction.
+Understanding PCBA material, component type, soldering and PCB layout design (CAD tools)
+Familiar with IPC Standart (IPC-A610 and ISO IATF)
+Guide Technician and equipment engineering
+Excellent communication skills useful for interacting with clients and customers
+Knowledge about management
+Expert organizational skills
+Expert in prioritizing and planning work
+Expert in time management and completing work in time
+Good in mathematical calculations
+Ability to maintain special relations with employees
+Expert interacting skills
+Ability to take quick decisions.
+Great analytical and math skills",https://id.jobstreet.com/id/job/91769607,,IT,indonesia,['r'],1,2026-04-28T10:37:44.414025
+91767660,DevOps Officer,PT Sangkuriang Internasional,,"Key Responsibilities:
+
+Set up and deploy both hardware and software components in accordance with project's requirements and timeline.
+
+Monitor system performance and implement improvements.
+
+Manage and optimize server infrastructure and services, either in the form of pure cloud-based or private cloud/on-premise facilities.
+
+Ensure security best practices are implemented throughout all aspects of infrastructure.
+
+Troubleshoot production issues and coordinate with the development team to streamline code deployment.
+
+Execute and apply all of the above by way of both remote and on-site work as required
+
+Stay updated with industry best practices and technologies in DevOps, cloud computing and network security.
+
+
+Requirements:
+
+Bachelor’s degree in Computer Science, Engineering, or a related field (or equivalent work
+experience).
+
+Proven experience as a DevOps Engineer, DevOps Officer, or similar role.
+
+Strong knowledge of cloud platforms (AWS, Azure, GCP) and cloud-native services
+
+Proficiency in scripting and automation (e.g., Python, Bash, PowerShell).
+
+Experience with containerization and orchestration tools (e.g., Docker, Kubernetes).
+
+Familiarity with configuration management tools (e.g., Ansible, Chef, Puppet).
+
+Basic-to-intermediate understanding of data storage and database platforms, including but not limited to hadoop/hive/spark/flink, s3-compliant platforms, various rdbms and nosql techs
+
+Understanding of networking concepts and protocols
+
+Excellent problem-solving and communication skills.
+
+Ability to work both independently and collaboratively in a fast-paced environment.
+
+Availability to occasionally work outside working days and working hours",https://id.jobstreet.com/id/job/91767660,,IT,indonesia,"['bash', 'spark', 'r', 'hadoop', 'azure', 'gcp', 'docker', 'sql', 'kubernetes', 'aws', 'python']",11,2026-04-28T10:37:50.231486
+91768253,Network Engineer,PT Sangkuriang Internasional,,"Key Responsibilities:
+
+Be on work site on standard workdays and hours.
+
+Involved in deployment of both hardware and software components of the networking stack, in accordance with project's requirements and timeline.
+
+Manage and monitor network health and performance, implement fixes and improvements as necessary.
+
+Collaborate with all other stakeholders within the work, including but not limited to technical team/people from the client and other vendors.
+
+Ensure security best practices are implemented throughout all aspects of networking.
+
+Stay updated with industry best practices and technologies in network security.
+
+
+
+
+
+Requirements:
+
+Bachelor’s degree in Computer Science, Information Technology, or a related field (or equivalent work experience).
+
+Proven experience as a Network Engineer, Network/System Administrator or similar role.
+
+Strong knowledge and practical applications of network stacks technologies, both physical/bare-metal and virtualized
+
+Hold valid CCNA certification
+
+Excellent problem-solving and communication skills.",https://id.jobstreet.com/id/job/91768253,,IT,indonesia,['r'],1,2026-04-28T10:37:54.556069
+91767810,Teknisi Jaringan Wifi - Bali,PT Duta Generasi Mandiri,,"Kualifikasi :
+
+Pendidikan min. SMA/SMK
+
+Pengalaman dibidang fiber optik, FTTH, ISP atau IT
+
+Siap ditempatkan di semua area bali
+
+Siap bergabung cepat
+
+
+
+
+Benefit :
+
+Gaji Pokok UMK terbaru sesuai penempatan
+
+Tunjangan pendidikan (untuk D3/S1)
+
+BPJS Kesehatan dan Ketenagakerjaan
+
+THR
+
+Lembur",https://id.jobstreet.com/id/job/91767810,Rp 3.100.000 – Rp 4.000.000 per month,IT,indonesia,['r'],1,2026-04-28T10:37:58.849249
+91767693,Technical Consultant - Server Storage,PT Cemerlang Tunggal Intikarsa (CTI Group Jakarta),,"Requirements:
+
+1) Fresh Graduate of Bachelor Degree in Informatics Engineering / Telecommunication / Computer Engineering
+
+2) Have basic knowledge in Information Technology (server and storage, network, IT infrastructure, fundamental coding)
+
+Responsibilities:
+
+1) Perform technical demonstration and testing to ensure meet the customer expectations and provide documents needed.
+
+2) Deliver implementation, maintenance, configuration, migration, troubleshooting, and project documentation",https://id.jobstreet.com/id/job/91767693,,IT,indonesia,['r'],1,2026-04-28T10:38:03.101372
+91767646,Technical Manager - Data Center,Jones Lang LaSalle Property Consultants Pte Ltd,,"Target Start date: June 1
+
+Technical Manager provides day-to-day oversight, managing 24/7 of data center facilities engineer include DLP and BMS team to perform monitoring, maintenance, repair, and installation of the facility as it pertains to electrical systems, mechanical systems, fire system, DLP, technical drawing, capacity planning, support colocation project, including with IT operation, building maintenance and all other aspects in maintaining availability, reliability and customer SLA.
+
+Responsibilities :
+
+Leading section technical who consists of Mechanical, Electrical, Control, Fire System, Warranty/DLP engineers.
+
+Responsible for creation and maintenance of published documentation such as SOP, operations manuals, rack diagrams, floorplans, and contact information.
+
+Create and prepare document:
+
+Weekly report to JLL management and DATA CENTER OWNER OPS.
+
+Monthly report to JLL management and DATA CENTER OWNER OPS.
+
+Maintenance schedule for equipment (PPM 52).
+
+Metric Achievement reliability, MTTR and MTBF
+
+Prepare and maintain technical escalation workflow
+
+Plant proposal improvement and modification
+
+Draft RCA for Incident, failure or asset breakdown
+
+Monitoring and collect data for:
+
+Daily Activity Report.
+
+Incident Tracker.
+
+Fuel consumption record.
+
+PM realization report.
+
+SLA tracker.
+
+Utility meter report.
+
+OT system (CMMS and DCIM) data update
+
+Create HSE weekly report and monthly report.
+
+Create report for client base on periodic (daily, weekly, monthly, quarterly, etc), includes:
+
+Report power racks.
+
+Report temperature and humidity.
+
+Report incident.
+
+Report PPM schedule.
+
+Report physical access log.
+
+Report ticket Log.
+
+Report cross connection ticket.
+
+Monitoring capacity planning, based on threshold in electrical and mechanical side.
+
+Hiring and training for technical engineer and operation team.
+
+Provide direction to team or spread new information.
+
+Coordinate and make schedule for meetings.
+
+Manage HR IS process among the technical team section
+
+Manage Building and Facilities Certifications and coordinate with DATA CENTER OWNER Technical team for any escalation.
+
+Requirements:
+
+Bachelor’s Degree or Technical Degree in electrical or mechanical engineering or
+
+7+years of relevant work experience at data center operator and or Critical Facilities
+
+In-depth knowledge and skill capabilities of electrical or mechanical design project and dc operation.
+
+Extensive knowledge of data center critical systems,
+
+High/Low voltage electrician license or certification
+
+Good communication skills, both written and presentation (fluent in English)
+
+High adaptability and motivated self-starter
+
+Ability to prioritize in complex, fast-paced environment, attention to detail",https://id.jobstreet.com/id/job/91767646,"Rp 15,000,000 – Rp 20,000,000 per month",IT,indonesia,"['r', 'scala']",2,2026-04-28T10:38:07.874767
+91767571,Product Owner (Associate - Senior/Lead Level Available),PT Dwi Cermat Indonesia,,"Job Description
+
+
+Research, analyze, define product features and you create metrics to measure the impact of your product to the company
+Be the primary driver of your product's planning and execution
+Write the specs of new features and enhancements
+Come up with product road map and rally other people to join your cause to realize your product vision. You are expected to be able to prototype your vision to convince others if necessary.
+Work with engineers, designers, ops, sales, legal and even external partners to make things happen
+
+Qualifications
+
+
+Basic Qualifications:
+
+Minimum Bachelor’s Degree (S1)
+Passionate in data-driven product development and has excellent analytical skills to process the data
+Detail oriented
+Strong planner and very organized
+A strong drive to make things happen
+Solid oral and written communications skills
+
+Preferred Qualifications (Not required but nice to have):
+
+3+ years of experience for senior level (with IT/Computer Science related degree) in product management in strong tech company with demonstrable success in launching new products, improving products or features that brings impactful business value
+Has prior experience as a product manager / software developer / UX designer / project manager
+Proficiency in, at least, one programming language such as Java, PHP, Javascript, Python, Ruby, Rust, Go, Haskell
+Has prior experience in agile product development
+Has advanced degrees i.e. Masters, Phd, MBA, etc",https://id.jobstreet.com/id/job/91767571,,IT,indonesia,"['rust', 'r', 'agile', 'java', 'javascript', 'python', 'php']",7,2026-04-28T10:38:12.136655
