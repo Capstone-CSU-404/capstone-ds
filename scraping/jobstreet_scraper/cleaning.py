@@ -1,11 +1,3 @@
-"""
-Gabungkan, cleaning, dan standarisasi semua CSV checkpoint hasil scraping JobStreet.
-
-Cara pakai:
-  1. Set INPUT_DIR ke folder tempat semua CSV checkpoint berada
-  2. Jalankan: python gabung_cleaning_standarisasi.py
-"""
-
 import os
 import re
 import ast
@@ -333,4 +325,3 @@ for skill, cnt in Counter(flat).most_common(20):
     bar = "█" * int(pct / 2)
     print(f"   {skill:<20} {cnt:>4} ({pct:4.1f}%)  {bar}")
 
-print("\n✅ Selesai!")
