@@ -112,7 +112,9 @@ STANDARD_ROLES = {
         "analytics", "bi analyst", "reporting analyst",
         "financial analyst", "market analyst", "marketing analyst",
         "data analytics", "operation analyst", "supply analytics",
-        "lead analyst",
+        "lead analyst", "bi developer", "business intelligence developer",
+        "power bi", "tableau developer", "looker developer",
+        "bi development", "bi specialist", "data visualization", "data viz", "dashboard developer",
     ],
     "Data Engineer": [
         "data engineer", "etl engineer", "data pipeline",
@@ -122,12 +124,7 @@ STANDARD_ROLES = {
     "ML Engineer": [
         "machine learning engineer", "ml engineer", "mlops",
         "ai engineer", "deep learning", "computer vision engineer",
-        "llm engineer", "generative ai",
-    ],
-    "BI Developer": [
-        "bi developer", "business intelligence developer",
-        "power bi", "tableau developer", "looker developer",
-        "bi development", "bi specialist",
+        "llm engineer", "generative ai","AI",
     ],
     "Backend Developer": [
         "backend developer", "back-end developer", "backend engineer",
@@ -149,25 +146,16 @@ STANDARD_ROLES = {
     "DevOps Engineer": [
         "devops", "devsecops", "cloud engineer", "site reliability",
         "sre engineer", "infrastructure engineer", "platform engineer",
-        "system administrator", "sysadmin", "cloud architect",
-    ],
-    "Mobile Developer": [
-        "mobile developer", "android developer", "ios developer",
+        "system administrator", "sysadmin", "cloud architect", "mobile developer", "android developer", "ios developer",
         "flutter developer", "react native developer", "mobile engineer",
         "kotlin developer", "swift developer",
     ],
-    "QA Engineer": [
-        "qa engineer", "quality assurance", "quality engineer",
-        "test engineer", "qa automation", "software tester",
-        "automation tester", "sdet",
-    ],
-    "System Analyst": [
-        "system analyst", "systems analyst", "it analyst",
-        "business system analyst", "functional analyst",
-    ],
     "Software Engineer": [  # fallback umum — taruh paling bawah
         "software engineer", "software developer", "programmer",
-        "it engineer", "tech lead", "technical lead",
+        "it engineer", "tech lead", "technical lead", "system analyst", "systems analyst", "it analyst",
+        "business system analyst", "functional analyst", "solution architect", "software architect","qa engineer", "quality assurance", "quality engineer",
+        "test engineer", "qa automation", "software tester",
+        "automation tester", "sdet",
     ],
 }
 
