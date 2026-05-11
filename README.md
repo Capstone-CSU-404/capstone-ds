@@ -10,7 +10,7 @@
 |----|-------|--------|--------|
 | 1 | Mengumpulkan & menganalisis permasalahan, menentukan solusi utama | ✅ | Project Brief |
 | 2 | Mendefinisikan pertanyaan bisnis yang dapat diukur | ✅ | Business Questions Document |
-| 3 | Data Wrangling (Gathering, Assessing, Cleaning) | ⏳ | Clean Dataset |
+| 3 | Data Wrangling (Gathering, Assessing, Cleaning) | ✅ | Clean Dataset |
 | 4 | Exploratory Data Analysis (EDA) | ⏳ | Insights Report |
 | 5 | Visualisasi data & explanatory analysis | ⏳ | Charts & Dashboard |
 | 6 | Dashboard interaktif dengan Streamlit | ⏳ | Live Dashboard |
