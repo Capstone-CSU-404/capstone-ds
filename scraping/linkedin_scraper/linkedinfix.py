@@ -66,7 +66,7 @@ login(LINKEDIN_EMAIL, LINKEDIN_PASSWORD)
 # ─────────────────────────────────────────────
 SKILLS_LIST = {
     'python','java','javascript','typescript','golang','php','swift','kotlin',
-    'scala','r','c++','c#','rust','react','angular','vue','django','flask',
+    'scala','c++','c#','rust','react','angular','vue','django','flask',
     'fastapi','spring boot','express','tensorflow','pytorch','keras',
     'scikit-learn','pandas','numpy','sql','postgresql','mysql','mongodb',
     'redis','elasticsearch','aws','gcp','azure','docker','kubernetes',

@@ -13,19 +13,19 @@ import os
 
 # KONFIGURASI
 TARGET_JOB_ROLES = [
-    "Web Developer"
+    "Full Stack Developer"
 ]
 
 LOCATION      = "indonesia"
 JOBS_PER_ROLE = 2000
-OUTPUT_DIR    = r"C:\Users\ADVAN\Downloads\dicodingcamp\capstoneproject\jobstreet\hasilhasil"
+OUTPUT_DIR    = r"C:\Users\asus3\Documents\CPSTNPROJECT\capstone-ds\Data"
 
 os.makedirs(f"{OUTPUT_DIR}/raw",       exist_ok=True)
 os.makedirs(f"{OUTPUT_DIR}/processed", exist_ok=True)
 
 SKILLS_LIST = {
     'python','java','javascript','typescript','golang','php','swift','kotlin',
-    'scala','r','c++','c#','rust','react','angular','vue','django','flask',
+    'scala','c++','c#','rust','react','angular','vue','django','flask',
     'fastapi','spring boot','express','tensorflow','pytorch','keras',
     'scikit-learn','pandas','numpy','sql','postgresql','mysql','mongodb',
     'redis','elasticsearch','aws','gcp','azure','docker','kubernetes',
