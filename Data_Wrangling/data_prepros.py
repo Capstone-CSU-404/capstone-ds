@@ -19,7 +19,7 @@ sns.set_theme(style="whitegrid", palette="muted")
 # ════════════════════════════════════════════════════════════
 # KONFIGURASI
 # ════════════════════════════════════════════════════════════
-INPUT_FILE  = "C:\\Users\\asus3\\Documents\\CPSTNPROJECT\\capstone-ds\\Data_Wrangling\\Data_Fixed\\linkedin_jobs_clean.csv"       # ← file hasil merge + cleaning kamu
+INPUT_FILE  = "C:\\Users\\asus3\\Documents\\CPSTNPROJECT\\capstone-ds\\Data_Wrangling\\Data_Fixed\\FinalFile_EDA.csv"       # ← file hasil merge + cleaning kamu
 OUTPUT_DIR  = "C:\\Users\\asus3\\Documents\\CPSTNPROJECT\\capstone-ds\\Data_Wrangling\\Data_Fixed"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
