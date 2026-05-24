@@ -158,8 +158,8 @@ SENIORITY_COLORS = {
 # DATA LOADING
 # ─────────────────────────────────────────────────────────────
 @st.cache_data
-def load_data(uploaded_file):
-    df = pd.read_csv(uploaded_file)
+def load_data(path_or_file):
+    df = pd.read_csv(path_or_file)
 
     # Normalize column names
     df.columns = df.columns.str.strip().str.lower().str.replace(' ', '_')
@@ -226,10 +226,9 @@ def load_data(uploaded_file):
 # ─────────────────────────────────────────────────────────────
 with st.sidebar:
     st.markdown("## 💼 IT Jobs Dashboard")
-    st.markdown("**Pasar Kerja IT Indonesia**  \nApr – Mei 2026")
+    st.markdown("**Pasar Kerja IT Indonesia**")
     st.markdown("---")
 
-    st.markdown("---")
     st.markdown("### 🔍 Filter Data")
 
 
