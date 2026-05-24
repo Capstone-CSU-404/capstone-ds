@@ -29,6 +29,8 @@ JOBS_PER_ROLE  = 1000 # target per role
 OUTPUT_DIR     = r"C:\Users\asus3\Documents\CPSTNPROJECT\capstone-ds\Data"
 os.makedirs(f"{OUTPUT_DIR}/raw",       exist_ok=True)
 os.makedirs(f"{OUTPUT_DIR}/processed", exist_ok=True)
+# Date posted filter: use LinkedIn parameter for "Past week" (r604800)
+DATE_POSTED_PARAM = "f_TPR=r604800"
 
 # ─────────────────────────────────────────────
 # SETUP DRIVER
@@ -111,7 +113,8 @@ def safe_attr(el, css, attr, default=""):
 def scrape_jobs_for_role(role, location, target_count):
     keywords = role.replace(" ", "%20")
     loc_enc  = location.replace(" ", "%20")
-    url = f"https://www.linkedin.com/jobs/search/?keywords={keywords}&location={loc_enc}"
+    # Append date-posted filter (Past week) via query parameter
+    url = f"https://www.linkedin.com/jobs/search/?keywords={keywords}&location={loc_enc}&{DATE_POSTED_PARAM}"
     
     driver.get(url)
     time.sleep(4)
