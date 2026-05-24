@@ -11,6 +11,7 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 from collections import Counter
 import re
+import os
 
 # ─────────────────────────────────────────────────────────────
 # PAGE CONFIG
@@ -228,12 +229,6 @@ with st.sidebar:
     st.markdown("**Pasar Kerja IT Indonesia**  \nApr – Mei 2026")
     st.markdown("---")
 
-    uploaded_file = st.file_uploader(
-        "FinalFile_EDA.csv",
-        type=["csv"],
-        help="Kolom: title, search_role, job_level, company, location, salary_avg, extracted_skills, skills_count"
-    )
-
     st.markdown("---")
     st.markdown("### 🔍 Filter Data")
 
@@ -241,9 +236,11 @@ with st.sidebar:
 # ─────────────────────────────────────────────────────────────
 # LOAD DATA
 # ─────────────────────────────────────────────────────────────
-if uploaded_file:
-    df_raw = load_data(uploaded_file)
-    data_source = "📁 Data Upload"
+# Use default local file if present (no interactive path input in sidebar)
+default_path = r"C:\Users\asus3\Documents\CPSTNPROJECT\capstone-ds\Data_Wrangling\Data_Fixed\FinalFile_EDA.csv"
+if os.path.exists(default_path):
+    df_raw = load_data(default_path)
+    data_source = "📁 Local Path"
 else:
     df_raw = None
     # Apply feature engineering to demo data too
