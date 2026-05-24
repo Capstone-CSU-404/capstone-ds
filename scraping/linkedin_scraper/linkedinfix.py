@@ -1,6 +1,4 @@
 #Install
-
-
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
@@ -17,8 +15,8 @@ import os
 # ─────────────────────────────────────────────
 # KONFIGURASI
 # ─────────────────────────────────────────────
-LINKEDIN_EMAIL    = "gmailmu"   # ← ganti
-LINKEDIN_PASSWORD = "passwordmu"          # ← ganti
+LINKEDIN_EMAIL    = "firmanadik09@gmail.com"   # ← ganti
+LINKEDIN_PASSWORD = "Fak_1809"          # ← ganti
 
 TARGET_JOB_ROLES = [
     "Developer","Software","Progammer"
@@ -30,7 +28,6 @@ OUTPUT_DIR     = r"C:\Users\asus3\Documents\CPSTNPROJECT\capstone-ds\Data"
 os.makedirs(f"{OUTPUT_DIR}/raw",       exist_ok=True)
 os.makedirs(f"{OUTPUT_DIR}/processed", exist_ok=True)
 # Date posted filter: use LinkedIn parameter for "Past week" (r604800)
-DATE_POSTED_PARAM = "f_TPR=r604800"
 
 # ─────────────────────────────────────────────
 # SETUP DRIVER
@@ -113,8 +110,7 @@ def safe_attr(el, css, attr, default=""):
 def scrape_jobs_for_role(role, location, target_count):
     keywords = role.replace(" ", "%20")
     loc_enc  = location.replace(" ", "%20")
-    # Append date-posted filter (Past week) via query parameter
-    url = f"https://www.linkedin.com/jobs/search/?keywords={keywords}&location={loc_enc}&{DATE_POSTED_PARAM}"
+    url = f"https://www.linkedin.com/jobs/search/?keywords={keywords}&location={loc_enc}"
     
     driver.get(url)
     time.sleep(4)
