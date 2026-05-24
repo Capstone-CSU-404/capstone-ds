@@ -1,4 +1,3 @@
-#Install
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
@@ -6,28 +5,28 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
+from collections import Counter
+from datetime import datetime
 import time
 import pandas as pd
 import json
-from datetime import datetime
 import os
+import re
 
-# ─────────────────────────────────────────────
-# KONFIGURASI
-# ─────────────────────────────────────────────
-LINKEDIN_EMAIL    = "firmanadik09@gmail.com"   # ← ganti
-LINKEDIN_PASSWORD = "Fak_1809"          # ← ganti
+
+LINKEDIN_EMAIL    = "firmanadik09@gmail.com"       # ← ganti
+LINKEDIN_PASSWORD = "Fak_1809"    # ← ganti
 
 TARGET_JOB_ROLES = [
-    "Developer","Software","Progammer"
+    "Software Engineer"
 ]
 
-LOCATION       = "Indonesia"
-JOBS_PER_ROLE  = 1000 # target per role
-OUTPUT_DIR     = r"C:\Users\asus3\Documents\CPSTNPROJECT\capstone-ds\Data"
+LOCATION      = "Indonesia"
+JOBS_PER_ROLE = 1000
+OUTPUT_DIR    = r"C:\Users\asus3\Documents\CPSTNPROJECT\capstone-ds\Data"
+
 os.makedirs(f"{OUTPUT_DIR}/raw",       exist_ok=True)
 os.makedirs(f"{OUTPUT_DIR}/processed", exist_ok=True)
-# Date posted filter: use LinkedIn parameter for "Past week" (r604800)
 
 # ─────────────────────────────────────────────
 # SETUP DRIVER
@@ -61,15 +60,128 @@ def login(email, password):
 login(LINKEDIN_EMAIL, LINKEDIN_PASSWORD)
 
 # ─────────────────────────────────────────────
+# HELPER: Apply filter "Past week" via UI
+# ─────────────────────────────────────────────
+def apply_date_filter_past_week():
+    """
+    Klik filter 'Past week' lewat UI LinkedIn.
+    Menggunakan ID persis dari HTML:
+      <input id="timePostedRange-r604800" value="r604800" name="date-posted-filter-value" type="radio">
+      <label for="timePostedRange-r604800">Past week</label>
+    """
+    try:
+        # 1. Klik tombol "Date posted" untuk buka dropdown filter
+        date_filter_btn = None
+        btn_selectors = [
+            "//button[contains(@aria-label, 'Date posted')]",
+            "//button[contains(@aria-label, 'Tanggal diposting')]",
+            "//button[contains(normalize-space(.), 'Date posted')]",
+            "//button[contains(normalize-space(.), 'Tanggal diposting')]",
+        ]
+        for selector in btn_selectors:
+            try:
+                date_filter_btn = wait.until(EC.element_to_be_clickable(
+                    (By.XPATH, selector)
+                ))
+                print(f"  🗂️ Tombol filter ditemukan: {selector}")
+                break
+            except:
+                continue
+
+        if not date_filter_btn:
+            print("  ⚠️ Tombol 'Date posted' tidak ditemukan, skip UI filter")
+            return False
+
+        driver.execute_script("arguments[0].click();", date_filter_btn)
+        time.sleep(2)
+        print("  🗂️ Dropdown 'Date posted' terbuka")
+
+        # 2. Klik radio button "Past week" — 3 cara fallback
+        radio_clicked = False
+
+        # Cara 1: via ID langsung
+        if not radio_clicked:
+            try:
+                radio = wait.until(EC.presence_of_element_located((
+                    By.ID, "timePostedRange-r604800"
+                )))
+                driver.execute_script("arguments[0].click();", radio)
+                time.sleep(1)
+                print("  ✅ Radio 'Past week' diklik (via ID)")
+                radio_clicked = True
+            except:
+                pass
+
+        # Cara 2: via label for="timePostedRange-r604800"
+        if not radio_clicked:
+            try:
+                label = driver.find_element(
+                    By.CSS_SELECTOR,
+                    "label[for='timePostedRange-r604800']"
+                )
+                driver.execute_script("arguments[0].click();", label)
+                time.sleep(1)
+                print("  ✅ Radio 'Past week' diklik (via label CSS)")
+                radio_clicked = True
+            except:
+                pass
+
+        # Cara 3: via input name="date-posted-filter-value" value="r604800"
+        if not radio_clicked:
+            try:
+                radio = driver.find_element(
+                    By.CSS_SELECTOR,
+                    "input[name='date-posted-filter-value'][value='r604800']"
+                )
+                driver.execute_script("arguments[0].click();", radio)
+                time.sleep(1)
+                print("  ✅ Radio 'Past week' diklik (via CSS name+value)")
+                radio_clicked = True
+            except:
+                pass
+
+        if not radio_clicked:
+            print("  ⚠️ Gagal klik radio 'Past week'")
+            return False
+
+        # 3. Klik "Show results" / "Tampilkan hasil" untuk apply filter
+        apply_selectors = [
+            "//button[contains(@aria-label, 'Apply current filters')]",
+            "//button[contains(@data-tracking-control-name, 'filter_pill_apply')]",
+            "//button[normalize-space(text())='Show results']",
+            "//button[normalize-space(text())='Tampilkan hasil']",
+            "//button[contains(., 'Show') and contains(@class, 'artdeco-button--primary')]",
+            "//button[contains(., 'Tampilkan') and contains(@class, 'artdeco-button--primary')]",
+        ]
+        for selector in apply_selectors:
+            try:
+                apply_btn = wait.until(EC.element_to_be_clickable(
+                    (By.XPATH, selector)
+                ))
+                driver.execute_script("arguments[0].click();", apply_btn)
+                time.sleep(3)
+                print("  ✅ Filter 'Past week' berhasil diterapkan")
+                return True
+            except:
+                continue
+
+        print("  ⚠️ Tombol 'Show results' tidak ditemukan")
+        return False
+
+    except Exception as e:
+        print(f"  ⚠️ Error apply_date_filter_past_week: {e}")
+        return False
+
+# ─────────────────────────────────────────────
 # HELPER: Ekstrak skills dari deskripsi
 # ─────────────────────────────────────────────
 SKILLS_LIST = {
     'python','java','javascript','typescript','golang','php','swift','kotlin',
     'scala','c++','c#','rust','react','angular','vue','django','flask',
-    'fastapi','spring boot','express','laravel','tensorflow','pytorch','keras',
+    'fastapi','spring boot','express','tensorflow','pytorch','keras',
     'scikit-learn','pandas','numpy','sql','postgresql','mysql','mongodb',
     'redis','elasticsearch','aws','gcp','azure','docker','kubernetes',
-    'hadoop','spark','kafka','airflow','tableau','power bi','flutter',
+    'hadoop','spark','kafka','airflow','tableau','laravel','power bi','flutter',
     'android','ios','agile','scrum','git','linux','bash',
 }
 
@@ -90,7 +202,7 @@ def scroll_job_list(container_el, times=3):
         time.sleep(2)
 
 # ─────────────────────────────────────────────
-# HELPER: Safe get text
+# HELPER: Safe get text / attr
 # ─────────────────────────────────────────────
 def safe_text(el, css, default=""):
     try:
@@ -105,20 +217,31 @@ def safe_attr(el, css, attr, default=""):
         return default
 
 # ─────────────────────────────────────────────
-# CORE: Scrape satu halaman hasil pencarian
+# CORE: Scrape jobs untuk satu role
 # ─────────────────────────────────────────────
 def scrape_jobs_for_role(role, location, target_count):
     keywords = role.replace(" ", "%20")
     loc_enc  = location.replace(" ", "%20")
+
+    # Buka halaman search tanpa filter tanggal dulu
     url = f"https://www.linkedin.com/jobs/search/?keywords={keywords}&location={loc_enc}"
-    
     driver.get(url)
     time.sleep(4)
     print(f"\n🔍 Scraping: {role} | {location}")
 
+    # ── Apply filter "Past week" via UI ─────────────────────────────────
+    filter_ok = apply_date_filter_past_week()
+    if filter_ok:
+        print("  📅 Filter 'Past week' aktif")
+    else:
+        print("  ⚠️ Filter tidak teraplikasi via UI, lanjut tanpa filter tanggal")
+    time.sleep(2)
+    # ────────────────────────────────────────────────────────────────────
+
     all_jobs_data = []
-    
+
     while len(all_jobs_data) < target_count:
+
         # ── Temukan container list job (panel kiri) ──────────────────────
         container = None
         for sel in [
@@ -133,7 +256,7 @@ def scrape_jobs_for_role(role, location, target_count):
                 continue
 
         if not container:
-            print("  ⚠️ Tidak menemukan container job list, skip halaman ini")
+            print("  ⚠️ Tidak menemukan container job list, stop.")
             break
 
         # Scroll container untuk load semua card
@@ -162,52 +285,59 @@ def scrape_jobs_for_role(role, location, target_count):
 
             try:
                 # Scroll card ke viewport
-                driver.execute_script("arguments[0].scrollIntoView({block:'center'});", card)
+                driver.execute_script(
+                    "arguments[0].scrollIntoView({block:'center'});", card
+                )
                 time.sleep(0.5)
 
                 # Klik card → panel detail muncul di kanan
                 try:
-                    clickable = card.find_element(By.CSS_SELECTOR,
-                        "a.job-card-list__title--link"
+                    clickable = card.find_element(
+                        By.CSS_SELECTOR, "a.job-card-list__title--link"
                     )
                     driver.execute_script("arguments[0].click();", clickable)
                 except:
                     driver.execute_script("arguments[0].click();", card)
 
-                time.sleep(3)   # tunggu detail panel load
+                time.sleep(3)
 
                 # ── Ekstrak data dari card (panel kiri) ──────────────────
                 job_title    = safe_text(card, "a.job-card-list__title--link strong")
-                company_name = safe_text(card, "span.job-card-container__primary-description, h4, .artdeco-entity-lockup__subtitle")
-                location_val = safe_text(card, "ul.job-card-container__metadata-wrapper li span")
+                company_name = safe_text(card,
+                    "span.job-card-container__primary-description, h4, "
+                    ".artdeco-entity-lockup__subtitle"
+                )
+                location_val = safe_text(card,
+                    "ul.job-card-container__metadata-wrapper li span"
+                )
                 job_url      = safe_attr(card, "a.job-card-list__title--link", "href")
                 posted_date  = safe_attr(card, "time", "datetime")
-                job_id       =""
+
+                job_id = ""
                 try:
-                    job_id  = card.find_element(By.CSS_SELECTOR, "divp[data-job-id]").get_attribute("data-job-id")
+                    job_id = card.find_element(
+                        By.CSS_SELECTOR, "div[data-job-id]"
+                    ).get_attribute("data-job-id")
                 except:
-                    import re
                     match = re.search(r'/jobs/view/(\d+)', job_url or "")
                     job_id = match.group(1) if match else ""
-                # ── Ekstrak data dari panel detail (kanan) ────────────────
-                jd_text      = ""
 
+                # ── Ekstrak data dari panel detail (kanan) ────────────────
+                jd_text = ""
                 try:
-                    # Tunggu panel detail muncul
                     detail_panel = wait.until(EC.presence_of_element_located((
                         By.CSS_SELECTOR,
                         "div.jobs-search__job-details--wrapper, div.job-view-layout"
                     )))
-
-                    # Job Description
                     try:
-                        jd_el  = detail_panel.find_element(By.CSS_SELECTOR,
-                            "div.jobs-description__content, div.description__text, article.jobs-description__container"
+                        jd_el = detail_panel.find_element(By.CSS_SELECTOR,
+                            "div.jobs-description__content, "
+                            "div.description__text, "
+                            "article.jobs-description__container"
                         )
                         jd_text = jd_el.get_attribute("innerText").strip()
                     except:
                         pass
-
                 except Exception as e:
                     print(f"    ⚠️ Detail panel error job {idx+1}: {e}")
 
@@ -218,6 +348,7 @@ def scrape_jobs_for_role(role, location, target_count):
                     "title"            : job_title,
                     "company"          : company_name,
                     "location"         : location_val,
+                    "posted_date"      : posted_date,
                     "job_description"  : jd_text,
                     "job_url"          : job_url,
                     "search_role"      : role,
@@ -227,7 +358,10 @@ def scrape_jobs_for_role(role, location, target_count):
                     "scraped_at"       : datetime.now().isoformat(),
                 }
                 all_jobs_data.append(record)
-                print(f"  ✅ [{len(all_jobs_data)}/{target_count}] {job_title} — {company_name}")
+                print(
+                    f"  ✅ [{len(all_jobs_data)}/{target_count}] "
+                    f"{job_title} — {company_name}"
+                )
 
             except Exception as e:
                 print(f"  ⚠️ Error pada card {idx+1}: {e}")
@@ -235,20 +369,21 @@ def scrape_jobs_for_role(role, location, target_count):
 
             time.sleep(1)
 
-        # Pindah ke halaman berikutnya
+        # ── Pindah ke halaman berikutnya ─────────────────────────────────
         try:
             next_btn = wait.until(EC.element_to_be_clickable((
                 By.CSS_SELECTOR,
                 "button[aria-label='View next page'], "
                 "button[aria-label='Halaman berikutnya']"
-             )))
+            )))
             driver.execute_script("arguments[0].scrollIntoView();", next_btn)
             driver.execute_script("arguments[0].click();", next_btn)
-            print(f"  ➡️ Pindah halaman berikutnya...")
+            print("  ➡️ Pindah halaman berikutnya...")
             time.sleep(4)
         except:
-            print(f"  ⚠️ Tidak ada tombol Next, scraping selesai.")
+            print("  ⚠️ Tidak ada tombol Next, scraping selesai untuk role ini.")
             break
+
     return all_jobs_data
 
 # ─────────────────────────────────────────────
@@ -260,17 +395,17 @@ for role in TARGET_JOB_ROLES:
     print(f"\n{'='*55}")
     print(f"📌 Role: {role}")
     print(f"{'='*55}")
-    
+
     role_jobs = scrape_jobs_for_role(role, LOCATION, JOBS_PER_ROLE)
     all_jobs.extend(role_jobs)
-    
+
     print(f"✅ Selesai {role}: {len(role_jobs)} jobs")
     print(f"📈 Total keseluruhan: {len(all_jobs)}")
 
     # Checkpoint per role
     ts = datetime.now().strftime("%Y%m%d_%H%M%S")
     pd.DataFrame(role_jobs).to_csv(
-        f"{OUTPUT_DIR}/raw/checkpoint_{role.replace(' ','_')}_{ts}.csv",
+        f"{OUTPUT_DIR}/raw/checkpoint_{role.replace(' ', '_')}_{ts}.csv",
         index=False
     )
     time.sleep(3)
@@ -295,7 +430,6 @@ print(f"✅ JSON → {json_path}")
 # ─────────────────────────────────────────────
 # STEP 4: LAPORAN SKILLS
 # ─────────────────────────────────────────────
-from collections import Counter
 all_skills_flat = []
 for s in df["extracted_skills"].dropna():
     if isinstance(s, list):
@@ -304,7 +438,8 @@ for s in df["extracted_skills"].dropna():
 top_skills = Counter(all_skills_flat).most_common(20)
 print("\n🔥 Top 20 Skills:")
 for skill, cnt in top_skills:
-    pct = cnt / len(df) * 100
+    pct = cnt / len(df) * 100 if len(df) > 0 else 0
     print(f"   {skill:<20} {cnt:>4} jobs  ({pct:.1f}%)")
+
 driver.quit()
 print("\n🏁 Selesai!")

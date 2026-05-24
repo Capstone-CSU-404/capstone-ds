@@ -147,11 +147,7 @@ ROLE_COLORS = {
 }
 
 SENIORITY_COLORS = {
-    'Junior'           : '#b3d9f5',
-    'Mid-level'        : '#4fa8d6',
-    'Senior'           : '#1a7fc4',
-    'Manager/Head'     : '#0a3d6b',
-    'Tidak Disebutkan' : '#c5d8e8',
+    # (Removed - seniority mapping is no longer maintained)
 }
 
 # ─────────────────────────────────────────────────────────────
@@ -192,23 +188,7 @@ def load_data(path_or_file):
         df['salary_avg'] = np.nan
         df['salary_avg_jt'] = np.nan
 
-    # title_seniority feature engineering
-    SENIORITY_MAP = {
-        'Head': 'Manager/Head', 'Director': 'Manager/Head', 'VP': 'Manager/Head',
-        'Chief': 'Manager/Head', 'Lead': 'Manager/Head', 'Principal': 'Manager/Head',
-        'Architect': 'Manager/Head', 'Manager': 'Manager/Head',
-        'Senior': 'Senior', 'Sr.': 'Senior', 'Sr ': 'Senior',
-        'Mid': 'Mid-level', 'Associate': 'Mid-level', 'Staff': 'Mid-level',
-        'Specialist': 'Mid-level',
-        'Junior': 'Junior', 'Jr.': 'Junior', 'Jr ': 'Junior',
-        'Entry': 'Junior', 'Intern': 'Junior', 'Magang': 'Junior', 'Fresh': 'Junior',
-    }
-    def extract_seniority(title):
-        if not isinstance(title, str): return 'Tidak Disebutkan'
-        for kw, lvl in SENIORITY_MAP.items():
-            if kw.lower() in title.lower(): return lvl
-        return 'Tidak Disebutkan'
-    df['title_seniority'] = df['title'].apply(extract_seniority)
+    # Note: seniority/title_seniority feature removed (no longer needed)
 
     # company_size_proxy
     freq = df['company'].value_counts()
@@ -243,22 +223,7 @@ if os.path.exists(default_path):
 else:
     df_raw = None
     # Apply feature engineering to demo data too
-    SENIORITY_MAP = {
-        'Head': 'Manager/Head', 'Director': 'Manager/Head', 'VP': 'Manager/Head',
-        'Chief': 'Manager/Head', 'Lead': 'Manager/Head', 'Principal': 'Manager/Head',
-        'Architect': 'Manager/Head', 'Manager': 'Manager/Head',
-        'Senior': 'Senior', 'Sr.': 'Senior',
-        'Mid': 'Mid-level', 'Associate': 'Mid-level', 'Staff': 'Mid-level',
-        'Specialist': 'Mid-level',
-        'Junior': 'Junior', 'Jr.': 'Junior',
-        'Entry': 'Junior', 'Intern': 'Junior', 'Magang': 'Junior', 'Fresh': 'Junior',
-    }
-    def extract_seniority(title):
-        if not isinstance(title, str): return 'Tidak Disebutkan'
-        for kw, lvl in SENIORITY_MAP.items():
-            if kw.lower() in title.lower(): return lvl
-        return 'Tidak Disebutkan'
-    df_raw['title_seniority'] = df_raw['title'].apply(extract_seniority)
+    # seniority extraction removed for demo fallback
     freq = df_raw['company'].value_counts()
     df_raw['company_hiring_freq'] = df_raw['company'].map(freq)
     df_raw['company_size_proxy'] = pd.cut(
@@ -580,26 +545,25 @@ with tab3:
             st.plotly_chart(fig_bkt, use_container_width=True)
 
         with col_5b:
-            # Salary by seniority
-            sen_order = ['Junior', 'Mid-level', 'Senior', 'Manager/Head', 'Tidak Disebutkan']
-            sen_avg = df_sal.groupby('title_seniority')['salary_avg_jt'].mean().reindex(sen_order).dropna().reset_index()
-            sen_avg.columns = ['seniority', 'avg_salary']
+            # Salary by job level (replaces seniority chart)
+            lvl_avg = df_sal.groupby('job_level', observed=True)['salary_avg_jt'].mean().reset_index()
+            lvl_avg = lvl_avg.sort_values('salary_avg_jt', ascending=False)
+            lvl_avg.columns = ['job_level', 'avg_salary']
 
-            fig_sen = px.bar(
-                sen_avg, x='seniority', y='avg_salary',
-                text=sen_avg['avg_salary'].apply(lambda v: f"Rp {v:.1f}jt"),
-                color='seniority',
-                color_discrete_map=SENIORITY_COLORS,
-                title="Rata-rata Salary per Seniority Level",
+            fig_lvl = px.bar(
+                lvl_avg, x='job_level', y='avg_salary',
+                text=lvl_avg['avg_salary'].apply(lambda v: f"Rp {v:.1f}jt"),
+                color='avg_salary', color_continuous_scale='Blues',
+                title="Rata-rata Salary per Job Level",
                 height=360
             )
-            fig_sen.update_traces(textposition='outside')
-            fig_sen.update_layout(
+            fig_lvl.update_traces(textposition='outside')
+            fig_lvl.update_layout(
                 showlegend=False,
                 plot_bgcolor='rgba(0,0,0,0)', paper_bgcolor='rgba(0,0,0,0)',
                 font_family='DM Sans', xaxis_title="", yaxis_title="Salary (Juta IDR/bulan)"
             )
-            st.plotly_chart(fig_sen, use_container_width=True)
+            st.plotly_chart(fig_lvl, use_container_width=True)
 
         st.markdown(f"""
         <div class="insight-box">

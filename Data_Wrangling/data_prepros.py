@@ -216,7 +216,7 @@ SKILLS_MASTER = {
     # Languages
     "python", "java", "javascript", "typescript", "golang", "go",
     "php", "swift", "kotlin", "scala", "r", "c++", "c#", "rust",
-    "dart", "ruby", "bash", "shell", "perl",
+    "dart", "ruby", "bash", "shell", "perl",'php','html','css',
     # Web Frameworks
     "react", "angular", "vue", "nextjs", "nuxtjs", "django",
     "flask", "fastapi", "spring boot", "express", "nestjs",
@@ -302,7 +302,7 @@ def extract_seniority(title: str) -> str:
     if any(x in t for x in ["senior", "sr.", "lead", "principal", "staff"]):
         return "Senior"
     if any(x in t for x in ["manager", "head", "director", "vp", "chief", "architect"]):
-        return "Manager/Lead"
+        return "Manager/Head"
     return "Mid-level"
 
 df["seniority"] = df["title"].apply(extract_seniority)
@@ -316,111 +316,6 @@ print(df["work_type"].value_counts().to_string())
 print(f"\n  Seniority distribution:")
 print(df["seniority"].value_counts().to_string())
 
-# ════════════════════════════════════════════════════════════
-# STEP 6 — EDA & BUSINESS QUESTIONS
-# ════════════════════════════════════════════════════════════
-print("\n" + "=" * 60)
-print("STEP 6: EDA — Business Questions")
-print("=" * 60)
-
-"""
-Business Questions:
-  BQ1. Role IT apa yang paling banyak tersedia di Indonesia?
-  BQ2. Skill apa yang paling banyak diminta per role?
-  BQ3. Kota mana yang paling banyak buka lowongan IT?
-  BQ4. Bagaimana distribusi tipe kerja (remote/hybrid/on-site)?
-  BQ5. Apa skill gap antara Data Scientist vs Data Analyst?
-"""
-
-fig_dir = f"{OUTPUT_DIR}/figures"
-os.makedirs(fig_dir, exist_ok=True)
-
-# ── BQ1: Distribusi Role ─────────────────────────────────────
-fig, ax = plt.subplots(figsize=(12, 6))
-role_counts = df[df["standardized_role"] != "Other"]["standardized_role"].value_counts()
-bars = ax.barh(role_counts.index, role_counts.values, color=sns.color_palette("muted", len(role_counts)))
-ax.set_xlabel("Jumlah Job Posting")
-ax.set_title("BQ1: Distribusi Role IT yang Tersedia di Indonesia", fontweight="bold")
-for bar, val in zip(bars, role_counts.values):
-    ax.text(val + 5, bar.get_y() + bar.get_height()/2, str(val), va="center")
-plt.tight_layout()
-plt.savefig(f"{fig_dir}/BQ1_role_distribution.png", dpi=150, bbox_inches="tight")
-plt.close()
-print("  ✅ BQ1 chart saved")
-
-# ── BQ2: Top 10 Skills Overall ───────────────────────────────
-all_skills = []
-for s in df["extracted_skills"]:
-    all_skills.extend(s)
-skill_freq = Counter(all_skills)
-top20      = skill_freq.most_common(20)
-
-fig, ax = plt.subplots(figsize=(12, 7))
-skills_names = [s for s, _ in top20]
-skills_vals  = [c for _, c in top20]
-bars = ax.barh(skills_names[::-1], skills_vals[::-1], color=sns.color_palette("viridis", 20))
-ax.set_xlabel("Frekuensi Muncul di Job Posting")
-ax.set_title("BQ2: Top 20 Skills Paling Banyak Diminta (IT Jobs Indonesia)", fontweight="bold")
-plt.tight_layout()
-plt.savefig(f"{fig_dir}/BQ2_top_skills_overall.png", dpi=150, bbox_inches="tight")
-plt.close()
-print("  ✅ BQ2 chart saved")
-
-# ── BQ3: Top 10 Kota ─────────────────────────────────────────
-fig, ax = plt.subplots(figsize=(12, 5))
-city_counts = df[df["city"] != "Unknown"]["city"].value_counts().head(10)
-ax.bar(city_counts.index, city_counts.values, color=sns.color_palette("Set2", 10))
-ax.set_xlabel("Kota")
-ax.set_ylabel("Jumlah Job Posting")
-ax.set_title("BQ3: Top 10 Kota dengan Lowongan IT Terbanyak", fontweight="bold")
-ax.tick_params(axis="x", rotation=30)
-plt.tight_layout()
-plt.savefig(f"{fig_dir}/BQ3_top_cities.png", dpi=150, bbox_inches="tight")
-plt.close()
-print("  ✅ BQ3 chart saved")
-
-# ── BQ4: Work Type Distribution ──────────────────────────────
-fig, ax = plt.subplots(figsize=(7, 7))
-wt = df["work_type"].value_counts()
-ax.pie(wt.values, labels=wt.index, autopct="%1.1f%%",
-       colors=sns.color_palette("pastel"), startangle=90)
-ax.set_title("BQ4: Distribusi Tipe Kerja (Remote / Hybrid / On-site)", fontweight="bold")
-plt.tight_layout()
-plt.savefig(f"{fig_dir}/BQ4_work_type.png", dpi=150, bbox_inches="tight")
-plt.close()
-print("  ✅ BQ4 chart saved")
-
-# ── BQ5: Skill Gap — Data Scientist vs Data Analyst ──────────
-def get_skill_pct(role_name):
-    role_df = df[df["standardized_role"] == role_name]
-    skills  = []
-    for s in role_df["extracted_skills"]:
-        skills.extend(s)
-    total = len(role_df)
-    return {skill: count / total for skill, count in Counter(skills).most_common(15)}
-
-ds_skills = get_skill_pct("Data Scientist")
-da_skills = get_skill_pct("Data Analyst")
-
-all_keys = sorted(set(list(ds_skills.keys()) + list(da_skills.keys())), 
-                  key=lambda x: -(ds_skills.get(x, 0) + da_skills.get(x, 0)))[:15]
-
-x      = np.arange(len(all_keys))
-width  = 0.35
-fig, ax = plt.subplots(figsize=(14, 6))
-ax.bar(x - width/2, [ds_skills.get(k, 0)*100 for k in all_keys], width,
-       label="Data Scientist", color="#4C72B0")
-ax.bar(x + width/2, [da_skills.get(k, 0)*100 for k in all_keys], width,
-       label="Data Analyst",   color="#DD8452")
-ax.set_xticks(x)
-ax.set_xticklabels(all_keys, rotation=35, ha="right")
-ax.set_ylabel("% Job Posting yang Menyebut Skill")
-ax.set_title("BQ5: Skill Gap — Data Scientist vs Data Analyst", fontweight="bold")
-ax.legend()
-plt.tight_layout()
-plt.savefig(f"{fig_dir}/BQ5_skill_gap_DS_vs_DA.png", dpi=150, bbox_inches="tight")
-plt.close()
-print("  ✅ BQ5 chart saved")
 
 # ── Summary Skills per Role (untuk Data Dictionary) ──────────
 skills_per_role = {}
@@ -462,7 +357,6 @@ summary = {
     "work_type_distribution": df["work_type"].value_counts().to_dict(),
     "seniority_distribution": df["seniority"].value_counts().to_dict(),
     "top_cities"           : df["city"].value_counts().head(10).to_dict(),
-    "top_50_skills"        : dict(skill_freq.most_common(50)),
     "avg_skills_per_job"   : round(df["skills_count"].mean(), 2),
     "skills_per_role"      : skills_per_role,
 }
@@ -481,7 +375,6 @@ print(f"  Input awal           : 4.713 baris")
 print(f"  Setelah filter noise : {len(df)} baris")
 print(f"  Unique role standar  : {df['standardized_role'].nunique()}")
 print(f"  Avg skills per job   : {df['skills_count'].mean():.1f}")
-print(f"  Output figures       : {fig_dir}/")
 print(f"  CSV final (AI Eng)   : {final_path}")
 print(f"  Summary JSON         : {json_path}")
 print(f"\n  Kolom final untuk AI Engineer:")
