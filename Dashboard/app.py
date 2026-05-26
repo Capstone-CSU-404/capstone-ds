@@ -1,5 +1,5 @@
 """
-Dashboard Analisis Pasar Kerja IT Indonesia (Apr–Mei 2026)
+Dashboard Analisis Pasar Kerja IT Indonesia (2026)
 Run: streamlit run dashboard_it_jobs.py
 """
 
@@ -216,7 +216,7 @@ with st.sidebar:
 # LOAD DATA
 # ─────────────────────────────────────────────────────────────
 # Use default local file if present (no interactive path input in sidebar)
-default_path = r"C:\Users\asus3\Documents\CPSTNPROJECT\capstone-ds\Data_Wrangling\Data_Fixed\FinalFile_EDA.csv"
+default_path = r"capstone-ds\Data_Wrangling\Data_Fixed\FinalFile_EDA.csv"
 if os.path.exists(default_path):
     df_raw = load_data(default_path)
     data_source = "📁 Local Path"
