@@ -9,20 +9,18 @@ from collections import Counter
 from datetime import datetime
 import time
 import pandas as pd
-import json
 import os
 import re
 
-
-LINKEDIN_EMAIL    = "firmanadik09@gmail.com"       # ← ganti
-LINKEDIN_PASSWORD = "Fak_1809"    # ← ganti
-
+# ─────────────────────────────────────────────
+# KONFIGURASI
+# ─────────────────────────────────────────────
 TARGET_JOB_ROLES = [
-    "Software Engineer"
+    "Data Scientist"
 ]
 
 LOCATION      = "Indonesia"
-JOBS_PER_ROLE = 1000
+JOBS_PER_ROLE = 100
 OUTPUT_DIR    = r"C:\Users\asus3\Documents\CPSTNPROJECT\capstone-ds\Data"
 
 os.makedirs(f"{OUTPUT_DIR}/raw",       exist_ok=True)
@@ -38,37 +36,27 @@ def create_driver():
     options.add_argument("--disable-blink-features=AutomationControlled")
     options.add_experimental_option("excludeSwitches", ["enable-automation"])
     options.add_experimental_option("useAutomationExtension", False)
+    # Tambahan agar tidak terdeteksi bot
+    options.add_argument("--disable-infobars")
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+    options.add_argument(
+        "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/124.0.0.0 Safari/537.36"
+    )
     service = Service(ChromeDriverManager().install())
     driver  = webdriver.Chrome(service=service, options=options)
+    driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
     return driver
 
 driver = create_driver()
 wait   = WebDriverWait(driver, 15)
 
 # ─────────────────────────────────────────────
-# STEP 1: LOGIN
-# ─────────────────────────────────────────────
-def login(email, password):
-    driver.get("https://www.linkedin.com/login")
-    time.sleep(2)
-    wait.until(EC.presence_of_element_located((By.ID, "username"))).send_keys(email)
-    driver.find_element(By.ID, "password").send_keys(password)
-    driver.find_element(By.ID, "password").submit()
-    time.sleep(4)
-    print("✅ Login berhasil")
-
-login(LINKEDIN_EMAIL, LINKEDIN_PASSWORD)
-
-# ─────────────────────────────────────────────
 # HELPER: Apply filter "Past week" via UI
 # ─────────────────────────────────────────────
 def apply_date_filter_past_week():
-    """
-    Klik filter 'Past week' lewat UI LinkedIn.
-    Menggunakan ID persis dari HTML:
-      <input id="timePostedRange-r604800" value="r604800" name="date-posted-filter-value" type="radio">
-      <label for="timePostedRange-r604800">Past week</label>
-    """
     try:
         # 1. Klik tombol "Date posted" untuk buka dropdown filter
         date_filter_btn = None
@@ -96,10 +84,9 @@ def apply_date_filter_past_week():
         time.sleep(2)
         print("  🗂️ Dropdown 'Date posted' terbuka")
 
-        # 2. Klik radio button "Past week" — 3 cara fallback
+        # 2. Klik radio button "Past week"
         radio_clicked = False
 
-        # Cara 1: via ID langsung
         if not radio_clicked:
             try:
                 radio = wait.until(EC.presence_of_element_located((
@@ -112,12 +99,10 @@ def apply_date_filter_past_week():
             except:
                 pass
 
-        # Cara 2: via label for="timePostedRange-r604800"
         if not radio_clicked:
             try:
                 label = driver.find_element(
-                    By.CSS_SELECTOR,
-                    "label[for='timePostedRange-r604800']"
+                    By.CSS_SELECTOR, "label[for='timePostedRange-r604800']"
                 )
                 driver.execute_script("arguments[0].click();", label)
                 time.sleep(1)
@@ -126,7 +111,6 @@ def apply_date_filter_past_week():
             except:
                 pass
 
-        # Cara 3: via input name="date-posted-filter-value" value="r604800"
         if not radio_clicked:
             try:
                 radio = driver.find_element(
@@ -144,13 +128,15 @@ def apply_date_filter_past_week():
             print("  ⚠️ Gagal klik radio 'Past week'")
             return False
 
-        # 3. Klik "Show results" / "Tampilkan hasil" untuk apply filter
+        # 3. Klik "Show results"
         apply_selectors = [
+            "//button[@aria-label='Apply current filter to show results']",
+            "//button[contains(@aria-label, 'Apply current filter')]",
             "//button[contains(@aria-label, 'Apply current filters')]",
             "//button[contains(@data-tracking-control-name, 'filter_pill_apply')]",
             "//button[normalize-space(text())='Show results']",
             "//button[normalize-space(text())='Tampilkan hasil']",
-            "//button[contains(., 'Show') and contains(@class, 'artdeco-button--primary')]",
+            "//button[contains(., 'Show results') and contains(@class, 'artdeco-button--primary')]",
             "//button[contains(., 'Tampilkan') and contains(@class, 'artdeco-button--primary')]",
         ]
         for selector in apply_selectors:
@@ -217,65 +203,95 @@ def safe_attr(el, css, attr, default=""):
         return default
 
 # ─────────────────────────────────────────────
+# HELPER: Cek redirect ke login
+# ─────────────────────────────────────────────
+def is_redirected_to_login():
+    return "linkedin.com/login" in driver.current_url or \
+           "linkedin.com/authwall" in driver.current_url
+
+# ─────────────────────────────────────────────
 # CORE: Scrape jobs untuk satu role
 # ─────────────────────────────────────────────
 def scrape_jobs_for_role(role, location, target_count):
-    keywords = role.replace(" ", "%20")
-    loc_enc  = location.replace(" ", "%20")
-
-    # Buka halaman search tanpa filter tanggal dulu
-    url = f"https://www.linkedin.com/jobs/search/?keywords={keywords}&location={loc_enc}"
-    driver.get(url)
-    time.sleep(4)
-    print(f"\n🔍 Scraping: {role} | {location}")
-
-    # ── Apply filter "Past week" via UI ─────────────────────────────────
-    filter_ok = apply_date_filter_past_week()
-    if filter_ok:
-        print("  📅 Filter 'Past week' aktif")
-    else:
-        print("  ⚠️ Filter tidak teraplikasi via UI, lanjut tanpa filter tanggal")
-    time.sleep(2)
-    # ────────────────────────────────────────────────────────────────────
+    role_slug = role.lower().replace(" ", "-") + "-jobs"
+    keywords  = role.replace(" ", "%20")
+    loc_enc   = location.replace(" ", "%20")
 
     all_jobs_data = []
+    seen_ids  = set()
+    page_num  = 0
 
     while len(all_jobs_data) < target_count:
 
-        # ── Temukan container list job (panel kiri) ──────────────────────
+        # ── Buka halaman publik LinkedIn jobs ───────────────────────────
+        url = (
+            f"https://id.linkedin.com/jobs/{role_slug}"
+            f"?location={loc_enc}"
+            f"&f_TPR=r604800"
+            f"&position=1"
+            f"&pageNum={page_num}"
+        )
+        print(f"\n  🌐 Buka halaman {page_num + 1}: {url}")
+        driver.get(url)
+        time.sleep(3)
+
+        # Cek redirect ke login
+        if is_redirected_to_login():
+            print("  ⚠️ Redirect ke login, mencoba format URL alternatif...")
+            url = (
+                f"https://www.linkedin.com/jobs/search/"
+                f"?keywords={keywords}"
+                f"&location={loc_enc}"
+                f"&f_TPR=r604800"
+                f"&start={page_num * 25}"
+            )
+            driver.get(url)
+            time.sleep(3)
+            if is_redirected_to_login():
+                print("  ❌ Masih redirect ke login, scraping dihentikan.")
+                break
+
+        # ── Temukan container list job ───────────────────────────────────
         container = None
         for sel in [
+            "ul.jobs-search__results-list",
             "div.scaffold-layout__list",
             "div.jobs-search-results-list",
-            "ul.jobs-search__results-list",
         ]:
             try:
                 container = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, sel)))
+                print(f"  📦 Container ditemukan: {sel}")
                 break
             except:
                 continue
 
         if not container:
-            print("  ⚠️ Tidak menemukan container job list, stop.")
+            print("  ⚠️ Container job list tidak ditemukan, stop.")
             break
 
-        # Scroll container untuk load semua card
-        scroll_job_list(container, times=4)
+        # Scroll untuk load semua card
+        scroll_job_list(container, times=3)
 
         # ── Ambil semua job card ─────────────────────────────────────────
         job_cards = []
         for sel in [
+            "li.jobs-search__results-list--container",
+            "li",
             "li.jobs-search-results__list-item",
             "li.scaffold-layout__list-item",
-            "div.job-card-container",
         ]:
-            job_cards = container.find_elements(By.CSS_SELECTOR, sel)
-            if job_cards:
+            candidates = container.find_elements(By.CSS_SELECTOR, sel)
+            candidates = [
+                c for c in candidates
+                if c.find_elements(By.CSS_SELECTOR, "a[href*='/jobs/']")
+            ]
+            if candidates:
+                job_cards = candidates
                 print(f"  📋 {len(job_cards)} card ditemukan dengan selector: {sel}")
                 break
 
         if not job_cards:
-            print("  ⚠️ Tidak ada job card ditemukan di halaman ini")
+            print("  ⚠️ Tidak ada job card ditemukan, stop.")
             break
 
         # ── Proses tiap card ─────────────────────────────────────────────
@@ -284,62 +300,101 @@ def scrape_jobs_for_role(role, location, target_count):
                 break
 
             try:
-                # Scroll card ke viewport
                 driver.execute_script(
                     "arguments[0].scrollIntoView({block:'center'});", card
                 )
                 time.sleep(0.5)
 
-                # Klik card → panel detail muncul di kanan
-                try:
-                    clickable = card.find_element(
-                        By.CSS_SELECTOR, "a.job-card-list__title--link"
-                    )
-                    driver.execute_script("arguments[0].click();", clickable)
-                except:
-                    driver.execute_script("arguments[0].click();", card)
+                # Ambil data dasar dari card
+                job_title = ""
+                for sel in ["h3.base-search-card__title", "h3", "a strong"]:
+                    job_title = safe_text(card, sel)
+                    if job_title:
+                        break
 
-                time.sleep(3)
+                company_name = ""
+                for sel in ["h4.base-search-card__subtitle", "h4",
+                            "span.job-card-container__primary-description",
+                            ".artdeco-entity-lockup__subtitle"]:
+                    company_name = safe_text(card, sel)
+                    if company_name:
+                        break
 
-                # ── Ekstrak data dari card (panel kiri) ──────────────────
-                job_title    = safe_text(card, "a.job-card-list__title--link strong")
-                company_name = safe_text(card,
-                    "span.job-card-container__primary-description, h4, "
-                    ".artdeco-entity-lockup__subtitle"
-                )
-                location_val = safe_text(card,
-                    "ul.job-card-container__metadata-wrapper li span"
-                )
-                job_url      = safe_attr(card, "a.job-card-list__title--link", "href")
-                posted_date  = safe_attr(card, "time", "datetime")
+                location_val = ""
+                for sel in ["span.job-search-card__location",
+                            "span.job-card-container__metadata-item",
+                            "ul.job-card-container__metadata-wrapper li span"]:
+                    location_val = safe_text(card, sel)
+                    if location_val:
+                        break
+
+                posted_date = safe_attr(card, "time", "datetime")
+
+                job_url = ""
+                for sel in ["a.base-card__full-link",
+                            "a[href*='/jobs/view/']",
+                            "a.job-card-list__title--link"]:
+                    job_url = safe_attr(card, sel, "href")
+                    if job_url:
+                        break
 
                 job_id = ""
-                try:
-                    job_id = card.find_element(
-                        By.CSS_SELECTOR, "div[data-job-id]"
-                    ).get_attribute("data-job-id")
-                except:
-                    match = re.search(r'/jobs/view/(\d+)', job_url or "")
-                    job_id = match.group(1) if match else ""
+                match = re.search(r'/jobs/view/(\d+)', job_url or "")
+                if match:
+                    job_id = match.group(1)
 
-                # ── Ekstrak data dari panel detail (kanan) ────────────────
+                # ── Deduplication ─────────────────────────────────────────
+                unique_key = job_id if job_id else job_url
+                if unique_key and unique_key in seen_ids:
+                    print(f"  ⏭️  Skip duplikat: {job_title}")
+                    continue
+                if unique_key:
+                    seen_ids.add(unique_key)
+
+                # ── Klik card → ambil job description → back ──────────────
                 jd_text = ""
                 try:
-                    detail_panel = wait.until(EC.presence_of_element_located((
-                        By.CSS_SELECTOR,
-                        "div.jobs-search__job-details--wrapper, div.job-view-layout"
-                    )))
-                    try:
-                        jd_el = detail_panel.find_element(By.CSS_SELECTOR,
-                            "div.jobs-description__content, "
-                            "div.description__text, "
-                            "article.jobs-description__container"
-                        )
-                        jd_text = jd_el.get_attribute("innerText").strip()
-                    except:
-                        pass
+                    link_el = None
+                    for sel in ["a.base-card__full-link",
+                                "a[href*='/jobs/view/']",
+                                "a.job-card-list__title--link"]:
+                        try:
+                            link_el = card.find_element(By.CSS_SELECTOR, sel)
+                            break
+                        except:
+                            continue
+
+                    if link_el:
+                        driver.execute_script("arguments[0].click();", link_el)
+                        time.sleep(3)
+
+                        if is_redirected_to_login():
+                            print(f"  ⚠️ Redirect login saat klik job {idx+1}, skip description.")
+                            driver.back()
+                            time.sleep(2)
+                        else:
+                            for sel in [
+                                "div.show-more-less-html__markup",
+                                "div.description__text",
+                                "div.jobs-description__content",
+                                "article.jobs-description__container",
+                                "div[class*='description']",
+                            ]:
+                                try:
+                                    jd_el = wait.until(EC.presence_of_element_located(
+                                        (By.CSS_SELECTOR, sel)
+                                    ))
+                                    jd_text = jd_el.get_attribute("innerText").strip()
+                                    if jd_text:
+                                        break
+                                except:
+                                    continue
+
+                            driver.back()
+                            time.sleep(2)
+
                 except Exception as e:
-                    print(f"    ⚠️ Detail panel error job {idx+1}: {e}")
+                    print(f"    ⚠️ Gagal ambil description job {idx+1}: {e}")
 
                 # ── Simpan record ─────────────────────────────────────────
                 skills = extract_skills(jd_text)
@@ -369,20 +424,10 @@ def scrape_jobs_for_role(role, location, target_count):
 
             time.sleep(1)
 
-        # ── Pindah ke halaman berikutnya ─────────────────────────────────
-        try:
-            next_btn = wait.until(EC.element_to_be_clickable((
-                By.CSS_SELECTOR,
-                "button[aria-label='View next page'], "
-                "button[aria-label='Halaman berikutnya']"
-            )))
-            driver.execute_script("arguments[0].scrollIntoView();", next_btn)
-            driver.execute_script("arguments[0].click();", next_btn)
-            print("  ➡️ Pindah halaman berikutnya...")
-            time.sleep(4)
-        except:
-            print("  ⚠️ Tidak ada tombol Next, scraping selesai untuk role ini.")
-            break
+        # ── Pindah ke halaman berikutnya via pageNum ──────────────────────
+        page_num += 1
+        print(f"  ➡️ Lanjut ke halaman {page_num + 1}...")
+        time.sleep(2)
 
     return all_jobs_data
 
@@ -402,7 +447,6 @@ for role in TARGET_JOB_ROLES:
     print(f"✅ Selesai {role}: {len(role_jobs)} jobs")
     print(f"📈 Total keseluruhan: {len(all_jobs)}")
 
-    # Checkpoint per role
     ts = datetime.now().strftime("%Y%m%d_%H%M%S")
     pd.DataFrame(role_jobs).to_csv(
         f"{OUTPUT_DIR}/raw/checkpoint_{role.replace(' ', '_')}_{ts}.csv",
