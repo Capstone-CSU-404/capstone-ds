@@ -1,5 +1,3 @@
-
-
 import pandas as pd
 import numpy as np
 import ast
@@ -12,14 +10,11 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from matplotlib import rcParams
 
-rcParams['figure.figsize'] = (12, 6)
-rcParams['font.size']      = 11
-sns.set_theme(style="whitegrid", palette="muted")
 
 # ════════════════════════════════════════════════════════════
 # KONFIGURASI
 # ════════════════════════════════════════════════════════════
-INPUT_FILE  = "C:\\Users\\asus3\\Documents\\CPSTNPROJECT\\capstone-ds\\Data_Wrangling\\Data_Fixed\\FinalFile_EDA.csv"       # ← file hasil merge + cleaning kamu
+INPUT_FILE  = "C:\\Users\\asus3\\Documents\\CPSTNPROJECT\\capstone-ds\\Data_Wrangling\\Data_Fixed\\linkedin_adddatscien.csv"       # ← file hasil merge + cleaning kamu
 OUTPUT_DIR  = "C:\\Users\\asus3\\Documents\\CPSTNPROJECT\\capstone-ds\\Data_Wrangling\\Data_Fixed"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
@@ -30,11 +25,14 @@ print("=" * 60)
 print("STEP 1: Load & Validasi Data")
 print("=" * 60)
 
-df = pd.read_csv(INPUT_FILE, encoding="utf-8-sig")
-print(f"  Shape awal     : {df.shape}")
-print(f"  Unique titles  : {df['title'].nunique()}")
-print(f"  Search roles   : {df['search_role'].value_counts().to_dict()}")
-print(f"  JD min length  : {df['job_description'].str.len().min()}")
+df = pd.read_csv(
+    INPUT_FILE,
+    sep=";",                  # ← separator titik koma
+    encoding="utf-8-sig",     # ← handle BOM dari Excel
+    engine="python",          # ← parser python lebih toleran
+    on_bad_lines="skip",      # ← skip baris yang masih rusak
+    quotechar='"',            # ← handle field yang di-quote
+)
 
 # ════════════════════════════════════════════════════════════
 # STEP 2 — FILTER NOISE (job non-IT yang ikut ter-scrape)
@@ -142,13 +140,6 @@ STANDARD_ROLES = {
     "Fullstack Developer": [
         "fullstack", "full stack", "full-stack",
         "web developer", "web engineer",
-    ],
-    "DevOps Engineer": [
-        "devops", "devsecops", "cloud engineer", "site reliability",
-        "sre engineer", "infrastructure engineer", "platform engineer",
-        "system administrator", "sysadmin", "cloud architect", "mobile developer", "android developer", "ios developer",
-        "flutter developer", "react native developer", "mobile engineer",
-        "kotlin developer", "swift developer",
     ],
     "Software Engineer": [  # fallback umum — taruh paling bawah
         "software engineer", "software developer", "programmer",
@@ -271,27 +262,6 @@ print("\n" + "=" * 60)
 print("STEP 5: Feature Engineering")
 print("=" * 60)
 
-# Ekstrak kota dari kolom location
-def extract_city(location: str) -> str:
-    if not location:
-        return "Unknown"
-    # Format umum: "Jakarta, Indonesia (On-site)" atau "Jakarta Metropolitan Area"
-    city = location.split(",")[0].strip()
-    city = city.replace("Metropolitan Area", "").strip()
-    return city if city else "Unknown"
-
-df["city"] = df["location"].apply(extract_city)
-
-# Tipe kerja (on-site / remote / hybrid)
-def extract_work_type(location: str) -> str:
-    loc = location.lower()
-    if "remote" in loc:   return "Remote"
-    if "hybrid" in loc:   return "Hybrid"
-    if "on-site" in loc or "onsite" in loc: return "On-site"
-    return "Unknown"
-
-df["work_type"] = df["location"].apply(extract_work_type)
-
 # Level seniority dari title
 def extract_seniority(title: str) -> str:
     t = title.lower()
@@ -310,12 +280,9 @@ df["seniority"] = df["title"].apply(extract_seniority)
 # JD length sebagai proxy kompleksitas job
 df["jd_length"] = df["job_description"].str.len()
 
-print(f"  Kolom baru ditambahkan: city, work_type, seniority, jd_length")
-print(f"\n  Work type distribution:")
-print(df["work_type"].value_counts().to_string())
+print(f"  Kolom baru ditambahkan: seniority, jd_length")
 print(f"\n  Seniority distribution:")
 print(df["seniority"].value_counts().to_string())
-
 
 # ── Summary Skills per Role (untuk Data Dictionary) ──────────
 skills_per_role = {}
@@ -340,25 +307,27 @@ ts = datetime.now().strftime("%Y%m%d_%H%M%S")
 # ── A. CSV final untuk AI Engineer ──────────────────────────
 core_cols = [
     "id", "title", "standardized_role", "company", "location",
-    "city", "work_type", "seniority", "jd_length",
+    "seniority", "jd_length",
     "job_description", "extracted_skills", "skills_count",
-    "job_url", "search_role", "scraped_at"
+    "job_url", "search_role", "search_location"
 ]
+# Filter hanya kolom yang ada di df
+core_cols = [c for c in core_cols if c in df.columns]
+print(f"  Kolom yang disimpan: {core_cols}")
 final_path = f"{OUTPUT_DIR}/linkedin_jobs_final_{ts}.csv"
 df[core_cols].to_csv(final_path, index=False, encoding="utf-8-sig")
 print(f"  ✅ CSV final      → {final_path}  ({len(df)} baris)")
 
 # ── B. JSON summary untuk semua tim ─────────────────────────
+# SESUDAH
 summary = {
-    "generated_at"         : ts,
-    "total_jobs"           : len(df),
-    "unique_companies"     : int(df["company"].nunique()),
-    "role_distribution"    : df["standardized_role"].value_counts().to_dict(),
-    "work_type_distribution": df["work_type"].value_counts().to_dict(),
+    "generated_at"          : ts,
+    "total_jobs"            : len(df),
+    "unique_companies"      : int(df["company"].nunique()),
+    "role_distribution"     : df["standardized_role"].value_counts().to_dict(),
     "seniority_distribution": df["seniority"].value_counts().to_dict(),
-    "top_cities"           : df["city"].value_counts().head(10).to_dict(),
-    "avg_skills_per_job"   : round(df["skills_count"].mean(), 2),
-    "skills_per_role"      : skills_per_role,
+    "avg_skills_per_job"    : round(df["skills_count"].mean(), 2),
+    "skills_per_role"       : skills_per_role,
 }
 json_path = f"{OUTPUT_DIR}/data_summary_{ts}.json"
 with open(json_path, "w", encoding="utf-8") as f:

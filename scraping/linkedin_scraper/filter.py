@@ -16,7 +16,7 @@ import re
 # KONFIGURASI
 # ─────────────────────────────────────────────
 TARGET_JOB_ROLES = [
-    "Data Scientist"
+    "Machine Learning"
 ]
 
 LOCATION      = "Indonesia"

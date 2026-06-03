@@ -1,0 +1,117 @@
+{
+  "generated_at": "20260531_183706",
+  "total_jobs": 111,
+  "unique_companies": 75,
+  "role_distribution": {
+    "ML Engineer": 34,
+    "Data Scientist": 21,
+    "Data Analyst": 19,
+    "Data Engineer": 16,
+    "Other": 12,
+    "Backend Developer": 4,
+    "Software Engineer": 3,
+    "Fullstack Developer": 1,
+    "Frontend Developer": 1
+  },
+  "seniority_distribution": {
+    "Mid-level": 67,
+    "Senior": 23,
+    "Manager/Head": 16,
+    "Junior": 3,
+    "Intern": 2
+  },
+  "avg_skills_per_job": 6.05,
+  "skills_per_role": {
+    "Data Scientist": {
+      "python": 17,
+      "sql": 9,
+      "gcp": 9,
+      "llm": 6,
+      "ci/cd": 6,
+      "solid": 6,
+      "langchain": 5,
+      "r": 5,
+      "hadoop": 5,
+      "airflow": 5
+    },
+    "ML Engineer": {
+      "python": 27,
+      "aws": 16,
+      "llm": 14,
+      "gcp": 12,
+      "azure": 11,
+      "pytorch": 10,
+      "docker": 9,
+      "openai": 9,
+      "ci/cd": 9,
+      "sql": 8
+    },
+    "Fullstack Developer": {
+      "opencv": 1,
+      "pytorch": 1,
+      "r": 1,
+      "tensorflow": 1,
+      "transformers": 1
+    },
+    "Data Engineer": {
+      "sql": 11,
+      "python": 9,
+      "aws": 5,
+      "spark": 4,
+      "r": 4,
+      "solid": 4,
+      "llm": 4,
+      "scala": 3,
+      "agile": 3,
+      "mysql": 3
+    },
+    "Data Analyst": {
+      "python": 13,
+      "sql": 13,
+      "bigquery": 6,
+      "r": 6,
+      "power bi": 5,
+      "aws": 4,
+      "tableau": 4,
+      "azure": 3,
+      "hive": 3,
+      "java": 3
+    },
+    "Backend Developer": {
+      "python": 3,
+      "docker": 2,
+      "sql": 2,
+      "java": 2,
+      "javascript": 2,
+      "aws": 1,
+      "linux": 1,
+      "mysql": 1,
+      "go": 1,
+      "typescript": 1
+    },
+    "Software Engineer": {
+      "android": 1,
+      "express": 1,
+      "ios": 1,
+      "microservices": 1,
+      "r": 1,
+      "agile": 1,
+      "azure": 1,
+      "git": 1,
+      "llm": 1,
+      "opencv": 1
+    },
+    "Frontend Developer": {
+      "agile": 1,
+      "angular": 1,
+      "cassandra": 1,
+      "ci/cd": 1,
+      "css": 1,
+      "docker": 1,
+      "elasticsearch": 1,
+      "git": 1,
+      "java": 1,
+      "javascript": 1
+    }
+  }
+}
