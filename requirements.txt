@@ -13,7 +13,7 @@ scikit-learn==1.4.2
 openpyxl==3.1.2
 
 # ── EDA & Visualisasi (untuk notebook & Streamlit dashboard) ──
-matplotlib==3.9.0
+matplotlib==3.10.9
 seaborn==0.13.2
 plotly==5.17.0
 streamlit==1.35.0
