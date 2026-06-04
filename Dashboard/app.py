@@ -219,22 +219,25 @@ with st.sidebar:
 # LOAD DATA
 # ─────────────────────────────────────────────────────────────
 # Path relatif — file CSV harus ada di root repo GitHub sejajar litlit.py
-RELATIVE_PATH = "final_merged_data.csv"
+import pathlib
  
-# Cari file: coba path relatif dulu, fallback ke path lokal Windows
-LOCAL_PATH = r"C:\Users\ADVAN\Downloads\dicodingcamp\capstoneproject\final_merged_data.csv"
+BASE_DIR = pathlib.Path(__file__).parent
  
-if os.path.exists(RELATIVE_PATH):
-    df_raw = load_data(RELATIVE_PATH)
-    data_source = "📁 FinalFile_EDA.csv"
-elif os.path.exists(LOCAL_PATH):
-    df_raw = load_data(LOCAL_PATH)
-    data_source = "📁 Local Path"
+CANDIDATE_PATHS = [
+    BASE_DIR / "final_merged_data.csv",         # Dashboard/final_merged_data.csv ← utama
+    BASE_DIR.parent / "final_merged_data.csv",  # root repo/final_merged_data.csv
+]
+ 
+csv_path = next((p for p in CANDIDATE_PATHS if p.exists()), None)
+ 
+if csv_path:
+    df_raw = load_data(str(csv_path))
+    data_source = f"📁 {csv_path.name}"
 else:
     st.error(
         "❌ File data tidak ditemukan!\n\n"
-        f"Pastikan file **`{RELATIVE_PATH}`** sudah diupload ke repo GitHub "
-        "di folder yang sama dengan `litlit.py`."
+        "Pastikan file **`final_merged_data.csv`** ada di folder `Dashboard/` "
+        "sejajar dengan `app.py` di repo GitHub."
     )
     st.stop()
 # ─────────────────────────────────────────────────────────────
