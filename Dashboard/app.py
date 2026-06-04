@@ -1,5 +1,5 @@
 """
-Dashboard Analisis Pasar Kerja IT Indonesia (2026)
+Dashboard Analisis Pasar Kerja IT Indonesia (Apr–Mei 2026)
 Run: streamlit run dashboard_it_jobs.py
 """
 
@@ -208,7 +208,6 @@ with st.sidebar:
     st.markdown("## 💼 IT Jobs Dashboard")
     st.markdown("**Pasar Kerja IT Indonesia**")
     st.markdown("---")
-
     st.markdown("### 🔍 Filter Data")
 
 
@@ -216,6 +215,10 @@ with st.sidebar:
 # LOAD DATA
 # ─────────────────────────────────────────────────────────────
 # Use default local file if present (no interactive path input in sidebar)
+# ─────────────────────────────────────────────────────────────
+# LOAD DATA
+# ─────────────────────────────────────────────────────────────
+# Path relatif — file CSV harus ada di root repo GitHub sejajar litlit.py
 RELATIVE_PATH = "final_merged_data.csv"
  
 # Cari file: coba path relatif dulu, fallback ke path lokal Windows
