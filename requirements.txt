@@ -2,7 +2,7 @@
 
 # ── Web Scraping ──────────────────────────────────────────────
 selenium==4.21.0
-webdriver-manager==4.0.1
+webdriver-manager==4.0.2
 
 # ── Data Processing ───────────────────────────────────────────
 pandas==2.2.2
